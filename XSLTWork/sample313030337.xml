@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+<Station id="313030337"  status="1">
+<feature id="01@313030337-CPU" key="01" status="3">
+	<primary_value>"HOST 00 0 00 31"</primary_value>
+	<label></label>
+</feature>
+<feature id="01@313030337-DN" key="01" status="3">
+	<primary_value>313030337</primary_value>
+	<label>313030337<br/></label>
+</feature>
+<feature id="01@313030337-DISPLAYNAME" key="01" status="3">
+	<primary_value>JUERG</primary_value>
+	<label>313030337</label>
+</feature>
+<feature id="01@313030337-CFB" key="01" status="3">
+	<primary_value></primary_value>
+	<label></label>
+</feature>
+<feature id="01@313030337-CFBStatus" key="01" status="3">
+	<primary_value>I</primary_value>
+	<label></label>
+</feature>
+<feature id="01@313030337-CFU" key="01" status="3">
+	<primary_value>00796647998</primary_value>
+	<label></label>
+</feature>
+<feature id="01@313030337-CFUStatus" key="01" status="3">
+	<primary_value>I</primary_value>
+	<label></label>
+</feature>
+<feature id="01@313030337-CFNA" key="01" status="3">
+	<primary_value>00860313030337</primary_value>
+	<label></label>
+</feature>
+<feature id="01@313030337-CFNAStatus" key="01" status="3">
+	<primary_value>A</primary_value>
+	<label></label>
+</feature>
+<feature id="01@313030337-CFDVT" key="01" status="3">
+	<primary_value>20</primary_value>
+	<label></label>
+</feature>
+<feature id="01@313030337-LANG" key="01" status="3">
+	<primary_value>de</primary_value>
+	<label></label>
+</feature>
+<feature id="01@313030337-BARRINGSET" key="01" status="3">
+	<primary_value>Set4</primary_value>
+	<label></label>
+</feature>
+<feature id="01@313030337-LEADINGZERO" key="01" status="3">
+	<primary_value>1</primary_value>
+	<label></label>
+</feature>
+<feature id="01@313030337-AUTODISP" key="01" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="01@313030337-LNR" key="01" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="01@313030337-DISPExt" key="01" status="4">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="01@313030337-CNNID" key="01" status="4">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="01@313030337-SCS" key="01" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="01@313030337-NCOS" key="01" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="01@313030337-UCD" key="01" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="01@313030337-DRING" key="01" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="01@313030337-DCPU" key="01" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="02@313030337-CPU" key="02" status="3">
+	<primary_value>"HOST 00 0 00 31"</primary_value>
+	<label></label>
+</feature>
+<feature id="02@313030337-DN" key="02" status="3">
+	<primary_value>313030330</primary_value>
+	<label>313030330<br/></label>
+</feature>
+<feature id="02@313030337-DISPLAYNAME" key="02" status="3">
+	<primary_value>BV_DATAFILL</primary_value>
+	<label>313030330</label>
+</feature>
+<feature id="02@313030337-LANG" key="02" status="3">
+	<primary_value>de</primary_value>
+	<label></label>
+</feature>
+<feature id="02@313030337-LANG" key="02" status="99">
+	<primary_value>de</primary_value>
+	<label></label>
+</feature>
+<feature id="02@313030337-BARRINGSET" key="02" status="3">
+	<primary_value>Set4</primary_value>
+	<label></label>
+</feature>
+<feature id="02@313030337-LEADINGZERO" key="02" status="3">
+	<primary_value>1</primary_value>
+	<label></label>
+</feature>
+<feature id="02@313030337-DISPExt" key="02" status="4">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="02@313030337-CNNID" key="02" status="4">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="02@313030337-madn" key="02" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="02@313030337-NCOS" key="02" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="03@313030337-CPU" key="03" status="3">
+	<primary_value>"HOST 00 0 00 31"</primary_value>
+	<label></label>
+</feature>
+<feature id="03@313030337-DN" key="03" status="3">
+	<primary_value>313030377</primary_value>
+	<label>313030377<br/></label>
+</feature>
+<feature id="03@313030337-DISPLAYNAME" key="03" status="3">
+	<primary_value>JUERG1</primary_value>
+	<label>313030377</label>
+</feature>
+<feature id="03@313030337-CFB" key="03" status="3">
+	<primary_value>00860313030337</primary_value>
+	<label></label>
+</feature>
+<feature id="03@313030337-CFBStatus" key="03" status="3">
+	<primary_value>A</primary_value>
+	<label></label>
+</feature>
+<feature id="03@313030337-CFU" key="03" status="3">
+	<primary_value>00796647998</primary_value>
+	<label></label>
+</feature>
+<feature id="03@313030337-CFUStatus" key="03" status="3">
+	<primary_value>I</primary_value>
+	<label></label>
+</feature>
+<feature id="03@313030337-CFNA" key="03" status="3">
+	<primary_value>00860313030337</primary_value>
+	<label></label>
+</feature>
+<feature id="03@313030337-CFNAStatus" key="03" status="3">
+	<primary_value>A</primary_value>
+	<label></label>
+</feature>
+<feature id="03@313030337-LANG" key="03" status="3">
+	<primary_value>de</primary_value>
+	<label></label>
+</feature>
+<feature id="03@313030337-BARRINGSET" key="03" status="3">
+	<primary_value>Set4</primary_value>
+	<label></label>
+</feature>
+<feature id="03@313030337-LEADINGZERO" key="03" status="3">
+	<primary_value>1</primary_value>
+	<label></label>
+</feature>
+<feature id="03@313030337-LNR" key="03" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="03@313030337-DISPExt" key="03" status="4">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="03@313030337-CNNID" key="03" status="4">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="03@313030337-NCOS" key="03" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="03@313030337-SUPPRESS" key="03" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="04@313030337-CFRA" key="04" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="04@313030337-CFUIF" key="04" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="05@313030337-MWT" key="05" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="06@313030337-CXR" key="06" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="07@313030337-CPUFeature" key="07" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="08@313030337-PRK" key="08" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="09@313030337-CNF" key="09" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="10@313030337-MSB" key="10" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="11@313030337-RAG" key="11" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="15@313030337-BLF" key="15" status="3">
+	<primary_value>313030334</primary_value>
+	<label>Hanspeter</label>
+</feature>
+<feature id="16@313030337-BLF" key="16" status="3">
+	<primary_value>313030332</primary_value>
+	<label>Walter</label>
+</feature>
+<feature id="17@313030337-BLF" key="17" status="3">
+	<primary_value>313030333</primary_value>
+	<label>Peter</label>
+</feature>
+<feature id="18@313030337-BLF" key="18" status="3">
+	<primary_value>313030331</primary_value>
+	<label>Gilles</label>
+</feature>
+<feature id="19@313030337-BLF" key="19" status="3">
+	<primary_value>313030336</primary_value>
+	<label>Hans</label>
+</feature>
+<feature id="27@313030337-UCDLG" key="27" status="3">
+	<primary_value>NULL</primary_value>
+	<label>NULL</label>
+</feature>
+<feature id="28@313030337-AUD" key="28" status="3">
+	<primary_value>00797240644</primary_value>
+	<label>"Beat Wyss"</label>
+</feature>
+<feature id="29@313030337-AUD" key="29" status="3">
+	<primary_value>00797240552</primary_value>
+	<label>"M. Frezza"</label>
+</feature>
+<feature id="30@313030337-AUD" key="30" status="3">
+	<primary_value>00797240544</primary_value>
+	<label>"A. Schmutz"</label>
+</feature>
+<feature id="31@313030337-AUD" key="31" status="3">
+	<primary_value>0079301148</primary_value>
+	<label>"B. Bianchi"</label>
+</feature>
+<feature id="32@313030337-AUD" key="32" status="3">
+	<primary_value>00794341819</primary_value>
+	<label>Marcel</label>
+</feature>
+</Station>
+</Configuration>

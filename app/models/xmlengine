@@ -1,0 +1,13 @@
+<?php
+class Xmlengine extends AppModel {
+	var $name = 'Xmlengine';
+
+	var $actsAs = array('Containable');
+	var $belongsTo = array(
+			'Transaction'=>array(
+					'className'=>'Transaction'
+			)
+	);
+
+
+}

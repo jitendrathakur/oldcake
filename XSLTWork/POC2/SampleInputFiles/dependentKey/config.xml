@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <station test="testValx">
+		<feature name="DN_INDIVIDUAL" short_name="DN" mandatory="n" defaultKey="1" priority="15" shiftable="n" coloc="n" defaultValue="123"/>
+			<cfeature name="DISPLAYNAME" short_name="DISPLAYNAME" defaultValue="Craig" mandatory="y" parent="DN_INDIVIDUAL"/>
+			<cfeature name="BARRINGSET" short_name="BARRINGSET" defaultValue="Craig" mandatory="y" parent="DN_INDIVIDUAL"/>
+			<cfeature name="LEADINGZERO" short_name="LEADINGZERO" defaultValue="Craig" mandatory="y" parent="DN_INDIVIDUAL"/>
+			<cfeature name="NCOS" short_name="NCOS" defaultValue="Craig" mandatory="y" parent="DN_INDIVIDUAL"/>
+			<cfeature name="CFU" short_name="CFU"  defaultValue="Craig" mandatory="y" parent="DN_INDIVIDUAL"/>
+			<cfeature name="CFUStatus" short_name="CFUStatus" defaultValue="Craig" mandatory="y" parent="DN_INDIVIDUAL"/>
+			<cfeature name="CFDVT" short_name="CFDVT" defaultValue="Craig" mandatory="y" parent="DN_INDIVIDUAL"/>
+		<feature name="MADN" short_name="DN" mandatory="n" defaultKey="1" priority="15" shiftable="y" coloc="y" defaultValue="123"/>			
+			<cfeature name="DISPLAYNAME" short_name="DISPLAYNAME" defaultValue="Craig" mandatory="y" parent="MADN"/>
+			<cfeature name="BARRINGSET" short_name="BARRINGSET" defaultValue="Craig" mandatory="y" parent="MADN"/>
+			<cfeature name="LEADINGZERO" short_name="LEADINGZERO" defaultValue="Craig" mandatory="y" parent="MADN"/>
+			<cfeature name="NCOS" short_name="NCOS" defaultValue="Craig" mandatory="y" parent="MADN"/>
+			<cfeature name="CFU" short_name="CFU"  defaultValue="Craig" mandatory="y" parent="MADN"/>
+			<cfeature name="CFUStatus" short_name="CFUStatus" defaultValue="Craig" mandatory="y" parent="MADN"/>
+			<cfeature name="CFDVT" short_name="CFDVT" defaultValue="Craig" mandatory="y" parent="MADN"/>
+		<feature name="SCS" short_name="SCS" mandatory="n" defaultKey="1" priority="5" shiftable="y" coloc="y" defaultValue="123"/>
+		<feature name="MSB" short_name="MSB" mandatory="y" defaultKey="3" priority="5" shiftable="n" coloc="n" defaultValue="123"/>
+		<dfeature name="testFeat" short_name="testFeat" mandatory="y" defaultKey="1" priority="100" shiftable="n" coloc="n" defaultValue="123" parent="MADN"/>
+		
+    		<cfeature name="something" short_name="something" defaultValue="Craig" mandatory="y" parent="testFeat"/>
+	</station>
+</config>

@@ -1,0 +1,1160 @@
+
+--- Customer List ---------
+
+msgid  "Customer List"
+msgstr "Kundenliste"
+
+msgid  "close_window"
+msgstr "Fenster Schliessen"
+
+msgid  "where_pin"
+msgstr "Where is my PIN?"
+
+msgid  "navigation"
+msgstr "Navigation Deutsch "
+
+msgid  "filter"
+msgstr "Suchen"
+
+msgid  "reset"
+msgstr "Zurücksetzen"
+
+msgid  "Back"
+msgstr "Zurück"
+
+
+msgid  "Total Elements"
+msgstr "Total Einträge"
+
+msgid  "Total Elements <b> %count% </b> &nbsp; &nbsp; Records per page :"
+msgstr "Total Einträge: %count%,  Anzahl Einträge pro Seite:  "
+
+msgid  "Name"
+msgstr "Kundenname"
+
+msgid  "CNN"
+msgstr "CNN-ID "
+
+msgid  "BSK"
+msgstr "BSK-ID "
+
+msgid  "tester"
+msgstr "nonsense"
+
+
+---- Station List ----------
+
+msgid  "Station List"
+msgstr "Telefonliste"
+
+msgid  "upload MOH file"
+msgstr "Musikdatei hochladen"
+
+msgid  "Number"
+msgstr "Nummer"
+
+msgid  "Port"
+msgstr "Port"
+
+msgid  "Type"
+msgstr "Typ"
+
+msgid  "Location"
+msgstr "Telefone pro Standort"
+
+msgid  "Exp"
+msgstr "Zusatz"
+
+msgid  "Music on Hold File"
+msgstr "Wartemusik hochladen"
+
+msgid  "Station_Count"
+msgstr "Station Count"
+
+msgid  "tester"
+msgstr "nonsense"
+
+msgid "FILE NOT FOUND"
+msgstr "Datei nicht gefunden"
+ 
+msgid "File not valid : illegalFormat"
+msgstr "Falsches Format"
+ 
+msgid "Infected File"
+msgstr "Datei enthält einen Virus und wurde gelöscht"
+
+msgid "File not valid : minLengthBoundaryViolation"
+msgstr "Spiledauer der Audiodatei zu kurz"
+
+msgid "File not valid : maxLengthBoundaryViolation"
+msgstr "Spiledauer der Audiodatei zu lang"
+
+msgid "GGGGG"
+msgstr "In der Datei wurde ein Virus gefunden"
+ 
+msgid "File Transferred Successfully"
+msgstr "Datei erfolgreich hochgeladen"
+
+msgid "NONSENSE"
+msgstr "DO NOT REMOVE"
+
+--- Station Edit ------------
+msgid  "Station Details"
+msgstr "Telefon Daten"
+
+msgid  "Validate"
+msgstr "Überprüfen"
+
+msgid  "Back"
+msgstr "Zurück"
+
+msgid  "Phone"
+msgstr "Telefon"
+
+msgid  "Configuration Logs"
+msgstr "Änderungslog"
+
+msgid  "Password"
+msgstr "Passwort"
+
+msgid  "Password_desc"
+msgstr "Passwort zum Anmelden des Telefons. Erlaubt sind 4-6 Zahlen von 0-9."
+
+msgid  "Expansions"
+msgstr "Zusatztastenmodul"
+
+msgid  "Expansion_desc"
+msgstr "Pro Zusatztastenmodul stehen bis 18 zusätzliche Tasten zur Verfügen. Bis zu zwei Zusatztastenmodule können an ein IP Telefon angeschlossen werden"
+
+msgid  "Basic/Detailed View"
+msgstr "Erweiterte Ansicht"
+
+msgid  "Key"
+msgstr "Taste"
+
+msgid  "key"
+msgstr "Taste "
+
+msgid  "Label"
+msgstr "Beschriftung"
+
+msgid "feature values"
+msgstr "Funktionseintrag"
+
+msgid  "Feature"
+msgstr "Funktionsbezeichnung"
+
+msgid  "tester"
+msgstr "nonsense"
+
+---- Station keys -----------
+
+msgid  "station_data"
+msgstr "Telefondaten"
+
+msgid  "AUD"
+msgstr "Zielwahltaste (AUD)"
+
+msgid  "AUD_BLF_desc"
+msgstr "Auf diesem Feld können Sie das Leistungsmerkmal Zielwahltaste oder Besetztanzeige definieren <br><br> Zielwahltaste: Mit dieser Funktion kann pro Zielwahltaste eine Telefonnummer abgespeichert werden. Durch das Drücken der Ziehlwahltaste wird die abgespeicherte Telefonnummer gewählt. (AUD, Automatic Dial)<br><br> Besetztanzeige: Diese Funktion bietet zwei Leistungsmerkmale. Mit dem Tastendruck kann eine definierte Nummer direkt gewählt werden. Mit der Funktion BLF kann der Besetztstatus der definierten Nummer am Lampenstatus erkannt werden. (BLF, Busy Lamp Field)"
+
+msgid  "AUTODISP"
+msgstr "Anzeige von Nummer und Name (Autodisp)"
+
+msgid  "AUTODISP_desc"
+msgstr "Mit der Funktion Automatische Anzeige kann der Name des anrufenden Teilnehmers und dessen Rufnummer angezeigt werden, wenn das Gespräch auf einer anderen Linie als die der Taste 1 eingeht. (AUTODISP, Automatic Display)"
+
+msgid  "BARRINGSET"
+msgstr "Sperrset (NCOS)"
+
+msgid  "barringset"
+msgstr "Sperrset"
+
+msgid  "BARRINGSET_desc"
+msgstr "Es stehen 5 Sperrsets zur Verfügung, mit denen der Aufbau von Verbindungen zu definierten Telefonnummern verhindert werden kann. Siehe Info Box für eine nähere Beschreibung der Sperrsets."
+
+msgid  "BARRINGSET_help"
+msgstr "Set1: Sperren aller öffentlichen Nummern <br> Set2: Sperren von Internationalen Nummern und  <br>   Mehrwertdienstnummern <br>  Set3: Sperren von Erotiknummern <br>  Set4: Carrier Selection <br>  Set5: Sperren von Mehrwertdienstnummern "
+
+msgid  "BLF"
+msgstr "Besetztanzeige (BLF)"
+
+msgid  "blf"
+msgstr "Besetztanzeige (BLF)"
+
+
+msgid  "BLF_desc"
+msgstr "Diese Funktion bietet zwei Leistungsmerkmale. Mit dem Tastendruck kann eine definierte Nummer direkt gewählt werden. Mit der Funktion BLF kann der Besetztstatus der definierten Nummer am Lampenstatus erkannt werden. (BLF, Busy Lamp Field)"
+
+msgid  "BLF Observers"
+msgstr "Überwacher (BLF)"
+
+msgid  "BLF Observers_desc"
+msgstr "Ist die Nummer besetzt, wird dies angezeigt."
+
+
+msgid  "CFB"
+msgstr "Anrufumleitung bei Besetzt (CFB)"
+
+msgid  "CFB_desc"
+msgstr "Mit der 'Anrufumleitung bei Besetzt' werden während eines Gespräches ankommende Anrufe auf die persönliche interne Nummer, auf eine definierte Zielnummer umgeleitet. (CFB, Call Forwarding Busy)"
+
+msgid  "CFBEnable"
+msgstr "Rufumleitung bei Besetzt (CFB)"
+
+msgid  "CFBEnable_desc"
+msgstr "Mit der 'Anrufumleitung bei Besetzt' werden während eines Gespräches ankommende Anrufe auf die persönliche interne Nummer, auf eine definierte Zielnummer umgeleitet. (CFB, Call Forwarding Busy)"
+
+msgid  "CFD"
+msgstr "Anrufumleitung wenn keine Antwort nach 14 Sekunden (CFD)"
+
+msgid  "CFD_desc"
+msgstr "Mit dieser Funktion werden eingehende Anrufe nach 14 Sekunden automatisch weitergeleitet  (CFD, Call Forwarding Delay)"
+
+msgid  "CFNA_desc"
+msgstr "Anrufumleitung wenn keine Antwort nach 14 Sekunden (CFD)"
+
+msgid  "CFNAEnable_desc"
+msgstr "Mit dieser Funktion werden eingehende Anrufe nach 14 Sekunden automatisch weitergeleitet. (CFD, Call Forwarding Delay"
+
+
+msgid  "CFDVT"
+msgstr "Anrufweiterleitung wenn keine Antwort, variable Zeit (CFDVT)"
+
+msgid  "CFDVT_desc"
+msgstr "Mit dieser Funktion wird festgelegt, wie lange ein Anruf klingelt, bis der Anruf an einen andere vorgegebene Zielnummer weiterleitet wird. Möglich zwischen 12 und 60 Sekunden. (CFDVT)"
+
+msgid  "CFK"
+msgstr "Anrufweiterleitung per Taste (CFK)"
+
+msgid  "CFK_desc"
+msgstr "Bei dieser Funktion wird ein Anruf individuell weitergeleitet. (CFK, Call Forward Key)"
+
+msgid  "CFRA"
+msgstr "Fernumleitung (CFRA)"
+
+msgid  "CFRA_desc"
+msgstr "Mit dieser Funktion können Berechtigte eine Umleitung einer Nummer von einem anderen Anschluss aus aktivieren. (CFRA, Call Forward Remote Access)"
+
+msgid  "CFU"
+msgstr "Direkte Anrufumleitung (CFU)"
+
+msgid  "CFU_desc"
+msgstr "Bei dieser Funktion werden eingehende Anrufe direkt an eine andere Rufnummer weitergeleitet.(CFU, Call Forwarding Unconditional)"
+
+msgid  "CFUEnable"
+msgstr "Direkte Anrufumleitung (CFU)"
+
+msgid  "CFUEnable_desc"
+msgstr "Bei dieser Funktion werden eingehende Anrufe direkt an eine andere Rufnummer weitergeleitet.(CFU, Call Forwarding Unconditional)"
+
+msgid  "CHD"
+msgstr "Anruf halten CHD)"
+
+msgid  "CHD_desc"
+msgstr "Mit dieser Funktion wird ein bestehendes Gespräch in Haltung gebracht. (CHD, Call Hold)"
+
+msgid  "CNAMD"
+msgstr "Anruferidentifizierung (CNAMD)"
+
+msgid  "CNAMD_desc"
+msgstr "Diese Funktion zeigt den Namen sowie das Datum und die Uhrzeit des Anrufers an. (CNAMD, Calling Name Delivery)"
+
+msgid  "CNF"
+msgstr "Konferenzschaltung (CNF)"
+
+msgid  "CNF_desc"
+msgstr "Mit dieser Funktion kann ein Konferenzgespräch mit maximal 10 Teilnehmern geführt werden. (CNF, Station Controlled Conference)"
+
+msgid "COMBOX"
+msgstr "VoIP COMBOX pro"
+
+msgid "COMBOX_desc"
+msgstr "Telefonanrufbeantworter (Combox)"
+
+msgid  "CPU"
+msgstr "Anrufübernahme (CPU)"
+
+msgid  "CPU_desc"
+msgstr "Mit dieser Funktion können eigehende Anrufe einer Gruppe von jedem Gruppenmitglied innerhalb der Gruppe entgegegengenommen werden. (CPU, Call Pickup)"
+
+msgid  "CPUFeature"
+msgstr "Anrufübernahme (CPU)"
+
+msgid  "CPUFeature_desc"
+msgstr "Mit dieser Funktion können eigehende Anrufe einer Gruppe von jedem Gruppenmitglied innerhalb der Gruppe entgegegengenommen werden. (CPU, Call Pickup)"
+
+msgid  "CWI"
+msgstr "Call Waiting Intragroup (CWI)"
+
+msgid  "CWI_desc"
+msgstr "Call Waiting Intragroup"
+
+msgid  "CWT"
+msgstr "Anklopfen (CWT)"
+
+msgid  "CWT_desc"
+msgstr "Mit dieser Funktion wird dem Teilnehmer ein eingehender Anruf angezeigt, auch wenn dessen Linie bereits durch einen anderen Anruf besetzt ist.(CWT, Call Waiting)"
+
+msgid  "CXR"
+msgstr "Anruf weiterverbinden (CXR)"
+
+msgid  "CXR_desc"
+msgstr "Eine Verbindung wird zu einem anderen Teilnehmer weiterverbunden. (CXR, Call Transfer)"
+
+msgid  "DCPK"	
+msgstr "Parken weitergeleiteter Anrufe (DCPK)"
+
+msgid  "DCPK_desc"	
+msgstr "Mit dieser Funktion kann das System Anrufe an eine beliebige gültige DN halten oder parken. Diese Gespräche können zu einem späteren Zeitpunkt von einer beliebigen Station wieder aufgenommen werden. Die Station kann bis zu 100 Gespräche gleichzeitig parken. (DCPK, Direct Call Park)"
+
+msgid  "DCPU"	
+msgstr "Direkte Anrufübernahme im Team (DCPU)"
+
+msgid  "DCPU_desc"	
+msgstr "Mit dieser Funktion kann ein Teilnehmer innerhalb einer Gruppe Anrufe die bei einem anderem Teilnehmer der Gruppe eingehen, entgegennehmen/beantworten. (DCPU, Directed Call Pickup)"
+
+msgid  "DDN"	
+msgstr "Wählbare Anschlussnummer (DDN)"
+
+msgid  "DDN_desc"	
+msgstr "Diese Funktion unterstützt die Anzeige von Nummer, Datum und Zeit eines Anrufs, so dass der Angerufene zurückrufen kann. (DDN, Dialable Directory Number)"
+
+msgid  "DISPExt"	
+msgstr "Externer Anzeigename"
+
+msgid  "DISPExt_desc"	
+msgstr "Externer Anzeigename"
+
+msgid  "DISPLAYNAME"
+msgstr "Anzeigename"
+
+msgid  "displayname"
+msgstr "Anzeigename"
+
+msgid  "DISPLAYNAME_desc"
+msgstr "Name welcher dem Anrufer angezeigt wird. ( Erlaubt sind maximal 12 Zeichen von a-z, A-Z, 1-9 und Underscore (_)"
+
+msgid  "DN"
+msgstr "Anschlussnummer (DN)"
+
+msgid  "DN_desc"
+msgstr "Anschlussnummer (DN: Directory Number)"
+
+
+msgid  "DRING"
+msgstr "Ruftonunterscheidung (DRING)"
+
+msgid  "DRING_desc"
+msgstr "Externe und interne Anrufe werden akustisch unterschiedlich signalisiert. Auswahl max. 8 Rufmuster (DRING, Distinctive Ringing)"
+
+msgid  "group_member"
+msgstr "Teilnehmer innerhalb der Gruppe (Teammitglied)"
+
+msgid  "grptyp"
+msgstr "Gruppenart"
+
+msgid  "hntid"
+msgstr "Sammelanschluss (xLH)"
+
+msgid  "hntid_desc"
+msgstr "Hunt Gruppe (DLH, MLH)"
+
+msgid  "Id"
+msgstr "Id"
+
+msgid  "KSH"
+msgstr "Key Short Hunt (KSH)"
+
+msgid  "KSH_desc"
+msgstr "Mit dieser Funktion können eingehende Anrufe automatisch an eine freie Nummer geroutet werden. Pro Station kann eine individuelle Liste an Nummern erstellt werden, an die die Anrufe weitergeleitet werden können. (KSH, Key Short Hunt)"
+
+msgid  "KSMOH"
+msgstr "Wartemusik (KSMOH)"
+
+msgid  "KSMOH_desc"
+msgstr "Bei einem gehaltenen oder weitergeleiteten Anruf hört der wartende Anrufer die Wartemusik. (KSMOH, Key Set Music On Hold)"
+
+msgid  "LANG"
+msgstr "Sprache"
+
+msgid  "lang"
+msgstr "Sprache"
+
+msgid  "LANG_desc"
+msgstr "Anzeigesprache"		
+
+msgid  "LANG_help"
+msgstr "Bitte wählen sie die Sprache für die die Ansage dieser Anschlussnummer"
+
+msgid  "LANGUAGE"
+msgstr "Sprache (NCOS)"
+
+msgid  "LANGUAGE_desc"
+msgstr "Sprache welche für Ansagen dieser Anschlussnummer verwendet wird"
+
+msgid  "LEADINGZERO"
+msgstr "Amtsausgang (0-Vorwahl)" 
+
+msgid  "LEADINGZERO_desc"
+msgstr "Amtsnummern inkl. Öffentliche Kurznznummern werden nur mit einer "leading 0" ins öffentliche Netz geroutet."
+
+msgid  "LNR"
+msgstr "Wahlwiederholung (LNR)"	
+
+msgid  "LNR_desc"
+msgstr "Mit zweimaligem betätigen der #-Taste wird eine Verbindung zur zuletzt gewählten Rufnummer erstellt. (LNR, Last Number Redial)"
+
+msgid  "LOD"
+msgstr "Line Overflow to Directory Number (LOD)"	
+
+msgid  "LOD_desc"
+msgstr "Mit dieser Funktion werden eingehende Anrufe falls alle Anschlüsse besetzt sind, automatisch an eine andere Nummer weitergeleitet. (LOD, Line Overflow to Directory Number)"
+
+msgid  "M522"
+msgstr "Zusatztastenmodul (M522)"
+
+msgid  "Expansion_desc"
+msgstr "Zusatztastenmodul mit 18 Tasten (M522, Key Expansion Module)"
+
+
+msgid  "madn"
+msgstr "Gruppen-Parallelruf (MADN)"
+
+msgid  "madn_desc"
+msgstr "Zusätzlich zur persönlichen Telefonnummer kann eine weitere Telefonnummer unter einer speziellen Taste als Gruppenrufnummer eingerichtet werden. (MADN, Multi Appearance Directory Number)"
+
+msgid  "madnpilot"
+msgstr "Pilot Parallerufnummer"
+
+msgid  "madnpilot_desc"
+msgstr "Der Pilot-Teilnehmer ist berechtigt, gezielt die Gruppenrufnummer umzuleiten. (MADN: Multi Appearance Directory Number"
+
+msgid  "MBSCAMP"
+msgstr "Meridian Business Set Station Camp-On"
+	
+msgid  "MBSCAMP_desc"
+msgstr "Mit dieser Funktion kann ein Anruf an eine besetzte Station weitergeleitet werden. Wenn die besetzte Station den Anruf nicht innerhalb eines festgelegten Zeitraums beantwortet, wird der Anruf an die ursprüngliche Station zurückgeleitet. (MBSCAMP, Meridian Business Set Station Camp-On)"
+
+msgid  "MSB"
+msgstr "Ruhe vor dem Telefon (MSB)"
+
+msgid  "MSB_desc"
+msgstr "Mit dieser Funktion kann jede Station für eingehende Anrufe als besetzt erscheinen.  Wird kein spezielles Verhalten definiert so ertönt der Besetztton (MSB, Make Set Busy"
+
+msgid "MWT"
+msgstr "Nachrichtenanzeige (MWT)"
+
+msgid "MWT_desc"
+msgstr "Anzeige von neuen Nachrichten auf der VoIP Combox pro (MWT, Message Waiting)"
+
+msgid  "NCOS"
+msgstr "NOCS/OCB Sperrsets"
+
+msgid  "NCOS_desc"
+msgstr "Es stehen 5 Sperrsets zur Verfügung, mit denen der Aufbau von Verbindungen zu definierten Telefonnummern verhindert werden. (NCOS, Number Class Of Service / Network Class of Service)"
+
+msgid  "pilot"
+msgstr "Pilot der Gruppenschaltung"
+
+msgid  "pilot_desc"
+msgstr "Der Pilot-Teilnehmer ist berechtigt, gezielt die Gruppenrufnummer umzuleiten."
+
+msgid  "PRK"
+msgstr "Anruf parken (PRK)"
+
+msgid  "PRK_desc"
+msgstr "Mit dieser Funktion können Anrufe beliebig geparkt werden. (PRK, Call Park)"
+
+msgid  "RAG"
+msgstr "Automatischer Rückruf bei besetzt (RAG)"
+
+msgid  "RAG_desc"
+msgstr "Mit dieser Funktion erhält der Teilnehmer einer Station eine Benachrichtigung sobald eine vom ihm angewählte Station wieder frei ist. (RAG, Ring Again)" 
+
+msgid  "ringorder"
+msgstr "Klingelreihenfolge (ringorder)"	
+
+msgid  "ringorder_desc"
+msgstr "Reihenfolge für Sammelanschlüsse (ringorder Hunt Group)"	
+
+msgid  "SCS"
+msgstr "Kurzwahl persönlich (SCS)"
+
+msgid  "SCS_desc"
+msgstr "Es können 10 Speicherplätze unter denen Telefonnummern programmiert werden können, abgelegt werden.(SCS, Speed Calling Short)"
+
+msgid  "SDNA"
+msgstr "Anschlussnummerattribute einrichten  (SDNA)"
+
+msgid  "SDNA_desc"
+msgstr "Mit dieser Funktion können Attribute für eine bestimmte Anschlussnummerngruppe hinzugefügt, geändert oder gelöscht werden. (SDNA)"
+
+msgid  "SIMRING"
+msgstr "Gleichzeitiges Klingeln (SIMULTANANRUF)"
+
+msgid  "Simring_desc"
+msgstr "Mit dieser Funktion klingelt beim Anruf nicht nur die persönliche Rufnummer sondern bis zu vier weitere definierte Zielnummern gleichzeitig. (SIMRING)"
+
+msgid  "SUPPRESS"
+msgstr "Identifikation des Rufenden unterdrücken (Suppress)"
+
+msgid  "SUPPRESS_desc"
+msgstr "Dem Gerufenen wird die Telefonnummer und der Name des Rufenden nicht angezeigt."
+
+msgid  "TFO"
+msgstr "Terminal Fault Option (TFO)"	
+
+msgid  "TFO_desc"
+msgstr "Mit dieser Funktion kann ein eingehender Anruf, an das erste frei werdende Mitglied eines Sammelanschlusses geroutet werden, unabhängig davon, ob dieses Mitglied frei ist."
+
+msgid  "TIMER"
+msgstr "Time for CFD	nicht im Angebot"
+
+msgid  "TIMER_desc"
+msgstr "nicht im Angebot"
+
+msgid  "UCD"
+msgstr "Gleichmässige Rufverteilung (UCD)"
+
+msgid  "UCD_desc"
+msgstr "Diese Funktion erlaubt die Streuung/Verteilung eingehender Anrufe auf vorab definierte Zielstationen. (UCD,Uniform Call Distribution)"
+
+msgid  "UCDLG"
+msgstr "Uniform Call Distribution Login (UCDLG)"	
+
+msgid  "UCDLG_desc"
+msgstr "Diese Funktion erlaubt die Streuung/Verteilung eingehender Anrufe auf vorab definierte Zielstationen. (UCDLG,Uniform Call Distribution Login)" 
+
+msgid  "set1"
+msgstr "Set 1"
+
+msgid  "set2"
+msgstr "Set 2"
+
+msgid  "set3"
+msgstr "Set 3"
+
+msgid  "set4"
+msgstr "Set 4"
+
+msgid "set5"
+msgstr "Set 5"
+
+msgid  "Set1"
+msgstr "Set 1"
+
+msgid  "Set2"
+msgstr "Set 2"
+
+msgid  "Set3"
+msgstr "Set 3"
+
+msgid  "Set4"
+msgstr "Set 4"
+
+msgid "Set5"
+msgstr "Set 5"
+
+
+
+msgid  "not used"
+msgstr "DO NOT REMOVE"
+
+
+---- log -----
+
+msgid  "Station Logs"
+msgstr "Änderungsprotokoll vom Telefon"
+
+msgid  "config"
+msgstr "Konfiguration "
+
+msgid  "config"
+msgstr "Konfiguration "
+
+msgid  "possible modi"
+msgstr "Mögliche Auswahl"
+
+
+msgid  "station_created"
+msgstr "Station Created"
+
+msgid  "last_modi"
+msgstr "last modified"
+
+
+msgid  "Log"
+msgstr "Log"
+
+msgid  "not used"
+msgstr "DO NOT REMOVE"
+
+----------New items 0510 --------
+
+msgid "tester"
+msgstr "something"
+
+
+msgid "Click one of the images below to view the key layout of the phone"
+msgstr "Für eine Übersicht der Tastenbelegungen, wählen Sie bitte eines der nachfolgenden Telefonmodelle. Die Tasten der 2-ten Ebene resp. des 2-ten Zusatztastenmodules sind in Klammern angegeben."
+
+msgid  "close_window"
+msgstr "Fenster schliessen"
+
+msgid  "(Configuration Logs)"
+msgstr "(Änderungslog vom Telefon)"
+
+msgid "Connection timed out"
+msgstr "zuletzt geändert"
+
+msgid "Customer view:"
+msgstr "Kunde:"
+
+msgid "Customer View:"
+msgstr "Kunde:"
+
+msgid "date"
+msgstr "Datum"
+
+msgid "description"
+msgstr "Beschreibung"
+
+msgid "Error in upload"
+msgstr "Fehler beim Hochladen"
+
+msgid "File Upload"
+msgstr "Upload"
+
+msgid "Home Swisscom"
+msgstr "Swisscom Homepage"
+
+msgid "id"
+msgstr "ID"
+
+msgid  "Id"
+msgstr "ID"
+
+msgid "Internal User"
+msgstr "Swissom Mitarbeiter"
+
+msgid "It is possible to upload a custom music on hold file which will be made active immediately. To use this function click on the upload MoH button in the main section."
+msgstr "Nach Wunsch kann eine Wartemusik aktiviert oder geändert werden. Diese wird einem Anrufer abgespielt wenn er warten muss. Verwenden Sie dafür bitte den nachfolgenden Upload Knopf"
+
+msgid "keyid"
+msgstr "Taste"
+
+msgid "Log Details"
+msgstr "Änderungslog"
+
+msgid "Modification Confirmation"
+msgstr "Änderungsbestätigung"
+
+msgid "No Location"
+msgstr "Alle Standorte"
+
+msgid "No modifications in DB"
+msgstr "Keine Änderungen in der Datenbank"
+
+msgid  "Reset"
+msgstr "Zurücksetzen"
+
+msgid "Select File"
+msgstr "Datei wählen"
+
+msgid  "station_created"
+msgstr "Erstellungsdatum"
+
+msgid "status"
+msgstr "Status"
+
+msgid "There was a problem in applying the changes."
+msgstr "Bei der Konfiguration sind Fehler aufgetreten"
+
+msgid "Upload"
+msgstr "Upload"
+
+msgid  "upload MOH file"
+msgstr "Upload"
+
+msgid "Upload MOH File"
+msgstr "Upload"
+
+msgid "user"
+msgstr "Benutzer"
+
+msgid "EXPANSION MODULE KEY DATA"
+msgstr "Tasten der Zusatztastenfelder:"
+
+msgid "label"
+msgstr "Beschriftung"
+
+msgid "update"
+msgstr "geändert"
+
+msgid "update to"
+msgstr "geändert"
+
+msgid "delete"
+msgstr "löschen"
+
+msgid "add"
+msgstr "hinzufügen"
+
+msgid  "aud_feature"
+msgstr "Zielwahltaste (AUD)"
+
+msgid  "aud_number"
+msgstr "Zielwahltaste (AUD) nummer"
+
+msgid  "blf_feature"
+msgstr "Besetztanzeige (BLF)"
+
+msgid  "_errorValidate"
+msgstr "Fehler bei der Überprüfung"
+
+msgid  "Sorry you didnt made any change"
+msgstr "Es wurden keine Aenderungen ausgeführt"
+
+msgid  "Password"
+msgstr "Passwort"
+
+msgid  "value changed"
+msgstr "Änderung"
+
+msgid  "Saved Successfully"
+msgstr "Erfolgreich ausgeführt"
+
+msgid  "Error from modification"
+msgstr "Fehler bei der Aktivierung der Änderungen "
+
+msgid  "Sorry this page in use by user"
+msgstr "Diese Station wird bearbeitet von: "
+
+msgid  "moh_limit"
+msgstr "Musikdateien müssen das WAV/MP3-Format aufweisen und dürfen nicht grösser als 10MB sein."
+
+msgid  "moh_license"
+msgstr "Weiter möchten wir Sie daran erinnern, dass allfällige Urheberrechtsabgaben (SUISA) in Ihrer Verantwortung liegen."
+
+msgid  "not used"
+msgstr "DO NOT REMOVE"
+
+
+---------Station Log Page---
+msgid  "Status"
+msgstr "Status"
+
+msgid  "Response"
+msgstr "Antwort"
+
+msgid  "Date"
+msgstr "Datum / Zeit"
+
+msgid  "Status"
+msgstr "Status"
+
+msgid  "Description"
+msgstr "Beschreibung"
+
+msgid  "This page allows internal users to list all customers and access a specific customer Voiphpone environments. <br> Once a customer is selected from the table then you will be operating in the same view as the customer."
+msgstr "Auf dieser Swisscom internen Seite sind alle VoIP Phone und One Netbase Kunden  aufgelistet. <br> Nach der Selektion eines Kunden aus der Liste kann dessen Inventar eingesehen und Konfigurationen ausgeführt werden. Dabei werden die gleichen Ansichten verwendet wie von berechtigten Kundenadministratoren."
+
+msgid  "only Wav file is allowed"
+msgstr "Upload abgebrochen da nur WAV und MP3 Formate unterstützt werden. <br> Bitte wählen Sie eine neue korrekte Musikdatei. "
+
+msgid  "Logged in as"
+msgstr "Eingeloggt als"
+
+msgid "Key assignment"
+msgstr "Tastenzuordnung"
+
+msgid "corporatebusiness"
+msgstr "Grossunternehmen"
+
+msgid "Swisscom Extranet Corporate Business - Voiphone Selfcare"
+msgstr "Swisscom Extranet Grossunternehmen - Voiphone Selfcare"
+
+msgid "Startseite Extranet Swisscom (Schweiz) AG - Grossunternehmen"
+msgstr "Startseite Extranet Swisscom (Schweiz) AG - Grossunternehmen"
+
+msgid "Logout"
+msgstr "Abmelden"
+
+msgid "User Management"
+msgstr "Benutzerverwaltung"
+
+msgid "Support / Contact"
+msgstr "Support / Kontakt"
+
+msgid "only .wav and .mp3 files are allowed"
+msgstr "Upload abgebrochen da nur WAV und MP3 Formate unterstützt werden. <br> Bitte wählen Sie eine neue korrekte Musikdatei. "
+
+msgid  "CTI"
+msgstr "X Phone (CTI)"
+
+msgid  "CTI_desc"
+msgstr "Computer Telephony Integration  mit X Phone (CTI)"
+
+msgid  "E1140"
+msgstr "IP Phone Business (1140 mit Zusatztastenfeld)"
+
+msgid  "E1120"
+msgstr "IP Phone Standard (1120)"
+
+msgid "Limit of observers exceeded"
+msgstr "Anzahl erlaubter Überwacher für diese Nummer ist überschritten. Pro Nummer sind maximal 8 Überwacher möglich."
+
+msgid "File Conversion Failed"
+msgstr "Fehler bei der Dateikonvertierung <br> Bitte wählen Sie eine neue korrekte Musikdatei. "
+
+msgid "Page in use by user : "
+msgstr "Seite wird bereits bearbeitet von: "
+
+msgid "!!!!!!!!!!START OF RE2!!!!!!!!!!"
+msgstr "START OF RE2"
+
+
+
+--- Left Menu Navigation ---------
+
+msgid "Customers"
+msgstr "Kundenliste"
+
+msgid "Change Log"
+msgstr "Aenderungs-LOG"
+
+msgid "Stations"
+msgstr "Telefonliste (Anschluesse)"
+
+msgid "Dn List"
+msgstr "Durchwahlnummernliste"
+
+msgid "Scenarios"
+msgstr "Umleitungsszenarien"
+
+
+
+--- Customer List Page ---------
+
+msgid "View DN List"
+msgstr "Durchwahlnummern"
+
+msgid "View Station List"
+msgstr "Anschluesse"
+
+msgid "Export Csv"
+msgstr "Excel Export"
+
+--- DN List Page ---------
+
+msgid "DN List"
+msgstr "Durchwahlnummernliste"
+
+msgid "DN_blurb"
+msgstr "Die Liste zeigt alle Durchwahlnummern des Kunden und deren Verwendung. Es kann nach einzelnen Nummeren, Nummernbereichen, Nimmern an bestimmten Standorten, zugeteilte Notruf-ID, oder der Verwendung gesucht und gefiltert werden. Zudem kann die Liste nach verschiedenen Kriterien sortiert und in ein Excel exportiert werden. "
+
+msgid "ID"
+msgstr "Nummer"
+
+msgid "Location"
+msgstr "Standort"
+
+msgid "Emergency"
+msgstr "Notruf ID"
+
+msgid "Function"
+msgstr "Verwendung"
+
+msgid "INDIVIDUAL"
+msgstr "Einzelnummern"
+
+msgid "MADN"
+msgstr "MADN-Gruppen"
+
+msgid "DLH"
+msgstr "DLH-Gruppen"
+
+msgid "MLH"
+msgstr "MLH-Gruppen"
+
+msgid "UCD"
+msgstr "UCD-Gruppen"
+
+msgid "INTERNAL"
+msgstr "Spezielle Verwendung"
+
+msgid "Used"
+msgstr "belegte Nummern"
+
+msgid "Free"
+msgstr "freie Nummern"
+
+
+
+
+msgid "No Dns available in DB"
+msgstr "Fuer den selektierten Filter existieren keine Durchwahlnummern"
+
+
+--- Log Page ---------
+
+msgid "Logs"
+msgstr "Aenderungs-LOG"
+
+msgid "Before Date"
+msgstr "bis (Datum waehlen)"
+
+msgid "After Date"
+msgstr "von (Datum waehlen)"
+
+msgid "Advanced Filter"
+msgstr "Erweiterter Filter"
+
+msgid "User Logged In"
+msgstr "Benutzer angemeldet"
+
+msgid "Scenario"
+msgstr "Szenario"
+
+msgid "success"
+msgstr "success"
+
+msgid "Failed"
+msgstr "failed"
+
+msgid "Customer"
+msgstr "Kunde"
+
+msgid "Station"
+msgstr "Anschluss"
+
+msgid "User"
+msgstr "Benutzer"
+
+
+
+--- Report Page ---------
+
+msgid "Reports"
+msgstr "Kundenstatistik"
+
+msgid "CUSTOMER"
+msgstr "Kundenauswahl"
+
+msgid "CNN-ID"
+msgstr "Kundenname"
+
+msgid "Global Statistics"
+msgstr "Alle Kunden"
+
+msgid "PORT STATISTICS"
+msgstr "Anschluesse (Port)"
+
+msgid "TOTAL"
+msgstr "Total"
+
+msgid "Blank Terminal Type"
+msgstr "Unbekannter Port (Fehler 4VoIP?)"
+
+msgid "STATION STATISTICS"
+msgstr "Anschlussart (Apparate)"
+
+msgid "TANLG"
+msgstr "Analoge Ports (Mediatrix)"
+
+msgid "TCICM"
+msgstr "IP Ports (CICM)"
+
+msgid "T1120"
+msgstr "Standard Anschluss (1120)"
+
+msgid "T1140"
+msgstr "Business Anschluss (1140)"
+
+msgid "Tfax"
+msgstr "FAX Anschluss"
+
+msgid "Tvirtual"
+msgstr "Virtueller Anschluss"
+
+msgid "Blank Phone Type"
+msgstr "ohne Anschlusstyp"
+
+msgid "T11xx"
+msgstr "VoIP Anschluss (1120 oder 1140)"
+
+msgid "STATION_OPTION STATISTICS"
+msgstr "Anschluss Optionen"
+
+msgid "0 Expansion Module"
+msgstr "Ohne Zusatztastenfeld"
+
+msgid "1 Expansion Module"
+msgstr "Ein Zusatztastenfeld"
+
+msgid "2 Expansion Modules"
+msgstr "Zwei Zusatztastenfelder"
+
+msgid "TSIMRING"
+msgstr "Simring"
+
+msgid "TCTI"
+msgstr "CTI"
+
+msgid "TCOMBOX"
+msgstr "Combox"
+
+msgid "TCFRA"
+msgstr "CFRA"
+
+msgid "GROUP STATISTICS"
+msgstr "Gruppen"
+
+msgid "TMADN"
+msgstr "MADN-Gruppen"
+
+msgid "TDLH"
+msgstr "DLH-Gruppen"
+
+msgid "TMLH"
+msgstr "MLH-Gruppen"
+
+msgid "TUCD"
+msgstr "UCD-Gruppen"
+
+msgid "DN STATISTICS"
+msgstr "Durchwahlnummern"
+
+msgid "TAVAILABLE"
+msgstr "Freie Nummern "
+
+msgid "TUSED"
+msgstr "Belegte Nummern "
+
+msgid "CUSTOMER STATISTICS"
+msgstr "Kunden pro Service"
+
+msgid "TGate"
+msgstr "Gate Kunden"
+
+msgid "THybrid"
+msgstr "Hybrid Kunden (Gate & Phone)"
+
+msgid "TPhone"
+msgstr "Phone Kunden"
+
+msgid "CUSTOMER_OPTION STATISTICS"
+msgstr "Serviceoptionen"
+
+msgid "TONB"
+msgstr "One Netbase (ONB)"
+
+msgid "TNSC"
+msgstr "Kurzwahllisten (NSC)"
+
+msgid "TCD"
+msgstr "Corporate Directory (CD)"
+
+msgid "TOC"
+msgstr "Operator Console (OC)"
+
+msgid "TCTI"
+msgstr "CTI"
+
+msgid "TCFRA"
+msgstr "CFRA"
+
+msgid "CUSTOMER_SLA STATISTICS"
+msgstr "Wartungsvereinbarung (SLA)"
+
+msgid "Blank SLA"
+msgstr "kein SLA"
+
+msgid "SS5"
+msgstr "Business Hours Support 5x9 Mo-Fr (SS5)"
+
+msgid "ES6"
+msgstr "Extendet Support 6x9 Mo-Sa (ES6)"
+
+msgid "FS7"
+msgstr "Full Support 7x24 (FS7)"
+
+
+msgid "PHONE_USAGE STATISTICS"
+msgstr "Phone Self Admistration"
+
+msgid "LOGON_INTERNAL"
+msgstr "Einwahl Swisscom Mitarbeiter"
+
+msgid "LOGON HEIN"
+msgstr "Einwahl Kundenadministratoren"
+
+msgid "_Key"
+msgstr "Feature Aenderungen"
+
+msgid "_Key"
+msgstr "Feature Aenderungen"
+
+msgid "GATE_USAGE STATISTICS"
+msgstr "GATE Self Admistration"
+
+
+msgid "FIXED REPORTS"
+msgstr "LISTEN"
+
+msgid "Reports"
+msgstr "Statistiken"
+
+msgid "Reports_blurb"
+msgstr "Auf dieser Seite koennen Swisscom internen Benutzer Voip Phone Statistikdaten zu allen oder einzelnen Kunden abfragen und in Excel Tabellen exportieren."
+
+msgid "S.No."
+msgstr "Seitennummer"
+
+msgid "Statistic"
+msgstr "Statistik"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "FAILURE"
+msgstr "Fehler"
+
+msgid "FAILURE"
+msgstr "FEHLER"
+
+msgid "Warning"
+msgstr "Warnung"
+
+msgid "There were problems with the last performed activation script. Please retry the last operation and if unsuccessful contact the support organization."
+msgstr "Bei der letzten Aenderung sind Fehler aufgetreten. Versuchen sie es bitte noch einmal. Wenn der fehler weiterhin auftritt kontaktieren Sie bitte den Help Desk unter 0800xxxxxx."
+
+msgid "Last Modified"
+msgstr "zuletzt geaendert"
+
+--- Station Edit Page ---------
+
+msgid "Port"
+msgstr "Anschlussport"
+
+msgid "Port_desc"
+msgstr "Technische Bezeichnung des Anschlusses"
+
+msgid "phone_type"
+msgstr "Apparate Typ (technisch)"
+
+msgid "phone_type_desc"
+msgstr "Technischer Apparate Typ (gemaess Bestellung)" 
+
+msgid "END"
+msgstr "ENDE"
+
+
+
+
+~
+
+~
+
+

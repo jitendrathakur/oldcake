@@ -1,0 +1,374 @@
+body {
+	background-color: #ffffff;
+}
+
+body, div, p, ul {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #555555;
+}
+
+h1 {
+	font-size: 15px;
+	line-height: 12px;
+	font-weight: bold;
+	height: 14px;
+	/* padding: 7px 10px 10px 10px; */
+}
+
+h2 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #001155;
+	border-bottom: #001155 1px solid;
+}
+
+h3 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #001155;
+}
+
+h4 {
+	clear: both;
+	font-size: 13px;
+	font-weight: bold;
+	color: #001155;
+	border-bottom: #001155 1px solid;      
+}
+
+input, textarea, select { 
+	font-size: 11px; 
+}
+
+input {
+	padding: 2px 2px 2px 2px;
+	height: 14px;
+}
+
+select {
+	height: 20px;
+}
+
+option {
+	padding: 0px 2px 0px 2px;
+}
+
+textarea {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border: 1px solid #cccccc;
+	padding: 2px;	
+	float: left;
+	display: block;
+	margin-bottom: 5px;
+}
+
+input, select, option {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+ul { 
+	list-style:none; 
+} 
+
+.rctitle {
+	font-size: 13px;
+	font-weight: bold;
+	color:#555555;
+	background-image:url(images/assets/bg-rctitle.gif);
+	background-repeat: repeat-x;
+}
+
+.meta {
+	font-size:11px;
+	font-weight: normal;
+	color:#555555;
+}
+
+.nav {
+	font-size: 13px;
+	font-weight: bold;
+	color: #555555;
+}
+
+.red {
+	font-size: 11px;
+	font-weight: bold;
+	color: #DD1122;
+}
+
+.orange {
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFCC00;
+}
+
+.green {
+	font-size: 11px;
+	font-weight: bold;
+	color: #66FF33;
+}
+
+table, td, tr {
+	font-size: 11px;
+	font-weight: normal;
+	color: #555555;
+       
+}
+
+th {
+	font-size: 11px;
+	color: #555555;
+	/*background-image: url(images/assets/bg-table-header.gif);*/
+	background-repeat: repeat-x;
+}
+
+.paging {
+	font-size: 11px;
+	font-weight: normal;
+	color: #555555;
+}
+
+.legend {
+	font-size: 9px;
+	font-weight: normal;
+	color: #555555;
+}
+
+
+/* Links */
+
+a:link {
+	color: #11AAFF;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #11AAFF;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+a:focus {
+	color: #11AAFF;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+a:hover {
+	color: #11AAFF;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+a:active {
+	color: #11AAFF;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+
+/* Metanavigation */
+
+#metanavigation li {
+	background: url("images/assets/arrow-blue.gif")  no-repeat 0px 5px;
+}
+
+#metanavigation a {
+	text-decoration: none;
+	padding-left: 10px;
+}
+
+#metanavigation a:link, #metanavigation a:visited, #metanavigation a:active {
+	color: #555555;
+	text-decoration: none;
+}
+
+#metanavigation a:hover, #metanavigation a:focus {
+	color: #11aaff;
+	text-decoration: underline;
+}
+
+
+/* Language */
+
+#language .selected {
+	color: #001155;
+}
+
+#language ul li {
+	color: #555555;
+}
+
+#language ul li a {
+	color: #11AAFF;
+}
+
+#language ul li a:hover {
+	color: #11AAFF;
+}
+
+
+/* Title Extranet */
+
+#title {
+	background-color: transparent;
+	font-size: 17px;
+	color: #555555;
+}
+
+
+/* Navigation */
+
+#navigation  a {
+	display: block;
+	padding-left: 8px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+#navigation a.normal {
+	background-image: url("images/assets/arrow-blue.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+}
+
+#navigation a:link {
+	color: #555555;
+	text-decoration: none;
+}
+
+#navigation a:visited {
+	color: #555555;
+	text-decoration: none;
+}
+
+#navigation a:focus {
+	color: #11AAFF;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #11AAFF;
+	text-decoration: none;
+}
+
+#navigation a:active {
+	color: #11AAFF;
+}
+
+#navigation a.top, #navigation a.top:active, #navigation a.top:visited, #navigation a.top:link  {
+	color: #11AAFF;
+}
+
+#navigation a.top:hover {
+	color: #11AAFF;
+	text-decoration: underline;
+}
+
+#navigation a.link {
+	color: #555555;
+}
+
+#navigation a.link:hover {
+	color: #11AAFF;
+	text-decoration: none;
+}
+
+#navigation a.selected, #navigation a.selected:link, #navigation a.selected:visited, #navigation a.selected:active {
+	color: #001155;
+}
+
+#navigation a.selected:hover {
+	color: #001155;
+	text-decoration: none;
+	cursor: default;
+}
+
+#navigation ul ul a.selected, #navigation ul ul a.selected:link, #navigation ul ul a.selected:visited, #navigation ul ul a.selected:active {
+        background-image: url("images/assets/arrow-dark-blue.gif");
+        background-repeat: no-repeat;
+        background-position: 0px 4px;
+        padding-left: 8px;
+}
+
+#navigation ul ul a.selected:hover {
+        background-image: url("images/assets/arrow-dark-blue.gif");
+        background-repeat: no-repeat;
+        background-position: 0px 4px;
+        padding-left: 8px;
+}
+
+#navigation ul ul a.submenu, #navigation ul ul a.selected:link, #navigation ul ul a.selected:visited, #navigation ul ul a.selected:active {
+        background-image: url("images/assets/arrow-dark-blue.gif");
+        background-repeat: no-repeat;
+        background-position: 0px 6px;
+        padding-left: 18px;
+}
+
+#navigation a.inactive, #navigation a.inactive:link, #navigation a.inactive:visited, #navigation a.inactive:active {
+	color: #bbbbbb;
+}
+
+#navigation a.inactive:hover {
+	color: #bbbbbb;
+	text-decoration: none;
+	cursor: default;
+}
+
+#navigation ul ul a.inactive, #navigation ul ul a.inactive:link, #navigation ul ul a.inactive:visited, #navigation ul ul a.inactive:active {
+        background-image: url("images/assets/arrow-gray.gif");
+        background-repeat: no-repeat;
+        background-position: 0px 4px;
+        padding-left: 8px;
+}
+
+#navigation ul ul a.inactive:hover {
+        background-image: url("images/assets/arrow-gray.gif");
+        background-repeat: no-repeat;
+        background-position: 0px 4px;
+        padding-left: 8px;
+        cursor: default;
+}
+
+
+
+#navigation a.start, #navigation a.start:active, #navigation a.start:visited, #navigation a.start:link  {
+	color: #555555;
+}
+
+#navigation a.start:hover {
+	color: #11AAFF;
+	text-decoration: none;
+}
+
+
+/* Content Box */
+
+.box h3 a, .box h3 a:link, .box h3 a:active, .box h3 a:hover, .box h3 a:visited, .box h3 a:focus {	
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 12px;
+	color: #555555;	
+	text-decoration: none;	
+}
+
+/* Footer */
+
+#footer a {
+	color: #555555;
+}
+
+#footer a:hover {
+	color: #11AAFF;
+}
+
+.light-blue {
+	color: #11AAFF;
+}
+

@@ -1,0 +1,72 @@
+<Activations transaction-id="d7e6d55ba379a13d08c25d15faf2a23b">
+	<actions>
+		<key id="04" featureId="04@997772400-DISPLAYNAME">UPDATE</key>
+		<key id="03" featureId="03@997772400-DISPLAYNAME">UPDATE</key>
+		<key id="03" featureId="03@997772400-DCPU">DELETE</key>
+		<key id="03" featureId="03@997772400-BARRINGSET">ADD</key>
+		<key id="02">DELETE</key>
+		<key id="01" featureId="01@997772400-BARRINGSET">ADD</key>
+	</actions>
+	<ASISConfiguration>
+		<Station custCTI="1" id="997772400">			
+			<feature id="02@997772400-BARRINGSET" key="02">
+				<label/>
+				<primary_value>BARRINGSET from ASIS</primary_value>
+				<short_name>BARRINGSET</short_name>
+				<stationkey_id>02@997772400</stationkey_id>
+			</feature>
+			<feature id="02@997772400-BARRINGSET" key="02">
+				<label/>
+				<primary_value>BARRINGSET2 from ASIS</primary_value>
+				<short_name>BARRINGSET</short_name>
+				<stationkey_id>02@997772401</stationkey_id>
+			</feature>			
+			<feature id="03@997772400-BARRINGSET" key="03">
+				<label/>
+				<primary_value>BSET from ASIS</primary_value>
+				<short_name>BARRINGSET</short_name>
+				<stationkey_id>03@997772400</stationkey_id>
+			</feature>
+			<feature id="03@997772400-DCPU" key="03">
+				<label/>
+				<primary_value>DCPU2 from ASIS</primary_value>
+				<short_name>DCPU</short_name>
+				<stationkey_id>01@997772400</stationkey_id>
+			</feature>			
+		</Station>
+	</ASISConfiguration>
+	<TOBEConfiguration>
+		<Station custCTI="1" id="997772400">
+			<feature id="04@997772400-DISPLAYNAME" key="04">
+				<label/>
+				<primary_value>Displayname from TOBE key 04</primary_value>
+				<short_name>DISPLAYNAME</short_name>
+				<stationkey_id>01@997772400</stationkey_id>
+			</feature>
+			<feature id="03@997772400-DISPLAYNAME" key="03">
+				<label/>
+				<primary_value>Displayname2 from TOBE key 03</primary_value>
+				<short_name>DISPLAYNAME</short_name>
+				<stationkey_id>01@997772400</stationkey_id>
+			</feature>
+			<feature id="01@997772400-BARRINGSET" key="01">
+				<label/>
+				<primary_value>BARRINGSET from tobe</primary_value>
+				<short_name>BARRINGSET</short_name>
+				<stationkey_id>01@997772400</stationkey_id>
+			</feature>
+			<feature id="03@997772400-BARRINGSET" key="03">
+				<label/>
+				<primary_value>BARRINGSET2 from tobe key 03</primary_value>
+				<short_name>BARRINGSET</short_name>
+				<stationkey_id>01@997772400</stationkey_id>
+			</feature>
+			<feature id="03@997772400-DCPU" key="03">
+				<label/>
+				<primary_value>DCPU from tobe</primary_value>
+				<short_name>DCPU</short_name>
+				<stationkey_id>03@997772400</stationkey_id>
+			</feature>
+		</Station>
+	</TOBEConfiguration>
+</Activations>

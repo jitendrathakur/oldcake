@@ -1,0 +1,64 @@
+<Activation>
+	<Object action="add" id="01@319170338" name="BARRINGSET" key="01" transaction-id="13579-1">
+		<var value="01" name="custCTI"/>
+		<var value="Set3" name="other"/>
+		<var value="319170338" name="xpath"/>
+	</Object>
+	<Object action="add" id="01@319170338" name="BARRINGSET" key="05" transaction-id="13579-2">
+		<var value="05" name="custCTI"/>
+		<var value="Set4" name="other"/>
+		<var value="319170338" name="xpath"/>
+	</Object>
+	<Object action="add" id="01@319170338" name="CFB" key="01" transaction-id="13579-3">
+		<var value="01" name="custCTI"/>
+		<var value="CFB1" name="other"/>
+		<var value="319170338" name="xpath"/>
+	</Object>
+	<Object action="add" id="01@319170338" name="CFB" key="02" transaction-id="13579-4">
+		<var value="02" name="custCTI"/>
+		<var value="CFB2" name="other"/>
+		<var value="319170338" name="xpath"/>
+	</Object>
+	<Object action="add" id="01@319170338" name="CFB" key="03" transaction-id="13579-5">
+		<var value="03" name="custCTI"/>
+		<var value="CFB3" name="other"/>
+		<var value="319170338" name="xpath"/>
+	</Object>
+	<Object action="add" id="01@319170338" name="CFB" key="04" transaction-id="13579-6">
+		<var value="04" name="custCTI"/>
+		<var value="CFB4" name="other"/>
+		<var value="319170338" name="xpath"/>
+	</Object>
+	<Object action="add" id="01@319170338" name="CFBStatus" key="01" transaction-id="13579-7">
+		<var value="0" name="custCTI"/>
+		<var value="319170338" name="other"/>
+	</Object>
+	<Object action="add" id="01@319170338" name="CFNA" key="02" transaction-id="13579-8">
+		<var value="0" name="custCTI"/>
+		<var value="319170338" name="other"/>
+	</Object>
+	<Object action="delete" id="01@319170338" name="CFNA" key="02" transaction-id="13579-9">
+		<var value="0" name="custCTI"/>
+		<var value="319170338" name="other"/>
+	</Object>
+	<Object action="add" id="01@319170338" name="CFRA" key="01" transaction-id="13579-10">
+		<var value="0" name="custCTI"/>
+		<var value="319170338" name="other"/>
+	</Object>
+	<Object action="add" id="01@319170338" name="CWT" key="01" transaction-id="13579-11">
+		<var value="0" name="custCTI"/>
+		<var value="319170338" name="other"/>
+	</Object>
+	<Object action="delete" id="01@319170338" name="DISPLAYNAME" key="01" transaction-id="13579-12">
+		<var value="0" name="custCTI"/>
+		<var value="319170338" name="other"/>
+	</Object>
+	<Object action="add" id="01@319170338" name="DISPLAYNAME" key="01" transaction-id="13579-13">
+		<var value="0" name="custCTI"/>
+		<var value="319170338" name="other"/>
+	</Object>
+	<Object action="delete" id="01@319170338" name="LNR" key="01" transaction-id="13579-14">
+		<var value="0" name="custCTI"/>
+		<var value="319170338" name="other"/>
+	</Object>
+</Activation>

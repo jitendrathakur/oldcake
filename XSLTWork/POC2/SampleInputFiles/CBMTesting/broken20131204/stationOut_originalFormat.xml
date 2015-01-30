@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<Configuration>
+  <Station custCTI="1" id="319170368" test="testValx">
+    <feature id="01@319170368-DN" key="01">
+      <label/>
+      <primary_value>
+        319170368
+      </primary_value>
+      <short_name>
+        KEY1_DN
+      </short_name>
+      <stationkey_id>
+        01@319170368
+      </stationkey_id>
+      <cfeature id="01@319170368-DISPLAYNAME" key="01">
+        <primary_value/>
+      </cfeature>
+      <cfeature id="01@319170368-BARRINGSET" key="01">
+        <primary_value>
+          1
+        </primary_value>
+      </cfeature>
+      <cfeature id="01@319170368-LEADINGZERO" key="01">
+        <primary_value>
+          1
+        </primary_value>
+      </cfeature>
+      <cfeature id="01@319170368-NCOS" key="01">
+        <primary_value>
+          64
+        </primary_value>
+      </cfeature>
+      <cfeature id="01@319170368-CFDVT" key="01">
+        <primary_value>
+          Craig
+        </primary_value>
+      </cfeature>
+      <cfeature id="01@319170368-CFB" key="01">
+        <primary_value>
+          0
+        </primary_value>
+      </cfeature>
+      <cfeature id="01@319170368-CFBStatus" key="01">
+        <primary_value>
+          1
+        </primary_value>
+      </cfeature>
+      <cfeature id="01@319170368-CFB" key="01">
+        <primary_value>
+          0
+        </primary_value>
+      </cfeature>
+      <cfeature id="01@319170368-CFBStatus" key="01">
+        <primary_value>
+          1
+        </primary_value>
+      </cfeature>
+      <cfeature id="01@319170368-PRES" key="01">
+        <primary_value>
+          1
+        </primary_value>
+      </cfeature>
+    </feature>
+    <feature id="01@319170368-CFRA" key="01">
+      <primary_value>
+        0
+      </primary_value>
+    </feature>
+    <feature id="01@319170368-MOH" key="01">
+      <primary_value>
+        0
+      </primary_value>
+    </feature>
+    <feature id="01@319170368-MSBEnable" key="01">
+      <primary_value>
+        1
+      </primary_value>
+    </feature>
+    <feature id="01@319170368-COMBOX" key="01">
+      <primary_value>
+        0
+      </primary_value>
+    </feature>
+    <feature id="01@319170368-CTI" key="01">
+      <primary_value>
+        xpath:Configuration/Station/@custCTI
+      </primary_value>
+    </feature>
+    <feature id="01@319170368-SCS" key="01">
+      <primary_value>
+        xpath:Configuration/Station/@custCTI
+      </primary_value>
+    </feature>
+    <feature id="01@319170368-CFRB" key="01">
+      <primary_value>
+        0
+      </primary_value>
+    </feature>
+    <feature id="01@319170368-CWT" key="01">
+      <primary_value>
+        1
+      </primary_value>
+    </feature>
+    <feature id="01@319170368-SIMRING" key="01">
+      <primary_value>
+        0
+      </primary_value>
+    </feature>
+  </Station>
+</Configuration>

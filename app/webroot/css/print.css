@@ -1,0 +1,476 @@
+body {
+	background-color: #ffffff;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+}
+
+* { 
+	margin: 0px; 
+	padding: 0px; 
+} 
+
+p { 
+	padding: 0px 0px 7pt 0px; 
+} 
+
+img { 
+	border: none; 
+} 
+
+a {
+	color: #11aaff;
+	text-decoration: none;
+}
+
+#metanavigation, #language, #logininfo, #maintop, #navigation, #related-content, #title, #footer ul {
+	display: none;
+}
+
+.button-left, .button-right, button {
+	display: none;
+}
+
+#logo img {
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	border: none;
+}
+
+#topnav {
+	float: right;
+}
+
+h1 {
+	font-size: 14pt;
+	padding-bottom: 7pt;
+}
+
+h2 {
+	font-size: 14pt;
+	padding-bottom: 7pt;
+	margin-top: 14pt;
+}
+
+h3 {
+	font-size: 14pt;
+	padding-bottom: 7pt;
+}
+
+h4 {
+	font-size: 14pt;
+	padding-bottom: 7pt;
+}
+
+h5 {
+	font-size: 13pt;
+	padding-bottom: 7pt;
+}
+
+h6 {
+	font-size: 13pt;
+	padding-bottom: 7pt;
+}
+
+ul { 
+	list-style:none; 
+} 
+
+
+#main {
+	clear: both;
+}
+
+#footer {
+	clear: both;
+	padding-top: 20pt;
+	padding-left: 25px;
+}
+
+
+/* Content */
+/*
+#content {
+	display: block;
+	float: left;
+	clear: both;
+	padding-top: 20pt;
+	padding-left: 25px;
+}
+
+
+#content .block {
+	float: left;
+}
+
+#content .block, .tworows {
+	clear: both;
+	width: 100%;
+	
+	padding-bottom: 20pt;	
+}
+
+#content .block-linklist-left {
+	float: left;
+	display: block;
+	width: 248px;
+}
+
+#content .block-linklist-right {
+	float: left;
+	width: 248px;
+	margin-left: 7px;
+}
+*/
+
+/* Basket */
+
+.basket img,  .basket .info{
+	display: none;
+}
+
+.basket .basket-head {
+	margin-bottom: 14pt;
+}
+
+table input {
+	width: 20pt; 
+	border: 1px solid #ffffff; 
+}
+
+table td {
+	vertical-align: top;
+}
+
+table .basket-footer td {
+	font-weight: bold;
+}
+
+
+/* Formular */
+
+fieldset {
+	border: 0px;
+}
+
+.form-head {
+	float: left;       
+	margin: 0px;
+}
+
+.form-head p {
+	float: left;
+	display: block;
+	padding: 0px;
+	margin-right: 10px;
+}
+
+.form-head select {
+	float: left;
+	display: block;
+	border: 0px; 	
+	padding: 0px;
+	width: 150px;
+	margin-top: 6px;
+}
+
+.form-body {
+	float: left;
+	display: block;
+	width: 532px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+.form-body legend {
+	margin: 0px 0px 0px 0px;
+	padding: 8px 5px 10px 5px;
+}
+
+.form-body label {
+	float: left;
+	width: 82px;
+	text-align: left;
+	margin: 0px;
+	padding-right: 5px;
+	padding-left: 0px;
+
+}
+
+.form-body input {
+	float: left;
+	border: 1px solid #cccccc;
+	padding: 2px;
+	margin: 0px;	
+	margin-bottom: 5px;
+	width: 150px;
+}
+
+.form-body .top {
+	margin-top: 14px;
+}
+
+.form-body select {
+	float: left;	
+	border: 1px solid #cccccc; 
+	padding: 2px;
+	margin: 0px;	
+	width: 126px;
+	margin-bottom: 5px;
+}
+
+.form-body .button {
+	margin: 0px 2px 0px 15px;
+}
+
+.form-body .button-over {
+	margin: 0px 2px 0px 15px;
+}
+
+.form-body br {
+	clear: left; 
+}
+
+.form-body h4 {
+	clear: both;
+	margin-bottom: 10px;
+}
+
+.form-body .form-middle {
+	width: 99px;
+}
+ 
+.form-body .form-short {
+ 	width: 40px;
+ 	margin-right: 5px;
+}
+
+.form-title {
+	clear: both;
+	width: 532px;
+	float: left; 
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+.form-title h4 {
+	float: left; 
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+.form-title span {
+	float: right;
+}
+
+.form-footer {  
+	clear: both; 
+	margin-left: 0px;
+	margin-right: 7px;
+	margin-bottom: 10px;
+}
+
+.form-footer input {
+	margin-right: 5px;
+}
+
+.form-box .form-left {
+	float: left;
+	width: 266px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.form-box .form-right {
+	float: left;
+	width: 266px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.form-body .form-radio {
+	float: left;
+	width: 20px;
+	margin-top: 4px;
+	margin-right: 2px;
+	border: 0px;
+}
+
+.form-body .radio {
+	float: left;
+	height: 22px;
+	margin-bottom: 2px;
+}
+
+.form-body .radio label {
+	float: left;
+	width: auto;
+	padding-top: 2px;
+	margin-right: 20px;
+}
+
+.form-box {
+	clear: both;
+	margin-bottom: 10px;
+}
+
+.form-body .headline-search-input {
+	margin-top: 14px;
+}
+
+.form-body .datum {
+	width: 115px;
+}
+
+
+/* Table */
+
+.table-pro-seite, .table-title img, .table-header img, table img, .table-menu, .table-paging {
+	display: none;
+}
+
+table {
+	clear: both;
+}
+
+.table-von-bis {
+	margin-top: 5px;
+}
+
+table a h6 {
+	font-size: 10pt;
+	padding-bottom: 0px;
+	color: #000000;
+	text-align: left;
+}
+
+
+/* Process */
+
+.process {
+	width: 551px;
+	height: 29px;
+	margin-bottom: 14pt;
+}
+
+.process .step {
+	float: left;
+	padding: 0px 10px 0px 10px;
+	margin: 0px;
+	font-size: 12px;
+	height: 29px;
+	color: #001155;
+}
+
+.process h5 {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #001155;
+}
+
+.process .selected {
+	padding-left: 8px;
+	padding-right: 17px;
+}
+
+.process .selected-first {
+	padding-left: 0px;
+	padding-right: 15px;
+}
+
+.process .left-of-selected {
+	height: 29px;
+	padding-right: 10px;
+}
+
+.process .right-of-selected {
+	padding-left: 3px;
+}
+
+.process .inactive {
+	color: #555555;
+}
+
+
+/* Messages */
+
+.message {
+	margin-bottom: 21px;
+}
+
+
+/* Register */
+
+.tabs {
+	clear: both;
+	margin-top: 8px;
+	height: 29px;
+	width: 544px;
+	background: transparent;
+	padding: 0px;
+	background-repeat: repeat-x;
+	display: block;
+} 
+
+.tabsBgLeft {
+	display: inline;
+}
+
+.tabsBgRight {
+	display: inline;
+}
+
+.tabs a {
+	font-size: 10pt;
+	color: #555555;
+	float: left;
+	padding: 7px 7px 7px 0px;
+	text-align: left;
+	text-decoration: none;
+}
+
+.tabs a:active, .tabs a:visited {
+	color: #555555;
+	font-weight: bold;
+}
+
+.tabs .seperator {
+	display: none;
+}
+
+.tabs a:hover {
+	text-decoration: none;
+}
+
+.tabs .left-of-selected {
+	display: inline;
+}
+
+.tabs .normal {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 7px;	
+}
+
+.tabs .selected {
+	display: inline;
+	padding-left: 0px;
+	padding-right: 7px;
+	color: #001155;
+}
+
+.tabs a.selected, .tabs a.selected:link, .tabs a.selected:visited, .tabs a.selected:active {
+	color: #001155;
+}
+
+ .tabs a:hover  {
+	color: #11AAFF;
+}

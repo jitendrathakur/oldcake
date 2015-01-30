@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Configuration>
+    <Station custCTI="1" id="997778000">
+        <feature id="01@997778000-DN_INDIVIDUAL" key="01">
+            <label/>
+            <primary_value>997778000</primary_value>
+            <short_name>DN_INDIVIDUAL</short_name>
+            <stationkey_id>01@997778000</stationkey_id>
+        </feature>
+        <feature id="02@997778000-CFUIF" key="02">
+            <label/>
+            <primary_value>1</primary_value>
+            <short_name>CFUIF</short_name>
+            <stationkey_id>02@997778000</stationkey_id>
+        </feature>
+        <feature id="03@997778000-CXR" key="03">
+            <label/>
+            <primary_value>1</primary_value>
+            <short_name>CXR</short_name>
+            <stationkey_id>03@997778000</stationkey_id>
+        </feature>
+        <feature id="04@997778000-RAG" key="04">
+            <label/>
+            <primary_value>1</primary_value>
+            <short_name>RAG</short_name>
+            <stationkey_id>04@997778000</stationkey_id>
+        </feature>
+        <feature id="05@997778000-PRK" key="05">
+            <label/>
+            <primary_value>1</primary_value>
+            <short_name>PRK</short_name>
+            <stationkey_id>05@997778000</stationkey_id>
+        </feature>
+        <feature id="07@997778000-AUD" key="07">
+            <label/>
+            <primary_value>11</primary_value>
+            <short_name>AUD</short_name>
+            <stationkey_id>07@997778000</stationkey_id>
+        </feature>
+        <feature id="08@997778000-AUD" key="08">
+            <label/>
+            <primary_value>22</primary_value>
+            <short_name>AUD</short_name>
+            <stationkey_id>08@997778000</stationkey_id>
+        </feature>
+        <feature id="09@997778000-AUD" key="09">
+            <label/>
+            <primary_value>33</primary_value>
+            <short_name>AUD</short_name>
+            <stationkey_id>09@997778000</stationkey_id>
+        </feature>
+        <feature id="10@997778000-AUD" key="10">
+            <label/>
+            <primary_value>44</primary_value>
+            <short_name>AUD</short_name>
+            <stationkey_id>10@997778000</stationkey_id>
+        </feature>
+        <feature id="11@997778000-AUD" key="11">
+            <label/>
+            <primary_value>55</primary_value>
+            <short_name>AUD</short_name>
+            <stationkey_id>11@997778000</stationkey_id>
+        </feature>
+        <feature id="12@997778000-AUD" key="12">
+            <label/>
+            <primary_value>66</primary_value>
+            <short_name>AUD</short_name>
+            <stationkey_id>12@997778000</stationkey_id>
+        </feature>
+        <feature id="99@997778000-DN_INDIVIDUAL" key="99" status="99">
+            <label/>
+            <primary_value>997778012</primary_value>
+            <short_name>DN_INDIVIDUAL</short_name>
+            <stationkey_id>99@997778000</stationkey_id>
+        </feature>
+    </Station>
+</Configuration>

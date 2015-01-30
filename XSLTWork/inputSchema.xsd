@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Configuration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Station"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Station">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="feature"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/> <!-- assuming phone number will always be integers-->
+      <xs:attribute name="status" use="required" type="xs:integer"/><!-- assuming status will always be integers-->
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="feature">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="primary_value"/>
+        <xs:element ref="label"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required"/>
+      <xs:attribute name="key" use="required" type="xs:integer"/> <!-- Assumes Value will be integer between 1 to 54 -->
+      <xs:attribute name="status" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="primary_value" type="xs:string"/>
+  <xs:element name="label">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="br"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="br">
+    <xs:complexType/>
+  </xs:element>
+</xs:schema>

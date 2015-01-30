@@ -1,0 +1,16 @@
+<Activation>
+	<Object action="add" id="01@319170338" name="BARRINGSET" key="01" transaction-id="13579-1">
+		<var value="01" name="custCTI"/>
+		<var value="BARRINGSET from TOBE" name="other"/>
+		<var value="319170338" name="xpath"/>
+	</Object>
+	<Object action="add" id="01@319170338" name="CFBStatus" key="01" transaction-id="13579-2">
+		<var value="CFBStatus from TOBE" name="other"/>
+		<var value="319170338" name="xpath"/>
+	</Object>
+	<Object action="delete" id="01@319170338" name="CFB" key="02" transaction-id="13579-3">
+		<var value="02" name="custCTI"/>
+		<var value="CFB2 from ASIS" name="other"/>
+		<var value="319170338" name="xpath"/>
+	</Object>
+</Activation>

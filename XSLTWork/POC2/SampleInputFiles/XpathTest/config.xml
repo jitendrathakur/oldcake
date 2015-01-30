@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <station test="testValx">
+    <!-- Station Features -->
+		<feature name="CFRA" short_name="CFRA" type="station" mandatory="y" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="0"/>
+		<feature name="MOH" short_name="MOH" type="station" mandatory="y" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="0"/>
+		<feature name="MSBEnable" short_name="MSBEnable" type="station" mandatory="y" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="1"/>
+		<feature name="COMBOX" short_name="COMBOX" type="station" mandatory="y" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="0"/>
+		<feature name="CTI" short_name="CTI" type="station" mandatory="y" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="xpath:Configuration/Station/@custCTI"/>
+		<feature name="SCS" short_name="SCS" type="station" mandatory="y" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="xpath:Configuration/Station/@custCTI"/>
+		<feature name="CFRB" short_name="CFRB" type="station" mandatory="y" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="0"/>
+		<feature name="CWT" short_name="CWT" type="station" mandatory="y" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="1"/>
+		<feature name="MADN" short_name="MADN" type="station" mandatory="n" defaultKey="1" priority="1" shiftable="n" coloc="n" defaultValue="1"/>
+		<feature name="SIMRING" short_name="SIMRING" type="station" mandatory="y" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="0"/>
+		<!-- Key features -->
+    		<cfeature name="SIMRINGMEMBER1" short_name="SIMRINGMEMBER1" defaultValue="1" mandatory="y" occur="9" parent="SIMRING"/>
+    		<cfeature name="SIMRINGMEMBER2" short_name="SIMRINGMEMBER2" defaultValue="2" mandatory="y" occur="9" parent="SIMRING"/>
+    		<cfeature name="SIMRINGMEMBER3" short_name="SIMRINGMEMBER3" defaultValue="3" mandatory="y" occur="9" parent="SIMRING"/>
+    		<cfeature name="SIMRINGMEMBER4" short_name="SIMRINGMEMBER4" defaultValue="4" mandatory="y" occur="9" parent="SIMRING"/>
+    	<feature name="KEY1_DN" short_name="DN" type="key" mandatory="n" defaultKey="1" priority="15" shiftable="n" coloc="y" defaultValue="123"/>
+			<cfeature name="DISPLAYNAME" short_name="DISPLAYNAME" defaultValue="" mandatory="y" occur="9" parent="KEY1_DN"/>
+			<cfeature name="BARRINGSET" short_name="BARRINGSET" defaultValue="1" mandatory="y" occur="9" parent="KEY1_DN"/>
+			<cfeature name="LEADINGZERO" short_name="LEADINGZERO" defaultValue="1" mandatory="y" occur="9" parent="KEY1_DN"/>
+			<cfeature name="NCOS" short_name="NCOS" defaultValue="64" mandatory="y" occur="9" parent="KEY1_DN"/>
+			<cfeature name="CFU" short_name="CFU"  defaultValue="unset" mandatory="y" occur="9" parent="KEY1_DN"/>
+			<cfeature name="CFUStatus" short_name="CFUStatus" defaultValue="0" occur="9" mandatory="y" parent="KEY1_DN"/>
+			<cfeature name="CFDVT" short_name="CFDVT" defaultValue="Craig" mandatory="y" occur="9" parent="KEY1_DN"/>
+			<cfeature name="CFB" short_name="CFB" defaultValue="0" mandatory="y" occur="9" parent="KEY1_DN"/>
+			<cfeature name="CFBStatus" short_name="CFBStatus" defaultValue="1" mandatory="y" occur="9" parent="KEY1_DN"/>
+			<cfeature name="CFNA" short_name="CFB" defaultValue="0" mandatory="y" occur="9" parent="KEY1_DN"/>
+			<cfeature name="CFNAStatus" short_name="CFBStatus" defaultValue="1" mandatory="y" occur="9" parent="KEY1_DN"/>
+			<cfeature name="PRES" short_name="PRES" defaultValue="1" mandatory="y" occur="9" parent="KEY1_DN"/>
+		<feature name="DN_INDIVIDUAL" short_name="DN" type="key" mandatory="n" defaultKey="2" priority="15" shiftable="y" coloc="n" defaultValue="123"/>
+			<cfeature name="DISPLAYNAME" short_name="DISPLAYNAME" defaultValue="Craig" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="BARRINGSET" short_name="BARRINGSET" defaultValue="Craig" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="LEADINGZERO" short_name="LEADINGZERO" defaultValue="Craig" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="NCOS" short_name="NCOS" defaultValue="Craig" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="CFU" short_name="CFU"  defaultValue="Craig" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="CFUStatus" short_name="CFUStatus" defaultValue="Craig" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="CFDVT" short_name="CFDVT" defaultValue="Craig" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+		<feature name="DN_MADN" short_name="DN" type="key" mandatory="n" defaultKey="2" priority="15" shiftable="y" coloc="n" defaultValue="123"/>
+			<cfeature name="MADN" short_name="MADN" defaultValue="TEST" mandatory="y" occur="9" parent="DN_MADN"/>
+			<cfeature name="DISPLAYNAME" short_name="DISPLAYNAME" defaultValue="TEST" mandatory="y" occur="9" parent="DN_MADN"/>
+			<cfeature name="BARRINGSET" short_name="BARRINGSET" defaultValue="Craig" mandatory="y" occur="9" parent="DN_MADN"/>
+			<cfeature name="LEADINGZERO" short_name="LEADINGZERO" defaultValue="Craig" mandatory="y" occur="9" parent="DN_MADN"/>
+			<cfeature name="NCOS" short_name="NCOS" defaultValue="Craig" mandatory="y" occur="9" parent="DN_MADN"/>
+			<cfeature name="CFU" short_name="CFU"  defaultValue="Craig" mandatory="y" occur="9" parent="DN_MADN"/>
+			<cfeature name="CFUStatus" short_name="CFUStatus" defaultValue="Craig" mandatory="y" occur="9" parent="DN_MADN"/>
+			<cfeature name="CFDVT" short_name="CFDVT" defaultValue="Craig" mandatory="y" occur="9" parent="DN_MADN"/>
+			<cfeature name="MSB_MEMBER" short_name="MSB_MEMBER" defaultValue="1" mandatory="y" occur="9" parent="DN_MADN"/>
+			<!-- Simple dfeature -->
+			<dfeature name="MSB" short_name="MSB" type="key" mandatory="y" defaultKey="2" priority="10" shiftable="n" coloc="n" defaultValue="1" occur="1" parent="DN_MADN"/>
+			<!-- Complex dfeature -->
+			<dfeature name="MSB2" short_name="MSB2" type="station" mandatory="xpath:Configuration/Station/feature[@key='04']/primary_value" defaultKey="2" priority="10" shiftable="n" coloc="n" defaultValue="1" occur="1" parent="DN_MADN"/>
+	</station>
+</config>

@@ -1,0 +1,534 @@
+/*CSS Used on Edit Scenario Page*/
+
+.width164 { width:164px !important;}
+
+h3, h6 { font-weight:normal !important; }
+
+.width328 {width:328px !important;}
+.alileft {float:left;}
+.clear {clear:both;}
+.margin0 {margin:0px !important;}
+.border2px {border:1px solid #ccc;}
+input.smallwidth {width: 124px !important;}
+.height80 {height:80px !important; margin-left:5px;}
+.showselect {content:"Select";}
+#success {color:green; font-size:14px; text-align:center;margin-left:23px;}
+
+#sc_state { 
+    color:#800000;     
+    font-size: 16px;
+    text-shadow: 0 4px 8px #000000;
+}
+
+#sc_state_medium {
+    /* color:#800000; */     
+    /* font-size: 12px; */
+    /* text-shadow: 0 4px 8px #000000; */
+    text-align:center;
+}
+.filter_range_textbox {width:100px !important;}
+.showiconsmiddle {margin-right:83px !important;}
+.graybg {background-color:rgb(221, 221, 221) !important;}
+
+#13tdlast, #14tdlast { border:none !important; background: red !important;}
+
+.saveOdsentry {
+    background: url("../images/assets/255_done_03_rgb.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none !important;
+    cursor: pointer;
+    display:none;
+    width: 19px !important;
+    height: 25px !important;
+    float: left;	
+}
+
+.showOdsentryActive {
+    background: url("../images/assets/255_done_03_rgb.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none !important;
+    cursor: pointer;
+    display:none;
+    width: 19px !important;
+    height: 25px !important;
+    float: left;	
+}
+
+.trickOdsentry {
+    background: url("../images/assets/255_done_06_rgb.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none !important;
+    cursor: pointer;
+    float: left;
+    height: 25px !important;
+
+    padding: 0 !important;
+    text-indent: -3000px;
+    width: 19px !important;
+    display:block;
+}
+
+/* Button CSS*/
+
+.button-right-disabled {
+    height: 18px;
+    float: right;
+    background: url(images/assets/btn-left-middle.gif) left no-repeat transparent;
+    padding: 0px;
+    margin: 9px 2px 11px 2px;
+    vertical-align: middle;
+    white-space: nowrap;
+    color:#555555;
+    cursor:default !important;
+}
+
+.button-right-disabled a, .button-right-disabled a:active, .button-right-disabled a:link, .button-right-disabled a:visited {
+    height: 18px;
+    background: url(images/assets/btn-right-arrow.gif) right no-repeat transparent;
+    padding: 0px 20px 0px 10px;
+    text-decoration: none;
+    color: #555555;
+    cursor:default !important;
+	border-bottom: 1px solid #fff;
+}
+.button-lefthover{
+    width:100px;
+    height: 18px;
+    float: left;
+    background: url(images/assets/btn-left-middle.gif) left no-repeat transparent;
+
+    padding: 10px;
+    margin: 9px 20px 11px 20px;
+    vertical-align: middle;
+    white-space: nowrap;
+    color:#555555;
+    cursor:default !important;
+}
+
+
+
+
+.button-left-disabled {
+    height: 18px;
+    float: right;
+    background: url(images/assets/btn-left-middle.gif) left no-repeat transparent;
+    padding: 0px;
+    margin: 9px 2px 11px 2px;
+    vertical-align: middle;
+    white-space: nowrap;
+    color:#555555;
+    cursor:default !important;
+}
+
+.button-left-disabled a, .button-left-disabled a:active, .button-left-disabled a:link, .button-left-disabled a:visited {
+    height: 18px;
+    background: url(images/assets/btn-left-arrow.gif) right no-repeat transparent;
+    padding: 0px 20px 0px 10px;
+    text-decoration: none;
+    color: #555555;
+    cursor:default !important;
+}
+
+.showhighlight_arrow {
+    height: 18px !important;
+    background:  url(images/assets/btn-hov-right-arrow.gif) right no-repeat transparent !important;	
+    text-decoration: none !important;
+    padding: 0px 20px 0px 10px !important;
+    color: #000 !important;
+    float:right !important;
+    width:30px !important;
+}
+
+.showhighlight {
+    background: url(images/assets/btn-hov-left-middle.gif) left no-repeat transparent !important;
+}
+
+#content p {
+    margin-left: 0;
+    margin-top: 0 !important;
+    padding: 0;
+}
+
+.paging {font-weight:bold !important; font-size:12px !important; margin-top: 10px;}
+/*CBM COmmented for breaking Swisscom style */
+/* .paging a:link, a:hover, a:visited, a:active {font-weight:bold !important; font-size:12px !important; text-decoration:none;} */
+.pagination_text {
+    height: 12px !important;
+    margin: 0 !important;
+    text-align: center;
+    vertical-align: middle;
+    width: 25px;
+}
+
+/*Icons to be use on scenario listing page*/
+#activateScenario {
+    background: url("../images/assets/icons/16px/off_small.png") no-repeat scroll !important;
+    border: medium none !important;
+    cursor: pointer;
+    float: left;
+    height: 20px !important;
+
+    padding: 10 !important;
+    text-indent: -3000px;
+    width: 50px !important;
+    display:block;
+}
+
+#deactivateScenario {
+    background: url("../images/assets/icons/16px/on_small.png") no-repeat scroll  !important;
+    border: medium none !important;
+    cursor: pointer;
+    float: left;
+    height: 20px !important;
+
+    padding: 10 !important;
+    text-indent: -3000px;
+    width: 50px !important;
+    display:block;
+}
+
+#warningScenario {
+    background: url("../images/assets/ico-warnung-16.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none !important;
+    cursor: pointer;
+    float: left;
+    height: 20px !important;
+
+    padding: 0 !important;
+    text-indent: -3000px;
+    width: 19px !important;
+    display:block;
+}
+#warningNotification {
+    background: url("../images/assets/ico-warnung-32.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none !important;
+    cursor: pointer;
+    float: left;
+    height: 36px !important;
+
+    padding: 0 !important;
+    text-indent: -3000px;
+    width: 36px !important;
+    display:block;
+}
+
+#updateNotification {
+    background: url("../images/assets/ico_thumb-up_32.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none !important;
+    cursor: pointer;
+    float: left;
+    height: 36px !important;
+
+    padding: 0 !important;
+    text-indent: -3000px;
+    width: 36px !important;
+    display:block;
+}
+
+.trunklist .tablesorter-filter-row select {width:107px !important;}
+
+
+#plus, #plus_schedule{background: url("../images/assets/btn-expand.gif") no-repeat scroll 0 0;
+                      width:20px;height:20px;
+                      float:left !important;
+}
+
+#minus, #minus_schedule{
+    width:20px;height:20px;
+    background: url("../images/assets/btn-collapse.gif") no-repeat scroll 0 0;
+    float:left !important;
+
+}
+
+#plus, #plus_ods{background: url("../images/assets/btn-expand.gif") no-repeat scroll 0 0;
+                 width:20px;height:20px;
+                 float:left !important;
+}
+
+#minus, #minus_ods{
+    width:20px;height:20px;
+    background: url("../images/assets/btn-collapse.gif") no-repeat scroll 0 0;
+    float:left !important;
+
+}
+
+
+
+
+#plus, #plus_location{background: url("../images/assets/btn-expand.gif") no-repeat scroll 0 0;
+                      width:20px;height:20px;
+                      float:left !important;
+}
+
+#minus, #minus_location{
+    width:20px;height:20px;
+    background: url("../images/assets/btn-collapse.gif") no-repeat scroll 0 0;
+    float:left !important;
+
+}
+
+
+
+
+.scenarioupdatemsg {
+    color: #008000;
+    float: left;
+    text-align: center;
+    width: 376px;
+}
+
+.showselect {
+    /* margin-left:22px !important; */
+	margin-top: -4px !important;
+}
+
+.pointer { cursor: default !important; }
+
+.location_drp  {
+    border: 1px solid #CCCCCC;
+    width: 200px !important;
+}
+
+
+
+.button-left-readonly {
+    height: 18px;
+    float: left;
+    background: url(images/assets/btn-left-middle.gif) left no-repeat transparent;
+    padding: 0px;
+    margin: 9px 2px 11px 2px;
+    vertical-align: middle;
+    white-space: nowrap;
+    color:#555555;
+    cursor:default !important;
+    text-decoration: none !important;
+}
+
+.button-left-readonly a, .button-left-readonly a:active, .button-left-readonly a:link, .button-left-readonly a:visited {
+    height: 18px;
+    background: url(images/assets/btn-right-arrow.gif) right no-repeat transparent;
+    padding: 0px 20px 0px 10px;
+    text-decoration: none !important;
+    color: #555555;
+    cursor:default !important;
+}
+
+
+input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly] {
+    background-color: #F9F9F9 !important;
+    border-color: #F9F9F9 !important;
+    cursor: allowed !important;
+    border:none !important;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #F9F9F9;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+.form-body select {
+    border: 1px solid #CCCCCC;    
+    float: left;
+    margin: 0 0 5px;
+    padding: 0px;
+	height:20px;
+}
+.form-label
+{
+	float: left;
+	width: 100px;
+}
+
+.icon-chevron-up{ background: url("../images/assets/table-sort-desc.gif") no-repeat !important;}
+
+.icon-chevron-down{ background: url("../images/assets/table-sort-asc.gif") no-repeat !important;}
+
+.radio input[type="radio"], .checkbox input[type="checkbox"] {
+    float: left;
+    margin-left: -20px;
+    border:none !important;
+}
+
+.showtooltip { width:200px; border:1px solid #000; background:#fff; line-height:18px;  }
+
+.showhighlight_buttonright {
+    background: url("images/assets/btn-hov-right.gif") no-repeat scroll right center!important;	
+    color: #FFFFFF !important; 
+	float: left;  
+    height: 18px !important;
+    padding: 0 20px 1px 15px !important;
+    text-decoration: none !important;    
+}
+.showhighlight_buttonleft {
+    background: url("images/assets/btn-hov-right-arrow.gif") no-repeat scroll right center !important;	
+    color: #FFFFFF !important;
+	float: left;   
+    height: 18px !important;
+    padding: 0 20px 0 15px !important;
+    text-decoration: none !important;    
+}
+
+.form-box .form-right-inactive {
+	float: left;
+	width: 266px;
+	padding: 0px;
+	margin: 0px;
+	background-color: lightyellow;	
+}
+
+.demonstrations div {
+  float: right;
+  width: 20px;
+  height: 30px;
+  margin: -20px 0 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+.feature_tooltip div {
+  float: left;
+  width: 20px;
+  height: 30px;
+  margin: 0px 0 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.fancybox-close {
+    cursor: pointer;
+    height: 0px!important;
+    position: absolute;
+    right: -30px;
+    top: -20px;
+    width: 36px;
+    z-index: 8040;
+}
+.fancybox-overlay {   
+    z-index: 1000!important;
+}
+
+
+.button-right a:hover, .button-right-hover a:hover {
+ 	float: left!important; 
+ }
+
+.button-left a:hover, .button-left-hover a:hover  {
+	height: 18px;
+	background: url(images/assets/btn-hov-right.gif) right no-repeat;	
+	text-decoration: none;
+	padding: 2px 12px 1px 19px;
+	color: #FFFFFF;
+}
+
+
+.button-left {
+	height: 20px !important;
+	float: left !important;
+	background: url(images/assets/btn-left-middle-arrow.gif) left no-repeat !important;
+	padding: 3px 0px 4px 0px !important;
+	margin: 2px 2px 11px 2px !important;
+	vertical-align: middle !important;
+	white-space: nowrap !important;
+}
+
+
+.button-left a:hover, .button-left-hover a:hover  {
+	 background: url("images/assets/btn-hov-right.gif") no-repeat scroll right center!important;	
+    color: #FFFFFF !important; 
+	float: left!important; 
+    height: 18px !important;
+    padding: 0px 20px 1px 15px !important;
+    text-decoration: none !important; 
+}
+
+.button-right {
+	height: 22px;
+	float: right;
+	background: url(images/assets/btn-left-middle.gif) left no-repeat transparent;
+	padding: 0px;
+	margin: 7px 2px 10px 2px!important;
+	vertical-align: middle;
+	white-space: nowrap;
+	line-height: 18px;
+}
+.button-right a, .button-right a:active, .button-right a:link, .button-right a:visited {
+	height: 18px;
+	background: url(images/assets/btn-right-arrow.gif) right no-repeat transparent !important;
+	padding: 0px 20px 5.5px 10px!important;
+	text-decoration: none;
+	color: #555555;
+}
+
+.button-left a, .button-left a:active, .button-left a:link, .button-left a:visited {
+  	background: url(images/assets/btn-right.gif) right no-repeat !important;
+     color: #333333 !important; 
+	float: left!important; 
+    height: 18px !important;
+	padding: 2px 10px 2px 20px!important;
+	text-decoration: none !important;
+}
+
+.phone-content td a, .table-content td a:link, .table-content td a:active, .table-content td a:visited, .table-content td a:focus {
+    color: #11AAFF;
+    display: inline-block !important;
+    margin-left: 0!important;
+    padding-right: 4px;
+    text-decoration: none;
+	text-align: left !important;
+}
+.leftmenunav ul, ol {
+	margin: 0 0 0 0;
+	padding
+}
+div, p, ul {
+    color: #555555;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 12px!important;
+    font-weight: normal;
+}
+table, td, tr {
+    color: #555555;
+    font-size: 11px !important;
+    font-weight: normal;
+}
+form .form-changevalidate {
+    
+    border-color: #1047E0;
+    outline: 1px solid #1047E0 !important;
+}
+
+form .form-changeinvalidate {
+    
+    border-color:#ff0d0d;
+    outline: 1px solid #ff0d0d !important;
+	
+}
+
+.hightlightbox{
+	border-color: #1047E0;
+    outline: 1px solid #1047E0 !important;
+}
+
+.sortlink a{
+background: url(../images/assets/table-sort-default.gif) 3% 80% no-repeat!important;
+color:#555555;
+margin-top:2px;
+}
+.sortlink_asc a{
+background: url(../images/assets/table-sort-asc.gif) 3% 80% no-repeat!important;
+color:#555555;
+margin-top:2px;
+}
+.sortlink_desc a{
+background: url(../images/assets/table-sort-desc.gif) 3% 80% no-repeat!important;
+color:#555555;
+margin-top:2px;
+}
+.form-box  li a, .form-box li a:link, .form-box li a:visited, .form-box li a:active{
+	border-bottom: 0px solid #001155!important; 
+}
+
+#navigation ul ul a.submenu, #navigation ul ul a.selected:link, #navigation ul ul a.selected:visited, #navigation ul ul a.selected:active {
+    background-image: url("images/assets/arrow-dark-blue.gif");
+    background-position: 10px 3px !important;
+    background-repeat: no-repeat;
+    padding-left: 18px;
+}

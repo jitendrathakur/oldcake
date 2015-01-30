@@ -1,0 +1,348 @@
+/* Title */
+
+.table-title {
+	float: left;
+	height: 21px;
+	width: 100%;
+	margin-top: 11px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #bbbbbb;
+}
+
+.table-title h5 {
+	margin-top: 0px;
+	margin-left: 0px;
+	float: left;
+	font-size: 13px;
+	color: #001155;
+}
+
+.table-title img {
+	margin-right: 2px;
+	float: right;
+}
+
+
+/* Content */
+
+.table-content {
+	margin-left: 0px;
+}
+
+.table-content table {
+	clear: both;
+	border-collapse: collapse;
+	margin-left: 1px;
+	/*margin-bottom: 5px;*/
+}
+
+/* Info/Navigation */
+
+.table-total {
+	margin-right: 10px;
+}
+
+.table-von-bis {
+	display: inline;
+	margin-right: 10px;
+}
+
+.table-paging {
+	display: inline;
+}
+
+/*
+.table-top th {
+	background-image: url(images/assets/bg-table-header.gif);
+}
+*/
+
+.table-top a, .table-top a:link, .table-top a:visited, .table-top a:active {
+	display: block;
+	height: 100%;
+	width: auto;
+	padding: 0px 10px 0px 2px;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.table-top a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.table-top img {
+	padding-top: 0px;
+	
+}
+
+.table-top th, .table-right-ohne th {
+	height: 20px;
+	padding: 0px 0px 0px;
+	border: 1px solid #cccccc;
+	font-weight: normal;	
+	vertical-align: top;
+	background: url(images/assets/bg-table-header.gif) left bottom repeat-x;
+}
+
+.table-top span {
+	background: red;
+}
+
+.table-left img {
+	margin-top: 2px;
+}
+
+.table-header {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-top: 6px;
+	margin-bottom: 7px;
+	font-size: 10px;
+	padding: 0px;	
+	
+}
+
+.table-header-left {
+	float: left;
+}
+
+.table-header-right {
+	float: right;
+}
+
+.table-header .selected {
+	font-weight: bold;
+	color: #001155;
+}
+
+.table-footer {
+	margin-top: 2px;
+	margin-bottom: 3px;
+	margin-left: 1px;
+	font-size: 10px;
+}
+
+
+.table-content td {
+	padding: 1px 0px 1px 2px;
+	border: 1px solid #cccccc;
+	
+}
+
+.table-content td a, .table-content td a:link, .table-content td a:active, .table-content td a:visited, .table-content td a:focus {
+	display: block;
+	padding-right: 10px;
+	margin-left: 2px;
+	text-decoration: none;
+	color: #11aaff;
+}
+
+.table-content td a:hover {
+	display: block;
+	padding-right: 10px;
+	margin-left: 2px;
+	text-decoration: underline;
+	color: #11aaff;
+}
+
+
+.table-content .table-column {	
+	height: 35px;
+}
+
+.table-content .table-right-ohne {
+	border-right: 0px;
+	padding-right: 0px;
+	width: 20px;
+}
+
+.table-content .table-left-ohne {
+	border-left: 0px;
+	width:20px;
+}
+
+
+.table-content .column-width-100 {
+	width: 100px;
+}
+.table-content .column-width-150 {
+	width: 150px;
+}
+
+#myTable7_first, #myTable7_previous, #myTable7_next, #myTable7_last{
+		cursor: default;
+	}
+#exampleSingle_first, #exampleSingle_previous, #exampleSingle_next, #exampleSingle_last{
+		cursor: default;
+	}	
+	
+.table-content .table-column span {
+	float: left;	
+	background: transparent;
+	font-size: 11px;
+	font-weight: bold;
+	color: #555555;	
+	margin-left: 2px;
+	
+}
+
+.table-content .table-column img {
+	float: right;
+	margin-left: 4px;
+	margin-top: 6px;
+}
+
+.table-input {
+	width: 20px; 
+	border: 1px solid #cccccc; 
+	padding: 0px 1px 0px 1px; 
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 10px;
+	text-align: center;
+	font-weight: bold;
+	height: 15px;
+	margin-left: 1px;
+	margin-right: 3px;
+}
+
+.table-content .table-left {
+	border-left: 0px;
+	padding: 0px 0px 0px 1px;
+}
+
+.table-content .table-left img {
+	padding: 0px;
+	margin-top: 3px;
+	margin-bottom: 0px;
+}
+
+.table-content .table-right {
+	border-right: 0px;
+	padding-right: 0px;
+	width: 20px;
+}
+
+.table-content .table-right img {
+	padding: 0px;
+	margin-top: 3px;
+	margin-bottom: 0px;
+}
+
+/* Men� */
+
+.table-content .table-menu {
+	width: 15px;
+	padding: 0px;
+	margin: 0px;	
+	height: 18px;	
+	background: transparent;
+}
+
+.table-menu-image {
+	border: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+
+/* Men� - Popup */
+
+.table-menu-popup {
+	display: none;
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 10px;	
+	padding: 0px;		
+}
+
+
+.table-menu-popup ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;  
+	width: 200px;
+}
+
+.table-menu-popup li {
+	height: 21px;
+	width: 200px;
+	padding: 0px;
+	margin: 0px;
+	background: #tranparent;
+}
+
+.table-menu-popup li a, .table-menu-popup li a:link, .table-menu-popup li a:visited, .table-menu-popup li a:active  {
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding:  2px 0px 0px 25px;
+	margin: 0px 0px 0px 0px;
+	border-top: 1px solid #001155;
+	border-left: 1px solid #001155;
+	border-right: 1px solid #001155;
+}
+
+.table-menu-popup li a:hover {
+	color: #11AAFF;
+}
+
+.table-menu-popup .last a {
+	border-bottom: 1px solid #001155;
+}
+
+.table-menu-popup li.pen a {
+	background: url(images/assets/icons/16px/199_pen_06_cmyk.gif) no-repeat 2px 2px; 
+	background-color: #ffffff;
+}
+
+.table-menu-popup li.pen a:hover {
+	background: url(images/assets/icons/16px/199_pen_02_cmyk.gif) no-repeat 2px 2px; 
+	background-color: #dddddd;
+}
+
+.table-menu-popup li.document a {
+	background: url(images/assets/icons/16px/013_document_06_cmyk.gif) no-repeat 2px 2px; 
+	background-color: #ffffff;
+}
+
+.table-menu-popup li.document a:hover {
+	background: url(images/assets/icons/16px/013_document_02_cmyk.gif) no-repeat 2px 2px; 
+	background-color: #dddddd;
+}
+.table-menu-popup li.cancel a {
+	background: url(images/assets/icons/16px/196_cancel_04_cmyk.gif) no-repeat 2px 2px; 
+	background-color: #ffffff;
+}
+
+.table-menu-popup li.cancel a:hover {
+	background: url(images/assets/icons/16px/196_cancel_04_cmyk.gif) no-repeat 2px 2px; 
+	background-color: #dddddd;
+}
+
+.table-menu-popup li.last {
+	height: 19px;
+}
+
+.table-right {
+	width: 10px;
+	background: url(images/assets/icons/16px/198_angleright_06_cmyk.gif) no-repeat 2px 2px; 
+	background-color: #ffffff;
+	cursor: default;
+}
+
+.table-right-over {
+	width: 10px;
+	background: url(images/assets/icons/16px/198_angleright_02_cmyk.gif) no-repeat 2px 2px; 
+	background-color: #dddddd;
+	cursor: pointer;
+}
+
+
+.table-menu:hover .table-menu-popup
+{
+	display:block !important;
+}
+
+

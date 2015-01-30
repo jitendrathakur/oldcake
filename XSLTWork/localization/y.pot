@@ -1,0 +1,1566 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# No version information was available in the source files.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-01-20 11:10+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /controllers/customers_controller.php:144;1273
+#: /controllers/features_controller.php:135
+#: /controllers/groups_controller.php:135
+#: /controllers/logs_controller.php:59
+#: /controllers/reports_controller.php:149
+#: /controllers/scenarios_controller.php:136
+#: /controllers/stations_controller.php:491;1216;2507;2587;2809;2987
+#: /views/features/features_controller.php:135
+msgid "Swisscom Extranet Corporate Business - Voiphone Selfcare"
+msgstr ""
+
+#: /controllers/customers_controller.php:235;278;301
+msgid "Nr"
+msgstr ""
+
+#: /controllers/customers_controller.php:235
+#: /views/customers/index.ctp:24;66
+#: /views/customers/view.ctp:22
+#: /views/dns/index.ctp:12
+#: /views/groups/index.ctp:15
+#: /views/locations/index.ctp:27
+#: /views/locations/view.ctp:24
+#: /views/scenarios/view.ctp:22
+msgid "Name"
+msgstr ""
+
+#: /controllers/customers_controller.php:235
+#: /views/customers/index.ctp:25;67
+#: /views/dns/index.ctp:13
+#: /views/reports/reports.ctp:15
+msgid "CNN"
+msgstr ""
+
+#: /controllers/customers_controller.php:235
+#: /controllers/logs_controller.php:404
+#: /views/customers/index.ctp:26;68
+#: /views/dns/index.ctp:14
+msgid "BSK"
+msgstr ""
+
+#: /controllers/customers_controller.php:235
+#: /controllers/stations_controller.php:3172
+#: /views/groups/index.ctp:16
+#: /views/stations/index.ctp:76;130;133
+#: /views/stations/select_station.ctp:173
+#: /views/stations_orig/index.ctp:67;123;126
+msgid "Type"
+msgstr ""
+
+#: /controllers/customers_controller.php:235
+msgid "onDemand"
+msgstr ""
+
+#: /controllers/customers_controller.php:278
+msgid "DN"
+msgstr ""
+
+#: /controllers/customers_controller.php:301
+#: /views/logs/Copy of viewlog.ctp:21
+#: /views/logs/viewlog.ctp:85;225
+#: /views/stations_orig/viewlog.ctp:20
+msgid "Station"
+msgstr ""
+
+#: /controllers/customers_controller.php:337
+msgid "Statistic"
+msgstr ""
+
+#: /controllers/customers_controller.php:337
+msgid "Total"
+msgstr ""
+
+#: /controllers/customers_controller.php:348;913
+#: /views/customers/reports.ctp:44
+msgid "PORT STATISTICS"
+msgstr ""
+
+#: /controllers/customers_controller.php:360;925
+#: /views/customers/reports.ctp:56
+msgid "C20TOTAL"
+msgstr ""
+
+#: /controllers/customers_controller.php:383;947
+#: /views/customers/reports.ctp:73
+msgid "Blank Terminal Type"
+msgstr ""
+
+#: /controllers/customers_controller.php:398;962
+#: /views/customers/reports.ctp:90
+msgid "STATION STATISTICS"
+msgstr ""
+
+#: /controllers/customers_controller.php:407;973
+#: /views/customers/reports.ctp:102
+msgid "DBSTATIONTOTAL"
+msgstr ""
+
+#: /controllers/customers_controller.php:434;1000
+#: /views/customers/reports.ctp:126
+msgid "Blank Phone Type"
+msgstr ""
+
+#: /controllers/customers_controller.php:440
+#: /views/customers/reports.ctp:135
+msgid "STATION_OPTION STATISTICS"
+msgstr ""
+
+#: /controllers/customers_controller.php:458;1025
+#: /views/customers/reports.ctp:156
+msgid "1 Expansion Module"
+msgstr ""
+
+#: /controllers/customers_controller.php:465;1032
+#: /views/customers/reports.ctp:159
+msgid "2 Expansion Modules"
+msgstr ""
+
+#: /controllers/customers_controller.php:482;1051
+msgid "SIMRING not null"
+msgstr ""
+
+#: /controllers/customers_controller.php:494;728;1063
+#: /views/customers/reports.ctp:185;384
+msgid "TCTI"
+msgstr ""
+
+#: /controllers/customers_controller.php:506;519;1075
+#: /views/customers/reports.ctp:193
+msgid "TCOMBOX"
+msgstr ""
+
+#: /controllers/customers_controller.php:527;1094
+#: /views/customers/reports.ctp:214
+msgid "GROUP STATISTICS"
+msgstr ""
+
+#: /controllers/customers_controller.php:540;589;618;748;1108;1156
+#: /views/customers/reports.ctp:225;260;305;402
+msgid "TOTAL"
+msgstr ""
+
+#: /controllers/customers_controller.php:567;1134
+#: /views/customers/reports.ctp:249
+msgid "DN STATISTICS"
+msgstr ""
+
+#: /controllers/customers_controller.php:594;1161
+#: /views/customers/reports.ctp:269
+msgid "TAVAILABLE"
+msgstr ""
+
+#: /controllers/customers_controller.php:599;1166
+#: /views/customers/reports.ctp:278
+msgid "TUSED"
+msgstr ""
+
+#: /controllers/customers_controller.php:610
+#: /views/customers/reports.ctp:294
+msgid "CUSTOMER STATISTICS"
+msgstr ""
+
+#: /controllers/customers_controller.php:642
+msgid "CUSTOMER_OPTIONS"
+msgstr ""
+
+#: /controllers/customers_controller.php:655
+#: /views/customers/reports.ctp:339
+msgid "TONB"
+msgstr ""
+
+#: /controllers/customers_controller.php:668
+#: /views/customers/reports.ctp:347
+msgid "TNSC"
+msgstr ""
+
+#: /controllers/customers_controller.php:687;1087
+#: /views/customers/reports.ctp:204;359
+msgid "TCFRA"
+msgstr ""
+
+#: /controllers/customers_controller.php:703
+#: /views/customers/reports.ctp:368
+msgid "TCD"
+msgstr ""
+
+#: /controllers/customers_controller.php:716
+#: /views/customers/reports.ctp:376
+msgid "TOC"
+msgstr ""
+
+#: /controllers/customers_controller.php:737
+msgid "CUSTOMER_SLA"
+msgstr ""
+
+#: /controllers/customers_controller.php:777
+#: /views/customers/reports.ctp:438
+msgid "PHONE_USAGE STATISTICS"
+msgstr ""
+
+#: /controllers/customers_controller.php:789;854
+#: /views/customers/reports.ctp:448;498
+msgid "User logged in"
+msgstr ""
+
+#: /controllers/customers_controller.php:808;872
+#: /views/customers/reports.ctp:461;511
+msgid "LOGON_INTERNAL"
+msgstr ""
+
+#: /controllers/customers_controller.php:816;880
+#: /views/customers/reports.ctp:465;515
+msgid "LOGON "
+msgstr ""
+
+#: /controllers/customers_controller.php:843
+#: /views/customers/reports.ctp:489
+msgid "GATE_USAGE STATISTICS"
+msgstr ""
+
+#: /controllers/customers_controller.php:1006
+msgid "STATION_OPTIONS"
+msgstr ""
+
+#: /controllers/customers_controller.php:1216
+msgid "only Wav file is allowed"
+msgstr ""
+
+#: /controllers/dns_controller.php:192;357
+msgid "Used"
+msgstr ""
+
+#: /controllers/dns_controller.php:193;358
+msgid "Free"
+msgstr ""
+
+#: /controllers/dns_controller.php:396
+#: /controllers/logs_controller.php:404
+#: /controllers/mediatrixes_controller.php:170
+#: /controllers/stations_controller.php:3168
+msgid "S.No."
+msgstr ""
+
+#: /controllers/dns_controller.php:396
+#: /controllers/mediatrixes_controller.php:170
+msgid "ID"
+msgstr ""
+
+#: /controllers/dns_controller.php:396
+#: /controllers/mediatrixes_controller.php:170
+#: /views/dns/Copy of selectdns.20131210.ctp:155;196
+#: /views/dns/select_dn.ctp:395
+#: /views/dns/select_dn_logic.ctp:176
+#: /views/dns/selectdns.ctp:155;205
+#: /views/dns/viewdns.ctp:27;86
+#: /views/dns/viewdnsdetail.ctp:159;211
+#: /views/groups/index.ctp:68
+#: /views/mediatrixes/edit.ctp:82
+#: /views/mediatrixes/index.ctp:15;70
+#: /views/stations/index.ctp:75
+#: /views/stations_orig/index.ctp:66
+msgid "Location"
+msgstr ""
+
+#: /controllers/dns_controller.php:396
+#: /controllers/mediatrixes_controller.php:170
+#: /views/dns/Copy of selectdns.20131210.ctp:158;204
+#: /views/dns/select_dn.ctp:403
+#: /views/dns/select_dn_logic.ctp:184
+#: /views/dns/selectdns.ctp:158;213
+#: /views/dns/viewdns.ctp:30;93
+#: /views/dns/viewdnsdetail.ctp:162;219
+#: /views/mediatrixes/index.ctp:77
+msgid "Emergency"
+msgstr ""
+
+#: /controllers/dns_controller.php:396
+#: /controllers/mediatrixes_controller.php:170
+#: /views/dns/Copy of selectdns.20131210.ctp:156;199
+#: /views/dns/select_dn.ctp:398
+#: /views/dns/select_dn_logic.ctp:179
+#: /views/dns/selectdns.ctp:156;208
+#: /views/dns/viewdns.ctp:28;89
+#: /views/dns/viewdnsdetail.ctp:160;214
+#: /views/groups/index.ctp:71
+#: /views/mediatrixes/index.ctp:16;73
+msgid "Function"
+msgstr ""
+
+#: /controllers/dns_controller.php:396
+#: /controllers/mediatrixes_controller.php:170
+#: /controllers/stations_controller.php:3170
+#: /views/dns/Copy of selectdns.20131210.ctp:157;201
+#: /views/dns/select_dn.ctp:400
+#: /views/dns/select_dn_logic.ctp:181
+#: /views/dns/selectdns.ctp:157;210
+#: /views/dns/viewdns.ctp:29;91
+#: /views/dns/viewdnsdetail.ctp:161;216
+#: /views/mediatrixes/index.ctp:75
+#: /views/stations/edit.ctp:512;1194
+#: /views/stations_orig/edit.ctp:462;1105
+msgid "DISPLAYNAME"
+msgstr ""
+
+#: /controllers/logs_controller.php:404
+msgid "Customer ID"
+msgstr ""
+
+#: /controllers/logs_controller.php:404
+msgid "Affected Object"
+msgstr ""
+
+#: /controllers/logs_controller.php:404
+#: /views/logs/logdetails.ctp:36
+#: /views/logs/viewlog.ctp:142;144
+#: /views/logs_orig/logdetails.ctp:30
+#: /views/stations_orig/logdetails.ctp:30
+msgid "Date"
+msgstr ""
+
+#: /controllers/logs_controller.php:404
+#: /views/logs/Copy of viewlog.ctp:22
+#: /views/logs/viewlog.ctp:86;232
+#: /views/stations_orig/viewlog.ctp:21
+msgid "User"
+msgstr ""
+
+#: /controllers/logs_controller.php:404
+#: /views/logs/Copy of viewlog.ctp:23
+#: /views/logs/logdetails.ctp:18
+#: /views/logs/viewlog.ctp:87;233
+#: /views/logs_orig/logdetails.ctp:12
+#: /views/stations_orig/logdetails.ctp:12
+#: /views/stations_orig/viewlog.ctp:22
+msgid "Description"
+msgstr ""
+
+#: /controllers/logs_controller.php:404
+#: /views/dns/index.ctp:63
+#: /views/elements/scanerio.ctp:61
+#: /views/groups/index.ctp:73
+#: /views/logs/Copy of viewlog.ctp:24
+#: /views/logs/logdetails.ctp:24
+#: /views/logs/viewlog.ctp:88;234
+#: /views/logs_orig/logdetails.ctp:18
+#: /views/scenarios/index.ctp:52;105
+#: /views/stations_orig/logdetails.ctp:18
+#: /views/stations_orig/viewlog.ctp:23
+msgid "Status"
+msgstr ""
+
+#: /controllers/stations_controller.php:1306
+msgid "Saved Successfully"
+msgstr ""
+
+#: /controllers/stations_controller.php:2277;2336
+msgid "key"
+msgstr ""
+
+#: /controllers/stations_controller.php:2277
+#: /views/stations/edit.ctp:171
+#: /views/stations_orig/edit.ctp:123
+msgid "Password"
+msgstr ""
+
+#: /controllers/stations_controller.php:2277
+msgid "value changed"
+msgstr ""
+
+#: /controllers/stations_controller.php:2277
+msgid "to"
+msgstr ""
+
+#: /controllers/stations_controller.php:2304
+msgid "Error from modification"
+msgstr ""
+
+#: /controllers/stations_controller.php:2945
+msgid "Error in upload"
+msgstr ""
+
+#: /controllers/stations_controller.php:2966
+msgid "File Transferred Successfully"
+msgstr ""
+
+#: /controllers/stations_controller.php:2971
+msgid "Maximum file size => 10M"
+msgstr ""
+
+#: /controllers/stations_controller.php:2978
+msgid "only .wav and .mp3 files are allowed"
+msgstr ""
+
+#: /controllers/stations_controller.php:3020
+msgid "Page in use by user : "
+msgstr ""
+
+#: /controllers/stations_controller.php:3065
+msgid "Limit of observers exceeded"
+msgstr ""
+
+#: /controllers/stations_controller.php:3169
+#: /views/stations/index.ctp:74;127
+#: /views/stations_orig/index.ctp:65;120
+msgid "Number"
+msgstr ""
+
+#: /controllers/stations_controller.php:3171
+#: /views/stations/index.ctp:129;132
+#: /views/stations_orig/index.ctp:122;125
+msgid "Exp"
+msgstr ""
+
+#: /controllers/stations_controller.php:3173
+#: /views/stations/edit.ctp:137
+#: /views/stations/index.ctp:77;135
+#: /views/stations_orig/index.ctp:68;128
+msgid "Port"
+msgstr ""
+
+#: /views/cake_socket.php:238
+msgid "Connection timed out"
+msgstr ""
+
+#: /views/list_new_bck.ctp:32
+#: /views/stations/lists.ctp:24
+#: /views/stations_orig/lists.ctp:24
+msgid "station_data"
+msgstr ""
+
+#: /views/list_new_bck.ctp:55;199
+#: /views/stations/lists.ctp:56;218
+#: /views/stations_orig/lists.ctp:56;218
+msgid "keyid"
+msgstr ""
+
+#: /views/list_new_bck.ctp:56;200
+#: /views/stations/lists.ctp:57;219
+#: /views/stations_orig/lists.ctp:57;219
+msgid "config"
+msgstr ""
+
+#: /views/list_new_bck.ctp:57;201
+#: /views/stations/lists.ctp:58;220
+#: /views/stations_orig/lists.ctp:58;220
+msgid "possible modi"
+msgstr ""
+
+#: /views/list_new_bck.ctp:58;202
+#: /views/locations/edit.ctp:116
+#: /views/stations/edit.ctp:127;337;1070
+#: /views/stations/lists.ctp:59;221
+#: /views/stations_orig/edit.ctp:106;289;982
+#: /views/stations_orig/lists.ctp:59;221
+msgid "feature values"
+msgstr ""
+
+#: /views/customers/index.ctp:44
+#: /views/customers/reports.ctp:37
+#: /views/dns/select_dn.ctp:369
+#: /views/dns/select_dn_logic.ctp:151
+#: /views/dns/selectdns.ctp:179
+#: /views/dns/viewdns.ctp:49
+#: /views/dns/viewdnsdetail.ctp:185
+#: /views/elements/scanerio.ctp:40
+#: /views/groups/index.ctp:35
+#: /views/logs/Copy of viewlog.ctp:125
+#: /views/logs/viewlog.ctp:178
+#: /views/mediatrixes/index.ctp:33
+#: /views/scenarios/edit.ctp:280
+#: /views/scenarios/index.ctp:72
+#: /views/stations/index.ctp:106
+#: /views/stations/select_station.ctp:147
+#: /views/stations_orig/index.ctp:100
+msgid "Export Csv"
+msgstr ""
+
+#: /views/customers/index.ctp:48
+#: /views/dns/index.ctp:32
+#: /views/dns/viewdns.ctp:53
+#: /views/elements/scanerio.ctp:44
+#: /views/groups/index.ctp:38
+#: /views/locations/index.ctp:40
+#: /views/logs/Copy of viewlog.ctp:122
+#: /views/logs/viewlog.ctp:175
+#: /views/mediatrixes/index.ctp:37
+#: /views/scenarios/index.ctp:80
+#: /views/stations/index.ctp:61;110
+#: /views/stations_orig/index.ctp:52;104
+#: /views/stations_orig/viewlog.ctp:44
+msgid "filter"
+msgstr ""
+
+#: /views/customers/index.ctp:53
+#: /views/dns/index.ctp:37
+#: /views/dns/select_dn.ctp:373
+#: /views/dns/select_dn_logic.ctp:155
+#: /views/dns/selectdns.ctp:183
+#: /views/dns/viewdns.ctp:57
+#: /views/dns/viewdnsdetail.ctp:189
+#: /views/elements/scanerio.ctp:47
+#: /views/groups/edit_cpu.ctp:83
+#: /views/groups/edit_madn.ctp:90
+#: /views/groups/edit_xlh.ctp:82
+#: /views/groups/index.ctp:42
+#: /views/locations/edit.ctp:88
+#: /views/locations/index.ctp:45
+#: /views/mediatrixes/index.ctp:41
+#: /views/stations/edit.ctp:72;97;1537
+#: /views/stations/index.ctp:113
+#: /views/stations/select_station.ctp:151
+#: /views/stations_orig/edit.ctp:57;76;1403
+#: /views/stations_orig/index.ctp:107
+#: /views/stations_orig/viewlog.ctp:49
+msgid "reset"
+msgstr ""
+
+#: /views/customers/index.ctp:110
+#: /views/customers/reports.ctp:574
+#: /views/reports/reports.ctp:298
+#: /views/scenarios/index.ctp:322
+msgid "corporatebusiness"
+msgstr ""
+
+#: /views/customers/index.ctp:111
+#: /views/customers/reports.ctp:575
+#: /views/dns/Copy of selectdns.20131210.ctp:354
+#: /views/dns/index.ctp:120
+#: /views/dns/select_dn.ctp:535
+#: /views/dns/select_dn_logic.ctp:321
+#: /views/dns/selectdns.ctp:361
+#: /views/dns/viewdns.ctp:219
+#: /views/dns/viewdnsdetail.ctp:416
+#: /views/groups/index.ctp:154
+#: /views/locations/edit.ctp:180
+#: /views/logs/Copy of viewlog.ctp:243
+#: /views/logs/viewlog.ctp:344
+#: /views/mediatrixes/edit.ctp:112
+#: /views/mediatrixes/index.ctp:184
+#: /views/reports/reports.ctp:299
+#: /views/scenarios/edit.ctp:440
+#: /views/scenarios/index.ctp:323
+#: /views/stations/index.ctp:197
+#: /views/stations/select_station.ctp:275
+#: /views/stations_orig/edit.ctp:1433
+#: /views/stations_orig/index.ctp:190
+#: /views/stations_orig/viewlog.ctp:134
+msgid "Home Swisscom"
+msgstr ""
+
+#: /views/customers/index.ctp:116
+#: /views/reports/reports.ctp:304
+msgid "Customer List"
+msgstr ""
+
+#: /views/customers/index.ctp:121
+#: /views/reports/reports.ctp:306
+msgid "This page allows internal users to list all customers and access a specific customer Voiphpone environments. <br> Once a customer is selected from the table then you will be operating in the same view as the customer."
+msgstr ""
+
+#: /views/customers/index.ctp:125
+msgid "gateCustomerSummary"
+msgstr ""
+
+#: /views/customers/reports.ctp:15
+msgid "CUSTOMER"
+msgstr ""
+
+#: /views/customers/reports.ctp:23
+#: /views/reports/reports.ctp:23
+msgid "Global Statistics"
+msgstr ""
+
+#: /views/customers/reports.ctp:174
+msgid "TSIMRING"
+msgstr ""
+
+#: /views/customers/reports.ctp:329
+msgid "CUSTOMER_OPTION STATISTICS"
+msgstr ""
+
+#: /views/customers/reports.ctp:392
+msgid "CUSTOMER_SLA STATISTICS"
+msgstr ""
+
+#: /views/customers/reports.ctp:414
+msgid "Blank SLA"
+msgstr ""
+
+#: /views/customers/reports.ctp:541
+msgid "FIXED REPORTS"
+msgstr ""
+
+#: /views/customers/reports.ctp:549
+msgid "DN Disovered in network and not in range"
+msgstr ""
+
+#: /views/customers/reports.ctp:550;556
+msgid "Report"
+msgstr ""
+
+#: /views/customers/reports.ctp:555
+msgid "Stations Exported from 4Voip without match on C20"
+msgstr ""
+
+#: /views/customers/reports.ctp:580
+#: /views/elements/left_menu.ctp:29
+msgid "Reports"
+msgstr ""
+
+#: /views/customers/reports.ctp:582
+msgid "Reports_blurb"
+msgstr ""
+
+#: /views/customers/view.ctp:23
+#: /views/scenarios/view.ctp:23
+msgid "station_created"
+msgstr ""
+
+#: /views/customers/view.ctp:24
+#: /views/scenarios/view.ctp:24
+msgid "last_modi"
+msgstr ""
+
+#: /views/customers/view.ctp:25
+#: /views/locations/view.ctp:27
+#: /views/scenarios/view.ctp:25
+msgid "Action"
+msgstr ""
+
+#: /views/customers/view.ctp:26
+#: /views/scenarios/index.ctp:170
+#: /views/scenarios/view.ctp:26
+msgid "Log"
+msgstr ""
+
+#: /views/dns/Copy of selectdns.20131210.ctp:154;194
+#: /views/dns/index.ctp:60
+#: /views/dns/select_dn.ctp:393
+#: /views/dns/select_dn_logic.ctp:174
+#: /views/dns/selectdns.ctp:154;203
+#: /views/dns/viewdns.ctp:26;84
+#: /views/dns/viewdnsdetail.ctp:158;209
+#: /views/groups/index.ctp:14;66
+#: /views/locations/index.ctp:26
+#: /views/logs/logdetails.ctp:12
+#: /views/mediatrixes/index.ctp:14;68
+#: /views/stations/select_station.ctp:171
+msgid "Id"
+msgstr ""
+
+#: /views/dns/Copy of selectdns.20131210.ctp:207
+#: /views/dns/selectdns.ctp:216
+msgid "+"
+msgstr ""
+
+#: /views/dns/Copy of selectdns.20131210.ctp:208
+#: /views/dns/selectdns.ctp:217
+msgid "-"
+msgstr ""
+
+#: /views/dns/Copy of selectdns.20131210.ctp:323
+#: /views/dns/select_dn.ctp:504
+#: /views/dns/select_dn_logic.ctp:285
+#: /views/dns/selectdns.ctp:332
+#: /views/dns/viewdnsdetail.ctp:385
+#: /views/features/individual_dn_edit.ctp:87
+#: /views/groups/edit_cpu.ctp:77
+#: /views/groups/edit_madn.ctp:84
+#: /views/groups/edit_xlh.ctp:76
+#: /views/stations/ANLGdesign.ctp:314
+#: /views/stations/anlg_station_features.ctp:327
+#: /views/stations/cicm_station_features.ctp:296
+#: /views/stations/design.ctp:330
+#: /views/stations/select_station.ctp:239
+msgid "Submit"
+msgstr ""
+
+#: /views/dns/Copy of selectdns.20131210.ctp:333
+#: /views/dns/index.ctp:101
+#: /views/dns/select_dn.ctp:514
+#: /views/dns/select_dn_logic.ctp:295
+#: /views/dns/selectdns.ctp:342
+#: /views/dns/viewdns.ctp:199
+#: /views/dns/viewdnsdetail.ctp:395
+#: /views/groups/index.ctp:134
+#: /views/stations/ANLGdesign.ctp:535
+#: /views/stations/anlg_station_features.ctp:548
+#: /views/stations/design.ctp:651
+msgid "No Dns available in DB"
+msgstr ""
+
+#: /views/dns/Copy of selectdns.20131210.ctp:358
+#: /views/dns/select_dn.ctp:539
+#: /views/dns/select_dn_logic.ctp:325
+#: /views/dns/selectdns.ctp:365
+#: /views/dns/viewdns.ctp:223
+#: /views/dns/viewdnsdetail.ctp:420
+#: /views/groups/index.ctp:158
+#: /views/mediatrixes/index.ctp:188
+#: /views/stations/select_station.ctp:279
+msgid "DN List"
+msgstr ""
+
+#: /views/dns/Copy of selectdns.20131210.ctp:360
+#: /views/dns/select_dn.ctp:541
+#: /views/dns/select_dn_logic.ctp:327
+#: /views/dns/selectdns.ctp:367
+#: /views/dns/viewdns.ctp:225
+#: /views/dns/viewdnsdetail.ctp:422
+#: /views/groups/index.ctp:160
+#: /views/mediatrixes/index.ctp:190
+#: /views/stations/select_station.ctp:281
+msgid "DN_blurb"
+msgstr ""
+
+#: /views/dns/index.ctp:61
+msgid "Range Name"
+msgstr ""
+
+#: /views/dns/index.ctp:108
+#: /views/features/individual_dn_edit.ctp:92
+#: /views/features/madn_edit.ctp:69
+#: /views/features/simring_edit.ctp:69
+#: /views/locations/edit.ctp:69
+#: /views/mediatrixes/edit.ctp:69
+#: /views/stations/edit.ctp:69
+#: /views/stations/index.ctp:184
+#: /views/stations_orig/index.ctp:177
+#: /views/stations_orig/viewlog.ctp:122
+msgid "Back"
+msgstr ""
+
+#: /views/dns/index.ctp:128
+#: /views/dns/viewdns.ctp:233
+#: /views/groups/index.ctp:168
+#: /views/locations/edit.ctp:216
+#: /views/logs/Copy of viewlog.ctp:251
+#: /views/logs/viewlog.ctp:352
+#: /views/mediatrixes/edit.ctp:148
+#: /views/mediatrixes/index.ctp:198
+#: /views/scenarios/edit.ctp:454
+#: /views/scenarios/index.ctp:339
+#: /views/stations/index.ctp:214
+#: /views/stations_orig/edit.ctp:1469
+#: /views/stations_orig/index.ctp:207
+#: /views/stations_orig/viewlog.ctp:142
+msgid "Internal User"
+msgstr ""
+
+#: /views/dns/index.ctp:129
+#: /views/dns/viewdns.ctp:234
+#: /views/groups/index.ctp:169
+#: /views/logs/Copy of viewlog.ctp:252
+#: /views/logs/viewlog.ctp:353
+#: /views/mediatrixes/index.ctp:199
+#: /views/scenarios/edit.ctp:455
+#: /views/stations_orig/viewlog.ctp:143
+msgid "Customer View:"
+msgstr ""
+
+#: /views/dns/viewdns.ctp:60
+#: /views/mediatrixes/index.ctp:44
+msgid "detail"
+msgstr ""
+
+#: /views/dns/viewdns.ctp:178
+msgid "Create Station From DN"
+msgstr ""
+
+#: /views/dns/viewdnsdetail.ctp:220
+msgid "ODS"
+msgstr ""
+
+#: /views/dns/viewdnsdetail.ctp:221
+msgid "trunk"
+msgstr ""
+
+#: /views/elements/left_menu.ctp:20
+msgid "Customers"
+msgstr ""
+
+#: /views/elements/left_menu.ctp:32;72
+msgid "Change Log"
+msgstr ""
+
+#: /views/elements/left_menu.ctp:45
+msgid "Stations"
+msgstr ""
+
+#: /views/elements/left_menu.ctp:48
+msgid "Dn List"
+msgstr ""
+
+#: /views/elements/left_menu.ctp:51
+msgid "Group List"
+msgstr ""
+
+#: /views/elements/left_menu.ctp:54
+msgid "Location List"
+msgstr ""
+
+#: /views/elements/left_menu.ctp:58;77
+msgid "Scenarios"
+msgstr ""
+
+#: /views/elements/left_menu.ctp:63
+msgid "Mediatrix"
+msgstr ""
+
+#: /views/elements/newtop.ctp:3
+#: /views/elements/pagination/newtop.ctp:3
+#: /views/elements/pagination/top.ctp:3
+msgid "Total Elements <b> %count% </b> &nbsp; &nbsp; Records per page :"
+msgstr ""
+
+#: /views/elements/scanerio.ctp:24;60
+#: /views/scenarios/index.ctp:51
+msgid "Scenario Name"
+msgstr ""
+
+#: /views/elements/scanerio.ctp:62
+#: /views/scenarios/create_schedule.ctp:282
+#: /views/scenarios/index.ctp:107
+msgid "Schedule"
+msgstr ""
+
+#: /views/features/individual_dn_edit.ctp:63
+#: /views/features/madn_edit.ctp:43
+#: /views/features/simring_edit.ctp:43
+#: /views/locations/edit.ctp:43
+#: /views/mediatrixes/edit.ctp:43
+#: /views/stations/edit.ctp:43
+#: /views/stations_orig/edit.ctp:31
+msgid "Xml Server is not responding"
+msgstr ""
+
+#: /views/features/individual_dn_edit.ctp:65
+#: /views/features/madn_edit.ctp:45
+#: /views/features/simring_edit.ctp:45
+#: /views/locations/edit.ctp:45
+#: /views/mediatrixes/edit.ctp:45
+#: /views/scenarios/index.ctp:22
+#: /views/stations/edit.ctp:45
+#: /views/stations_orig/edit.ctp:33
+msgid "There was a problem in applying the changes."
+msgstr ""
+
+#: /views/features/madn_edit.ctp:66
+#: /views/features/simring_edit.ctp:66
+#: /views/locations/edit.ctp:66;85
+#: /views/mediatrixes/edit.ctp:66
+#: /views/stations/edit.ctp:66;94;1534
+#: /views/stations_orig/edit.ctp:54;73;1400
+msgid "Validate"
+msgstr ""
+
+#: /views/groups/edit_cpu.ctp:80
+#: /views/groups/edit_madn.ctp:87
+#: /views/groups/edit_xlh.ctp:79
+msgid "Add Member"
+msgstr ""
+
+#: /views/groups/edit_cpu.ctp:189
+#: /views/groups/edit_madn.ctp:205
+#: /views/groups/edit_xlh.ctp:200
+msgid "No Members available in DB"
+msgstr ""
+
+#: /views/groups/index.ctp:17
+msgid "State"
+msgstr ""
+
+#: /views/layouts/default.ctp:119;119
+msgid "4-Sol Self-Care Interface"
+msgstr ""
+
+#: /views/layouts/default.ctp:125
+msgid "Logged in as"
+msgstr ""
+
+#: /views/layouts/default.ctp:125;125
+msgid "Logout"
+msgstr ""
+
+#: /views/layouts/default.ctp:156
+#: /views/layouts/bck/default.ctp:65
+#: /views/layouts/bck/9/default.ctp:65
+msgid "navigation"
+msgstr ""
+
+#: /views/layouts/default.ctp:174
+msgid "Informationen"
+msgstr ""
+
+#: /views/layouts/default.ctp:227
+msgid "Copyright 4-Sol AG 2013 | All Rights Reserved"
+msgstr ""
+
+#: /views/locations/edit.ctp:101
+#: /views/stations/edit.ctp:112
+#: /views/stations_orig/edit.ctp:91
+msgid "Phone"
+msgstr ""
+
+#: /views/locations/edit.ctp:105
+#: /views/stations/edit.ctp:116
+#: /views/stations_orig/edit.ctp:95
+msgid "Configuration Logs"
+msgstr ""
+
+#: /views/locations/edit.ctp:115
+#: /views/stations/edit.ctp:126;336;1069
+#: /views/stations_orig/edit.ctp:105;288;981
+msgid "Feature"
+msgstr ""
+
+#: /views/locations/edit.ctp:125
+msgid "feature"
+msgstr ""
+
+#: /views/locations/edit.ctp:126;138
+msgid "Feature_desc"
+msgstr ""
+
+#: /views/locations/edit.ctp:137
+msgid "emer"
+msgstr ""
+
+#: /views/locations/edit.ctp:159
+#: /views/stations/edit.ctp:319
+#: /views/stations_orig/edit.ctp:271
+msgid "Basic/Detailed View"
+msgstr ""
+
+#: /views/locations/edit.ctp:189
+#: /views/mediatrixes/edit.ctp:121
+#: /views/stations_orig/edit.ctp:1442
+msgid "Key assignment"
+msgstr ""
+
+#: /views/locations/edit.ctp:192
+#: /views/mediatrixes/edit.ctp:124
+#: /views/stations_orig/edit.ctp:1445
+msgid "Click one of the images below to view the key layout of the phone"
+msgstr ""
+
+#: /views/locations/edit.ctp:197
+#: /views/mediatrixes/edit.ctp:129
+msgid "E1140"
+msgstr ""
+
+#: /views/locations/edit.ctp:199
+#: /views/mediatrixes/edit.ctp:131
+msgid "E1120"
+msgstr ""
+
+#: /views/locations/edit.ctp:218
+#: /views/mediatrixes/edit.ctp:150
+#: /views/scenarios/index.ctp:341
+#: /views/stations/index.ctp:216
+#: /views/stations_orig/edit.ctp:1471
+#: /views/stations_orig/index.ctp:209
+msgid "Customer view:"
+msgstr ""
+
+#: /views/locations/edit.ctp:229
+#: /views/mediatrixes/edit.ctp:161
+#: /views/stations/index.ctp:256
+#: /views/stations_orig/edit.ctp:1482
+#: /views/stations_orig/index.ctp:249
+msgid "Upload"
+msgstr ""
+
+#: /views/locations/index.ctp:28
+msgid "Station_Count"
+msgstr ""
+
+#: /views/locations/index.ctp:29
+msgid "Actions"
+msgstr ""
+
+#: /views/locations/index.ctp:34;36
+msgid "not_flter"
+msgstr ""
+
+#: /views/locations/view.ctp:25
+msgid "LANG"
+msgstr ""
+
+#: /views/locations/view.ctp:26
+msgid "ext"
+msgstr ""
+
+#: /views/logs/Copy of viewlog.ctp:18
+#: /views/logs/viewlog.ctp:82;211
+#: /views/stations_orig/viewlog.ctp:19
+msgid "Customer"
+msgstr ""
+
+#: /views/logs/Copy of viewlog.ctp:21
+#: /views/logs/viewlog.ctp:85;218
+#: /views/scenarios/edit.ctp:275
+msgid "Scenario"
+msgstr ""
+
+#: /views/logs/Copy of viewlog.ctp:128
+#: /views/logs/viewlog.ctp:184;188
+msgid "Reset"
+msgstr ""
+
+#: /views/logs/Copy of viewlog.ctp:230
+#: /views/logs/viewlog.ctp:332
+#: /views/stations_orig/viewlog.ctp:115
+msgid "No modifications in DB"
+msgstr ""
+
+#: /views/logs/logdetails.ctp:3
+#: /views/logs_orig/logdetails.ctp:3
+#: /views/stations_orig/logdetails.ctp:3
+msgid "Log Details"
+msgstr ""
+
+#: /views/logs/logdetails.ctp:30
+#: /views/logs_orig/logdetails.ctp:24
+#: /views/stations_orig/logdetails.ctp:24
+msgid "Response"
+msgstr ""
+
+#: /views/logs/viewlog.ctp:113
+msgid "Advanced Filter"
+msgstr ""
+
+#: /views/logs/viewlog.ctp:134
+msgid "After Date"
+msgstr ""
+
+#: /views/logs/viewlog.ctp:136
+msgid "Before Date"
+msgstr ""
+
+#: /views/logs/viewlog.ctp:143;145
+msgid "Time"
+msgstr ""
+
+#: /views/logs/viewlog.ctp:231
+msgid "Created"
+msgstr ""
+
+#: /views/mediatrixes/edit.ctp:78
+msgid "Location_user"
+msgstr ""
+
+#: /views/mediatrixes/edit.ctp:91
+msgid "Port1"
+msgstr ""
+
+#: /views/mediatrixes/edit.ctp:95
+msgid "Port2"
+msgstr ""
+
+#: /views/mediatrixes/index.ctp:164
+msgid "No Mediatrix available in DB"
+msgstr ""
+
+#: /views/scenarios/create_schedule.ctp:18
+msgid "Please choose schedule date!"
+msgstr ""
+
+#: /views/scenarios/create_schedule.ctp:23
+msgid "Please enter future or current date only!"
+msgstr ""
+
+#: /views/scenarios/create_schedule.ctp:28
+msgid "Please enter the time!"
+msgstr ""
+
+#: /views/scenarios/create_schedule.ctp:32
+msgid "Please choose operation!"
+msgstr ""
+
+#: /views/scenarios/create_schedule.ctp:174
+msgid "Invalid Operation"
+msgstr ""
+
+#: /views/scenarios/create_schedule.ctp:182
+msgid "Reload"
+msgstr ""
+
+#: /views/scenarios/create_schedule.ctp:190
+msgid "Delete Confirmation Operation"
+msgstr ""
+
+#: /views/scenarios/create_schedule.ctp:201
+#: /views/stations/ANLGdesign.ctp:510
+#: /views/stations/anlg_station_features.ctp:523
+#: /views/stations/design.ctp:589
+msgid "Delete"
+msgstr ""
+
+#: /views/scenarios/create_schedule.ctp:224
+msgid "ACTIVATE"
+msgstr ""
+
+#: /views/scenarios/create_schedule.ctp:224
+msgid "DEACTIVATE"
+msgstr ""
+
+#: /views/scenarios/create_schedule.ctp:279
+msgid "Operation"
+msgstr ""
+
+#: /views/scenarios/create_schedule.ctp:280
+msgid "--Select--"
+msgstr ""
+
+#: /views/scenarios/edit.ctp:292
+msgid "Add Numbers"
+msgstr ""
+
+#: /views/scenarios/edit.ctp:296
+msgid "Create Script"
+msgstr ""
+
+#: /views/scenarios/edit.ctp:333
+msgid "Update Selected"
+msgstr ""
+
+#: /views/scenarios/edit.ctp:338
+msgid "Cancel"
+msgstr ""
+
+#: /views/scenarios/edit.ctp:354
+msgid "Accept"
+msgstr ""
+
+#: /views/scenarios/edit.ctp:359
+msgid "Reject"
+msgstr ""
+
+#: /views/scenarios/edit.ctp:369
+msgid "Request Validation"
+msgstr ""
+
+#: /views/scenarios/edit.ctp:424
+msgid ""
+msgstr ""
+
+#: /views/scenarios/edit.ctp:444
+msgid "Task List"
+msgstr ""
+
+#: /views/scenarios/edit.ctp:446
+msgid "This page is a Workflow page allowing users to view their asigned tasks"
+msgstr ""
+
+#: /views/scenarios/index.ctp:75
+msgid "Refresh"
+msgstr ""
+
+#: /views/scenarios/index.ctp:89
+msgid "There are currently no scenarios in the database"
+msgstr ""
+
+#: /views/scenarios/index.ctp:104
+msgid "scenario_name"
+msgstr ""
+
+#: /views/scenarios/index.ctp:149
+msgid "Create Schedule"
+msgstr ""
+
+#: /views/scenarios/index.ctp:154
+msgid "Activate"
+msgstr ""
+
+#: /views/scenarios/index.ctp:158
+msgid "Deactivate"
+msgstr ""
+
+#: /views/scenarios/index.ctp:162
+msgid "View Script"
+msgstr ""
+
+#: /views/scenarios/index.ctp:166
+#: /views/stations/design.ctp:570
+msgid "Edit"
+msgstr ""
+
+#: /views/scenarios/index.ctp:190
+msgid "Warning"
+msgstr ""
+
+#: /views/scenarios/index.ctp:192
+msgid "There were problems with the last performed activation script. Please retry the last operation and if unsuccessful contact the support organization."
+msgstr ""
+
+#: /views/scenarios/index.ctp:267
+msgid "Delete Schedule"
+msgstr ""
+
+#: /views/scenarios/index.ctp:329
+msgid "Scenario List"
+msgstr ""
+
+#: /views/scenarios/index.ctp:331
+msgid "This page allows gate users to list all onDemand scenarios. "
+msgstr ""
+
+#: /views/scenarios/scriptdetails.ctp:5
+msgid "Script Details"
+msgstr ""
+
+#: /views/scenarios/scriptdetails.ctp:14
+msgid "_scenarioName"
+msgstr ""
+
+#: /views/scenarios/scriptdetails.ctp:22
+msgid "Last Modified"
+msgstr ""
+
+#: /views/stations/ANLGdesign.ctp:105
+#: /views/stations/anlg_station_features.ctp:118
+#: /views/stations/design.ctp:181
+msgid "deleteStation"
+msgstr ""
+
+#: /views/stations/ANLGdesign.ctp:318
+#: /views/stations/anlg_station_features.ctp:331
+#: /views/stations/design.ctp:334
+#: /views/stations/edit.ctp:78
+msgid "resetFeatures"
+msgstr ""
+
+#: /views/stations/ANLGdesign.ctp:322
+#: /views/stations/anlg_station_features.ctp:335
+#: /views/stations/design.ctp:338
+msgid "edit"
+msgstr ""
+
+#: /views/stations/ANLGdesign.ctp:335
+#: /views/stations/anlg_station_features.ctp:348
+#: /views/stations/design.ctp:364
+msgid "undo"
+msgstr ""
+
+#: /views/stations/ANLGdesign.ctp:345;486;497
+#: /views/stations/anlg_station_features.ctp:358;499;510
+#: /views/stations/design.ctp:376
+msgid "Add DN"
+msgstr ""
+
+#: /views/stations/confirm_change.ctp:3
+#: /views/stations/edit.ctp:1548
+#: /views/stations_orig/confirm_change.ctp:3
+#: /views/stations_orig/edit.ctp:1414
+msgid "Modification Confirmation"
+msgstr ""
+
+#: /views/stations/confirm_change.ctp:63
+#: /views/stations_orig/confirm_change.ctp:63
+msgid "Sorry you didnt made any change"
+msgstr ""
+
+#: /views/stations/design.ctp:351
+msgid "station features"
+msgstr ""
+
+#: /views/stations/design.ctp:558
+msgid "No Options"
+msgstr ""
+
+#: /views/stations/edit.ctp:75
+msgid "Major Change"
+msgstr ""
+
+#: /views/stations/edit.ctp:138
+msgid "Port_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:150
+msgid "phone_type"
+msgstr ""
+
+#: /views/stations/edit.ctp:151
+msgid "phone_type_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:172
+#: /views/stations_orig/edit.ctp:124
+msgid "Password_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:207
+#: /views/stations_orig/edit.ctp:159
+msgid "CFRA"
+msgstr ""
+
+#: /views/stations/edit.ctp:208
+#: /views/stations_orig/edit.ctp:160
+msgid "CFRA_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:212;228;243;258
+#: /views/stations_orig/edit.ctp:164;180;195;210
+msgid "enabled"
+msgstr ""
+
+#: /views/stations/edit.ctp:223
+#: /views/stations_orig/edit.ctp:175
+msgid "CTI"
+msgstr ""
+
+#: /views/stations/edit.ctp:224
+#: /views/stations_orig/edit.ctp:176
+msgid "CTI_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:239
+#: /views/stations_orig/edit.ctp:191
+msgid "COMBOX"
+msgstr ""
+
+#: /views/stations/edit.ctp:239
+#: /views/stations_orig/edit.ctp:191
+msgid "COMBOX_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:254
+#: /views/stations_orig/edit.ctp:206
+msgid "CWT"
+msgstr ""
+
+#: /views/stations/edit.ctp:254
+#: /views/stations_orig/edit.ctp:206
+msgid "CWT_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:269
+#: /views/stations_orig/edit.ctp:221
+msgid "SIMRING"
+msgstr ""
+
+#: /views/stations/edit.ctp:269
+#: /views/stations_orig/edit.ctp:221
+msgid "SIMRING_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:283
+#: /views/stations_orig/edit.ctp:235
+msgid "Expansions"
+msgstr ""
+
+#: /views/stations/edit.ctp:283
+#: /views/stations_orig/edit.ctp:235
+msgid "Expansion_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:297
+#: /views/stations_orig/edit.ctp:249
+msgid "IDENTIFIED_CNN"
+msgstr ""
+
+#: /views/stations/edit.ctp:297
+#: /views/stations_orig/edit.ctp:249
+msgid "IDENTIFIED_CNN_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:334;1067
+#: /views/stations_orig/edit.ctp:286;979
+msgid "Key"
+msgstr ""
+
+#: /views/stations/edit.ctp:335;1068
+#: /views/stations_orig/edit.ctp:287;980
+msgid "Label"
+msgstr ""
+
+#: /views/stations/edit.ctp:513;1195
+#: /views/stations_orig/edit.ctp:463;1106
+msgid "DISPLAYNAME_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:533;1215
+#: /views/stations_orig/edit.ctp:483;1126
+msgid "LANGUAGE"
+msgstr ""
+
+#: /views/stations/edit.ctp:534;1216
+#: /views/stations_orig/edit.ctp:484;1127
+msgid "LANGUAGE_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:545;1227
+#: /views/stations_orig/edit.ctp:495;1138
+msgid "LANG_help"
+msgstr ""
+
+#: /views/stations/edit.ctp:555;1237
+#: /views/stations_orig/edit.ctp:505;1148
+msgid "BARRINGSET"
+msgstr ""
+
+#: /views/stations/edit.ctp:555;1237
+#: /views/stations_orig/edit.ctp:505;1148
+msgid "BARRINGSET_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:573;1255
+#: /views/stations_orig/edit.ctp:523;1166
+msgid "BARRINGSET_help"
+msgstr ""
+
+#: /views/stations/edit.ctp:589
+#: /views/stations_orig/edit.ctp:539
+msgid "CFB"
+msgstr ""
+
+#: /views/stations/edit.ctp:590
+#: /views/stations_orig/edit.ctp:540
+msgid "CFB_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:615
+#: /views/stations_orig/edit.ctp:565
+msgid "CFU"
+msgstr ""
+
+#: /views/stations/edit.ctp:616
+#: /views/stations_orig/edit.ctp:566
+msgid "CFU_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:640
+#: /views/stations_orig/edit.ctp:590
+msgid "CFK"
+msgstr ""
+
+#: /views/stations/edit.ctp:641
+#: /views/stations_orig/edit.ctp:591
+msgid "CFK_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:666
+#: /views/stations_orig/edit.ctp:616
+msgid "CFNA"
+msgstr ""
+
+#: /views/stations/edit.ctp:667
+#: /views/stations_orig/edit.ctp:617
+msgid "CFNA_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:692
+#: /views/stations_orig/edit.ctp:642
+msgid "CFDVT"
+msgstr ""
+
+#: /views/stations/edit.ctp:693
+#: /views/stations_orig/edit.ctp:643
+msgid "CFDVT_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:737;1293
+#: /views/stations_orig/edit.ctp:687;1204
+msgid "AUD"
+msgstr ""
+
+#: /views/stations/edit.ctp:739;1295
+#: /views/stations_orig/edit.ctp:689;1206
+msgid "BLF"
+msgstr ""
+
+#: /views/stations/edit.ctp:741;1297
+#: /views/stations_orig/edit.ctp:691;1208
+msgid "AUD_BLF_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:913;1337;1338
+#: /views/stations_orig/edit.ctp:827;1248;1249
+msgid "BLF Observers"
+msgstr ""
+
+#: /views/stations/edit.ctp:913;1338
+#: /views/stations_orig/edit.ctp:827;1249
+msgid "BLF Observers_desc"
+msgstr ""
+
+#: /views/stations/edit.ctp:1061
+#: /views/stations_orig/edit.ctp:973
+msgid "EXPANSION MODULE KEY DATA"
+msgstr ""
+
+#: /views/stations/index.ctp:57;206
+#: /views/stations_orig/index.ctp:48;199
+msgid "Upload MOH File"
+msgstr ""
+
+#: /views/stations/index.ctp:85
+#: /views/stations_orig/index.ctp:76
+msgid "No Location"
+msgstr ""
+
+#: /views/stations/index.ctp:128
+#: /views/stations_orig/index.ctp:121
+msgid "Display Name"
+msgstr ""
+
+#: /views/stations/index.ctp:201
+#: /views/stations_orig/index.ctp:194
+msgid "Music on Hold File"
+msgstr ""
+
+#: /views/stations/index.ctp:203
+#: /views/stations_orig/index.ctp:196
+msgid "It is possible to upload a custom music on hold file which will be made active immediately. To use this function click on the upload MoH button in the main section."
+msgstr ""
+
+#: /views/stations/index.ctp:226
+#: /views/stations_orig/index.ctp:219
+msgid "File Upload"
+msgstr ""
+
+#: /views/stations/index.ctp:236
+#: /views/stations_orig/index.ctp:229
+msgid "Select File"
+msgstr ""
+
+#: /views/stations/index.ctp:251
+#: /views/stations_orig/index.ctp:244
+msgid "moh_limit"
+msgstr ""
+
+#: /views/stations/index.ctp:251
+#: /views/stations_orig/index.ctp:244
+msgid "moh_license"
+msgstr ""
+
+#: /views/stations/select_station.ctp:249
+msgid "No Station available in DB"
+msgstr ""
+
+#: /views/stations_orig/edit.ctp:1450
+msgid "T1140"
+msgstr ""
+
+#: /views/stations_orig/edit.ctp:1452
+msgid "T1120"
+msgstr ""
+

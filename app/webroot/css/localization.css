@@ -1,0 +1,85 @@
+#tags {
+	table-layout:fixed;
+	width:534px;
+
+}
+
+.tablesorter-filter {
+	width:80px;
+}
+
+div[id*='errorMessage'] {
+	color:red;
+	float: right;
+}
+
+.counter {
+	color: #780000;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -5px;
+    position: absolute;
+}
+
+.truncate {
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width:100px;
+}
+
+span.truncate {
+	display: block;
+}
+
+td.truncate:hover {
+	overflow: visible;
+	display: block;    
+	background-color: #fff !important;
+	font-size: 12px;
+	padding:2px;
+	position:absolute;
+	font-weight:bold;
+	max-width: 600px;
+}
+
+span.truncate:hover {
+	overflow: visible;
+	display: block;    
+	background-color: #fff !important;
+	font-size: 12px;
+	padding:2px;	
+	font-weight:bold;
+	max-width: 600px;
+	cursor: pointer;
+}
+
+
+.dataTable .tablesorter-filter {
+	width:100%;
+}
+
+table#tags td {
+	word-wrap: break-word;
+}
+
+.overlay-error {
+	left: 50%;
+    margin: 0 0 0 -25%;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 50%;
+    z-index: 9999;
+}
+
+
+form .error, form .error:focus {
+    border-color:#dd1122;
+}
+
+form .form-change {
+    background-color: #C1D9F5;
+    border-color: #1047E0 ;
+    outline: 1px solid #1047E0 !important;
+}

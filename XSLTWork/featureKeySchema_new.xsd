@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2013 sp1 (x64) (http://www.altova.com) by Craig Martin (Romaris Ltd) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="featureList">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="DN" minOccurs="1" maxOccurs="unbounded">					
+					<xs:complexType mixed="true">
+								<xs:sequence>
+									<xs:element name="LANG" default="EN" minOccurs="1" maxOccurs="1"></xs:element>
+									<xs:element name="BARRINGSET" default="Set1" minOccurs="1" maxOccurs="1"></xs:element>
+									<xs:element name="LEADINGZERO" default="0" minOccurs="1" maxOccurs="1"></xs:element>																	
+									<xs:element name="CFB" type="xs:string" minOccurs="0" maxOccurs="1"/>
+									<xs:element name="CFU" type="xs:string" minOccurs="0" maxOccurs="1"/>
+									<xs:element name="CFK" type="xs:string" minOccurs="0" maxOccurs="1"/>
+									<xs:element name="BLF" type="xs:string" minOccurs="0" maxOccurs="1"/>
+									<xs:element name="DCPU" type="xs:string" minOccurs="0" maxOccurs="1"/>		
+								</xs:sequence>								
+								<xs:attribute name="shiftable" type="xs:boolean" fixed="true"/>
+								<xs:attribute name="key" type="xs:integer" default="1"/>							
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="SCS" minOccurs="1" maxOccurs="1">					
+					<xs:complexType mixed="true">							
+								<xs:attribute name="shiftable" type="xs:boolean" fixed="false"/>
+								<xs:attribute name="key" type="xs:integer" default="1"/>							
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="LNR" minOccurs="1" maxOccurs="1">					
+					<xs:complexType mixed="true">							
+								<xs:attribute name="shiftable" type="xs:boolean" fixed="false"/>
+								<xs:attribute name="key" type="xs:integer" default="1"/>							
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="DRING" minOccurs="1" maxOccurs="unbounded">					
+					<xs:complexType mixed="true">							
+								<xs:attribute name="shiftable" type="xs:boolean" fixed="false"/>
+								<xs:attribute name="key" type="xs:integer" default="1"/>							
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="UCDLG" minOccurs="1" maxOccurs="1">					
+					<xs:complexType mixed="true">							
+								<xs:attribute name="shiftable" type="xs:boolean" fixed="false"/>
+								<xs:attribute name="key" type="xs:integer" default="27"/>							
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CFB" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType mixed="true">						
+						<xs:sequence>
+							<xs:element name="CFDVT" default="16" minOccurs="1" maxOccurs="1"></xs:element>
+							<xs:element name="CFBStatus" default="0" minOccurs="1" maxOccurs="1"></xs:element>
+						</xs:sequence>												
+						<xs:attribute name="shiftable" type="xs:boolean" fixed="1"> </xs:attribute>
+						<xs:attribute name="coloc" type="xs:boolean" fixed="1"> </xs:attribute>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CFK" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType mixed="true">						
+						<xs:sequence>
+							<xs:element name="CFDVT" default="16" minOccurs="1" maxOccurs="1"></xs:element>
+							<xs:element name="CFKStatus" default="0" minOccurs="1" maxOccurs="1"></xs:element>
+						</xs:sequence>												
+						<xs:attribute name="shiftable" type="xs:boolean" fixed="1"> </xs:attribute>
+						<xs:attribute name="coloc" type="xs:boolean" fixed="1"> </xs:attribute>
+					</xs:complexType>
+				</xs:element>
+								<xs:element name="CFU" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType mixed="true">						
+						<xs:sequence>
+							<xs:element name="CFDVT" default="16" minOccurs="1" maxOccurs="1"></xs:element>
+							<xs:element name="CFUStatus" default="0" minOccurs="1" maxOccurs="1"></xs:element>
+						</xs:sequence>												
+						<xs:attribute name="shiftable" type="xs:boolean" fixed="1"> </xs:attribute>
+						<xs:attribute name="coloc" type="xs:boolean" fixed="1"> </xs:attribute>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="MSB" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType mixed="true">														
+						<xs:attribute name="coloc" type="xs:boolean" fixed="1"> </xs:attribute>													
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="AUD" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType mixed="true">														
+						<xs:attribute name="coloc" type="xs:boolean" fixed="1"> </xs:attribute>													
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="BLF" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType mixed="true">														
+						<xs:attribute name="coloc" type="xs:boolean" fixed="1"> </xs:attribute>													
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>					
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

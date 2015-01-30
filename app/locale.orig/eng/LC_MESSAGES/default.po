@@ -1,0 +1,905 @@
+--- Customer List ---------
+
+msgid  "Customer List"
+msgstr "Customer list"
+
+msgid  "close_window"
+msgstr "Close window"
+
+msgid  "where_pin"
+msgstr "Where is my PIN?"
+
+msgid  "navigation"
+msgstr "Navigation English"
+
+msgid  "filter"
+msgstr "search"
+
+msgid  "reset"
+msgstr "reset"
+
+msgid  "Back"
+msgstr "Back"
+
+
+msgid  "Total Elements"
+msgstr "Total entries"
+
+msgid  "Total Elements <b> %count% </b> &nbsp; &nbsp; Records per page :"
+msgstr "The list contains a total of %count% entries, display per page:  "
+
+msgid  "Name"
+msgstr "Customer name"
+
+msgid  "CNN"
+msgstr "CNN ID "
+
+msgid  "BSK"
+msgstr "BSK ID "
+
+msgid  "tester"
+msgstr "nonsense"
+
+---- Station List ----------
+
+msgid  "Station List"
+msgstr "Telephone list"
+
+msgid  "upload MOH file"
+msgstr "Upload music file"
+
+msgid  "Number"
+msgstr "Number"
+
+msgid  "Port"
+msgstr "Port"
+
+msgid  "Type"
+msgstr "Type"
+
+msgid  "Location"
+msgstr "Phones per location"
+
+msgid  "Exp"
+msgstr "Exp"
+
+msgid  "Music on Hold File"
+msgstr "Upload music on hold"
+
+msgid  "Station_Count"
+msgstr "Station count"
+
+msgid  "tester"
+msgstr "nonsense"
+
+msgid "FILE NOT FOUND"
+msgstr "File not found"
+ 
+msgid "File not valid : illegalFormat"
+msgstr " File not valid : illegalFormat "
+ 
+msgid "Infected File"
+msgstr "Infected File "
+
+msgid "File not valid : minLengthBoundaryViolation"
+msgstr "minimum length boundary violation"
+
+msgid "File not valid : maxLengthBoundaryViolation"
+msgstr "maximum length boundary violation"
+
+msgid "GGGGG"
+msgstr "Virus infection detected on file"
+ 
+msgid "File Transferred Successfully"
+msgstr " File Transferred Successfully "
+
+msgid "NONSENSE"
+msgstr "DO NOT REMOVE"
+
+--- Station Edit ------------
+
+msgid  "Station Details"
+msgstr "Telephone details"
+
+msgid  "Validate"
+msgstr "Validate"
+
+msgid  "Back"
+msgstr "Back"
+
+msgid  "Phone"
+msgstr "Phone"
+
+msgid  "Configuration Logs"
+msgstr "Change log"
+
+msgid  "Password"
+msgstr "Password"
+
+msgid  "Password_desc"
+msgstr "Password to register the telephone. 4-6 numbers between 0-9 are permitted."
+
+msgid  "Expansions"
+msgstr "Additional key module"
+
+msgid  "Expansion_desc"
+msgstr "Up to 18 additional keys are available per additional key module. Up to two additional key modules can be connected to an IP telephone"
+
+msgid  "Basic/Detailed View"
+msgstr "Advanced view"
+
+msgid  "Key"
+msgstr "Key"
+
+msgid  "key"
+msgstr "Key"
+
+msgid  "Label"
+msgstr "Label"
+
+msgid "feature values"
+msgstr "Function entry"
+
+msgid  "Feature"
+msgstr "Function description"
+
+msgid  "tester"
+msgstr "nonsense"
+
+---- Station keys -----------
+
+msgid  "station_data"
+msgstr "Phone data"
+
+msgid  "AUD"
+msgstr "Automatic dialling key (AUD)"
+
+msgid  "AUD_BLF_desc"
+msgstr "Select Automatic dialling key  or Busy display <br> <br> Automatic dialling key: one phone number can be stored for each automatic dialling key. Press the automatic dialling key to dial the stored number. (AUD, automatic dial) <br><br> Busy display: This function offers two service features. By pressing the button, a specified number can be dialled directly. With the BLF function, the busy status of the specified number can be seen via the lamp status. (BLF, Busy Lamp Field)"
+
+msgid  "AUTODISP"
+msgstr "Display number and name (Autodisp)"
+
+msgid  "AUTODISP_desc"
+msgstr "With the automatic display function, the callers name and telephone number can be displayed if the phone call is received on a line other than that on key 1. (AUTODISP, automatic display)"
+
+msgid  "BARRINGSET"
+msgstr "Barring set (NCOS)"
+
+msgid  "barringset"
+msgstr "Barring set"
+
+msgid  "BARRINGSET_desc"
+msgstr "5 barring sets are available, which can be used to prevent connections from being made to specified phone numbers. See info box for a more detailed description."
+
+msgid  "BARRINGSET_help"
+msgstr "Set1: Bar all public numbers <br>  Set2: Bar international numbers and value-added service numbers<br> Set3: Bar erotic service numbers<br> Set4: Carrier selection<br> Set5: Bar value-added service numbers "
+
+msgid  "BLF"
+msgstr "Busy display (BLF)"
+
+msgid  "blf"
+msgstr "Busy display (BLF)"
+
+msgid  "BLF_desc"
+msgstr "This function offers two service features. By pressing the button, a specified number can be dialled directly. With the BLF function, the busy status of the specified number can be seen via the lamp status. (BLF, Busy Lamp Field)"
+
+msgid  "BLF Observers"
+msgstr "Observers (BLF)"
+
+msgid  "BLF Observers_desc"
+msgstr "This is displayed if the number is busy."
+
+msgid  "CFB"
+msgstr "Call forwarding when busy (CFB)"
+
+msgid  "CFB_desc"
+msgstr " With the Call forwarding when busy function, incoming calls to the personal internal number received during a phone call are forwarded to a specified destination number. (CFB, Call Forwarding Busy)"
+
+msgid  "CFBEnable"
+msgstr "Call forwarding when busy (CFB)"
+
+msgid  "CFBEnable_desc"
+msgstr " With the Call forwarding when busy function, incoming calls  to the personal internal number received during a phone call are forwarded to a specified destination number. (CFB, Call Forwarding Busy)"
+
+msgid  "CFD"
+msgstr "Call forwarding when no answer (CFD)"
+
+msgid  "CFD_desc"
+msgstr "With this function, all incoming calls to the personal internal number that are not answered within a specified time are automatically forwarded to a specified destination number. (CFD, Call Forwarding Do Not Answer)"
+
+msgid "CFNA"
+msgstr "Call forwarding when no answer (CFNA)"
+
+msgid "CFNA_desc"
+msgstr "With this function, all incoming calls to the personal internal number that are not answered within a specified time are automatically forwarded to a specified destination number. (CFD, Call Forwarding Do Not Answer)"
+
+msgid  "CFNAEnable"
+msgstr "Call forwarding when no answer (CFNA)"
+
+msgid  "CFNAEnable_desc"
+msgstr "With this function, all incoming calls to the personal internal number that are not answered within a specified time are automatically forwarded to a specified destination number. (CFD, Call Forwarding Do Not Answer)"
+
+msgid "CFD"
+msgstr "Call forwarding if no answer after 14 seconds"
+
+msgid "CFD_desc"
+msgstr "With this function, incoming calls are automatically forwarded after 14 
+seconds"
+
+msgid  "CFDVT"
+msgstr "Call forwarding if no answer, variable time (CFDVT)"
+
+msgid  "CFDVT_desc"
+msgstr "With this function, you can specify how long the phone should ring before the call is forwarded to another specified destination number. Between 12 and 60 seconds is possible. (CFDVT)"
+
+msgid  "CFK"
+msgstr "Call forwarding using key (CFK)"
+
+msgid  "CFK_desc"
+msgstr "This function allows calls to be forwarded individually. (CFK, Call Forward Key)"
+
+msgid  "CFRA"
+msgstr "Remote call forwarding (CFRA)"
+
+msgid  "CFRA_desc"
+msgstr "With this function, authorised persons can activate forwarding for a phone number from another line. (CFRA, Call Forward Remote Access)"
+
+msgid  "CFU"
+msgstr "Direct call forwarding (CFU)"
+
+msgid  "CFU_desc"
+msgstr "With this function, incoming calls are forwarded directly to another phone number.(CFU, Call Forwarding Unconditional)"
+
+msgid  "CFUEnable"
+msgstr "Direct call forwarding (CFU)"
+
+msgid  "CFUEnable_desc"
+msgstr "With this function, incoming calls are forwarded directly to another phone number.(CFU, Call Forwarding Unconditional)"
+
+msgid  "CHD"
+msgstr "Call hold (CHD)"
+
+msgid  "CHD_desc"
+msgstr "This function is used to put an active call on hold. (CHD, Call Hold)"
+
+msgid  "CNAMD"
+msgstr "Caller identification (CNAMD)"
+
+msgid  "CNAMD_desc"
+msgstr "This function shows the callers name as well as the date and time of the call. (CNAMD, Calling Name Delivery)"
+
+msgid  "CNF"
+msgstr "Conference call (CNF)"
+
+msgid  "CNF_desc"
+msgstr "With this function, a conference call can be held with up to 10 callers. (CNF, Station Controlled Conference)"
+
+msgid "COMBOX"
+msgstr "VoIP COMBOX@ pro"
+
+msgid "COMBOX_desc"
+msgstr "Answering machine (Combox)"
+
+msgid  "CPU"
+msgstr "Call pickup (CPU)"
+
+msgid  "CPU_desc"
+msgstr "With this function, incoming calls to a group can be answered by any member of the group. (CPU, Call Pickup)"
+
+msgid  "CPUFeature"
+msgstr "Call pickup (CPU)"
+
+msgid  "CPUFeature_desc"
+msgstr "With this function, incoming calls to a group can be answered by any member of the group. (CPU, Call Pickup)"
+
+msgid  "CWI"
+msgstr "Call waiting intragroup (CWI)"
+
+msgid  "CWI_desc"
+msgstr "(CWI, Call Waiting Intragroup)"
+
+msgid  "CWT"
+msgstr "Call waiting (CWT)"
+
+msgid  "CWT_desc"
+msgstr "With this function, the participant is informed of an incoming call even if the line is already busy due to another call.(CWT, Call Waiting)"
+
+msgid  "CXR"
+msgstr "Transfer call (CXR)"
+
+msgid  "CXR_desc"
+msgstr "A call is transferred to another user. (CXR, Call Transfer)"
+
+msgid  "DCPK"
+msgstr "Park transferred calls (DCPK)"
+
+msgid  "DCPK_desc"
+msgstr "With this function, the system can hold or park calls on any valid DN. These calls can later be retrieved by any station. The station can park up to 100 calls at a time. (DCPK, Direct Call Park)"
+
+msgid  "DCPU"
+msgstr "Call pickup within team (DCPU)"
+
+msgid  "DCPU_desc"
+msgstr "With this function, members of a group can receive/answer incoming calls to other group members. (DCPU, Directed Call Pickup)"
+
+msgid  "DDN"
+msgstr "Dialable directory number (DDN)"
+
+msgid  "DDN_desc"
+msgstr "This function supports the display of the phone number, date and time of a call, so that the recipient can return the call. (DDN, Dialable Directory Number)"
+
+msgid  "DISPExt"
+msgstr "External display name"
+
+msgid  "DISPExt_desc"
+msgstr "External display name"
+
+msgid  "DISPLAYNAME"
+msgstr "Display name"
+
+msgid  "displayname"
+msgstr "Display name"
+
+msgid  "DISPLAYNAME_desc"
+msgstr "Name that is displayed to the caller. (A maximum of 12 characters from a-z, A-Z, 1-9 and underscore (_) are permitted)"
+
+msgid  "DN"
+msgstr "Directory number (DN)"
+
+msgid  "DN_desc"
+msgstr "Directory number (DN)"
+
+msgid  "DRING"
+msgstr "Distinctive ring tones (DRING)"
+
+msgid  "DRING_desc"
+msgstr "External and internal calls are indicated by different sounds. Select from a maximum of 8 ring tones (DRING, Distinctive Ringing)"
+
+msgid  "group_member"
+msgstr "Members of the group (team member)"
+
+msgid  "grptyp"
+msgstr "Group type"
+
+msgid  "hntid"
+msgstr "Collective connection (xLH)"
+
+msgid  "hntid_desc"
+msgstr "Hunt group (DLH, MLH)"
+
+msgid  "Id"
+msgstr "ID"
+
+msgid  "KSH"
+msgstr "Key short hunt (KSH)"
+
+msgid  "KSH_desc"
+msgstr "With this function, incoming calls can be automatically routed to a free number. An individual list of numbers that calls can be forwarded to can be created for each station. (KSH, Key Short Hunt)"
+
+msgid  "KSMOH"
+msgstr "Music on hold (KSMOH)"
+
+msgid  "KSMOH_desc"
+msgstr "When a call is put on hold or transferred, the waiting call hears the on-hold music. (KSMOH, Key Set Music On Hold)"
+
+msgid  "LANG"
+msgstr "Language"
+
+msgid  "lang"
+msgstr "Language"
+
+msgid  "LANG_desc"
+msgstr "The language that is used for announcements on this directory number"
+
+msgid  "LANG_help"
+msgstr "Select the language that is used for announcements on this directory number"
+
+msgid  "LANGUAGE"
+msgstr "Language (NCOS)"
+
+msgid  "LANGUAGE_desc"
+msgstr "The language that is used for announcements on this directory number"
+
+msgid  "LEADINGZERO"
+msgstr "Trunk connection (0 prefix)" 
+
+msgid  "LEADINGZERO_desc"
+msgstr "Trunk calls including abbreviated public numbers are only routed to the public network if a leading 0 is dialled."
+
+msgid  "LNR"
+msgstr "Last number redial (LNR)"
+
+msgid  "LNR_desc"
+msgstr "By pressing the # key twice, a connection is established to the last number dialled. (LNR, Last Number Redial)"
+
+msgid  "LOD"
+msgstr "Line overflow to directory number (LOD)"
+
+msgid  "LOD_desc"
+msgstr "With this function, incoming calls are automatically forwarded to another number if all the lines are busy. (LOD, Line Overflow to Directory Number)"
+
+msgid  "M522"
+msgstr "Additional key module (M522)"
+
+msgid  "M522_desc"
+msgstr "Additional key module (M522, key expansion module)"
+
+msgid  "madn"
+msgstr "Group parallel calling (MADN)"
+
+msgid  "madn_desc"
+msgstr "In additional to the personal phone numbers, an extra phone number can be set up on a special key as a group phone number. (MADN, Multi-appearance Group Number)"
+
+msgid  "madnpilot"
+msgstr "Pilot parallel phone number"
+
+msgid  "madnpilot_desc"
+msgstr "The pilot user is authorised to forward  calls received on the group phone number. (MADN, Multi-appearance Directory Number)"
+
+msgid  "MBSCAMP"
+msgstr "Meridian Business Set Station Camp-On"
+
+msgid  "MBSCAMP_desc"
+msgstr "With this function, a call can be forwarded to an occupied station. If the occupied station fails to answer the call within a set time, the call is returned to the original station. (MBSCAMP Meridian Business Set Station Camp-On)"
+
+msgid  "MSB"
+msgstr "Make set busy (MSB)"
+
+msgid  "MSB_desc"
+msgstr " With this function, any station can be made busy for incoming calls.  If no specific behaviour is defined, the busy tone sounds. (MSB, Make Set Busy)"
+
+msgid "MWT"
+msgstr "Message waiting (MWT)"
+
+msgid "MWT_desc"
+msgstr "Indicates new messages on VoIP Combox@ pro (MWT, Message Waiting)"
+
+msgid  "NCOS"
+msgstr "NOCS/OCB barring sets"
+
+msgid  "NCOS_desc"
+msgstr "5 barring sets are available, which can be used to prevent connections from being made to specified phone numbers. (NCOS, Number Class Of Service / Network Class of Service)"
+
+msgid  "Password"
+msgstr "Password"
+
+msgid  "pilot"
+msgstr "Pilot for group switching"
+
+msgid  "pilot_desc"
+msgstr "The pilot user is authorised to forward calls received on the group phone number."
+
+msgid  "PRK"
+msgstr "Park call (PRK)"
+
+msgid  "PRK_desc"
+msgstr "This function allows calls to be parked at any time. (PRK, Call Park)"
+
+msgid  "RAG"
+msgstr "Automatic callback when busy (RAG)"
+
+msgid  "RAG_desc"
+msgstr "With this function, the station user receives a message as soon as a station they dialled is free. (RAG, Ring Again)" 
+
+msgid  "ringorder"
+msgstr "Ring order for hunt groups"
+
+msgid  "ringorder_desc"
+msgstr "Ring order for hunt groups"
+
+msgid  "SCS"
+msgstr "Personal abbreviated dialling number (SCS)"
+
+msgid  "SCS_desc"
+msgstr "10 memory slots can be used to program phone numbers. (SCS, Speed Calling Short)"
+
+msgid  "SDNA"
+msgstr "Set up DN attributes (SDNA)"
+
+msgid  "SDNA_desc"
+msgstr "With this function, attributes can be added, changed or deleted for a specific dialling number group."
+
+msgid  "SIMRING"
+msgstr "Simultaneous ringing (SIMRING)"
+
+msgid  "Simring_desc"
+msgstr " With this function, not only the personal phone number rings when a call is received, but up to four predefined destination numbers."
+
+msgid  "SUPPRESS"
+msgstr "Suppress callers ID (Suppress)"
+
+msgid  "SUPPRESS_desc"
+msgstr "The person being called is not shown the callers phone number and name."
+
+msgid  "TFO"
+msgstr "Terminal fault option (TFO)"
+
+msgid  "TFO_desc"
+msgstr "With this function, an incoming call can be routed to the first user of a collective connection to become free, irrespective of whether this member is currently free."
+
+msgid  "TIMER"
+msgstr "Timer for CFD" 
+
+msgid  "TIMER_desc"
+msgstr "Not offered"
+
+msgid  "UCD"
+msgstr "Uniform call distribution (UCD)"
+
+msgid  "UCD_desc"
+msgstr "This function allows incoming calls to be .distributed among predefined destination stations. (USD, Uniform Call Distribution)"
+
+msgid  "UCDLG"
+msgstr "Uniform call distribution login (UCDLG)"
+
+msgid  "UCDLG_desc"
+msgstr "This function allows incoming calls to be .distributed among predefined destination stations. (USD, Uniform Call Distribution Login)"
+
+msgid  "set1"
+msgstr "Set 1"
+
+msgid  "set2"
+msgstr "Set 2"
+
+msgid  "set3"
+msgstr "Set 3"
+
+msgid  "set4"
+msgstr "Set 4"
+
+msgid "set5"
+msgstr "Set 5"
+
+msgid  "Set1"
+msgstr "Set 1"
+
+msgid  "Set2"
+msgstr "Set 2"
+
+msgid  "Set3"
+msgstr "Set 3"
+
+msgid  "Set4"
+msgstr "Set 4"
+
+msgid "Set5"
+msgstr "Set 5"
+
+msgid  "not used"
+msgstr "DO NOT REMOVE"
+
+---- log -----
+
+msgid  "Station Logs"
+msgstr "Telephone change log"
+
+msgid  "config"
+msgstr "Configuration"
+
+msgid  "config"
+msgstr "Configuration"
+
+msgid  "possible modi"
+msgstr "Possible selection"
+
+msgid  "station_created"
+msgstr "Station created"
+
+msgid  "last_modi"
+msgstr "Last modified"
+
+msgid  "Log"
+msgstr "Log"
+
+msgid  "not used"
+msgstr "DO NOT REMOVE"
+
+----------New items 0510 --------
+
+msgid "tester"
+msgstr "something"
+
+msgid "Click one of the images below to view the key layout of the phone"
+msgstr "For an overview of the key assignments, please select one of the following phone models. The keys on the second row or the second additional key module are shown in brackets."
+
+msgid  "close_window"
+msgstr "Close window"
+
+msgid  "(Configuration Logs)"
+msgstr "(Telephone change log)"
+
+msgid "Connection timed out"
+msgstr "Last changed"
+
+msgid "Customer view:"
+msgstr "Customer:"
+
+msgid "Customer View:"
+msgstr "Customer:"
+
+msgid "date"
+msgstr "Date"
+
+msgid "description"
+msgstr "Description"
+
+msgid "Error in upload"
+msgstr "Error in upload"
+
+msgid "File Upload"
+msgstr "Upload"
+
+msgid "Home Swisscom"
+msgstr "Swisscom homepage"
+
+msgid "id"
+msgstr "ID"
+
+msgid  "Id"
+msgstr "ID"
+
+msgid "Internal User"
+msgstr "Swisscom employee"
+
+msgid "It is possible to upload a custom music on hold file which will be made active immediately. To use this function click on the upload MoH button in the main section."
+msgstr "If required, on-hold music can be activated or changed. This is played to callers when they have to wait. Please use the following upload button for this"
+
+msgid "keyid"
+msgstr "Key"
+
+msgid "Log Details"
+msgstr "Change log"
+
+msgid "Modification Confirmation"
+msgstr "Change confirmation"
+
+msgid "No Location"
+msgstr "All locations"
+
+msgid "No modifications in DB"
+msgstr "No modifications in the database"
+
+msgid  "Reset"
+msgstr "Reset"
+
+msgid "Select File"
+msgstr "Select file"
+
+msgid  "station_created"
+msgstr "Creation date"
+
+msgid "status"
+msgstr "Status"
+
+msgid "There was a problem in applying the changes."
+msgstr "Errors occurred during the configuration"
+
+msgid "Upload"
+msgstr "Upload"
+
+msgid  "upload MOH file"
+msgstr "Upload"
+
+msgid "Upload MOH File"
+msgstr "Upload"
+
+msgid "user"
+msgstr "User"
+
+msgid "EXPANSION MODULE KEY DATA"
+msgstr "Keys for additional key fields:"
+
+msgid "label"
+msgstr "Label"
+
+msgid "update"
+msgstr "Updated"
+
+msgid "update to"
+msgstr "Updated"
+
+msgid "delete"
+msgstr "Delete"
+
+msgid "add"
+msgstr "Add"
+
+msgid  "aud_feature"
+msgstr "Automatic dialling key (AUD)"
+
+msgid  "aud_number"
+msgstr "Automatic dialling key (AUD) number"
+
+msgid  "blf_feature"
+msgstr "Busy display (BLF)"
+
+msgid  "_errorValidate"
+msgstr "Error during validation"
+
+msgid  "Sorry you didnt made any change"
+msgstr "You did not make any changes"
+
+msgid  "Password"
+msgstr "Password"
+
+msgid  "value changed"
+msgstr "Change"
+
+
+msgid  "Saved Successfully"
+msgstr "Performed successfully"
+
+msgid  "Error from modification"
+msgstr "Error when activating changes "
+
+msgid  "Sorry this page in use by user"
+msgstr "This page is being edited by: "
+
+msgid  "moh_limit"
+msgstr "Music files must be in WAV/MP3 format and no larger than 10 MB"
+
+msgid  "moh_license"
+msgstr " We would also like to remind you that any copyright levies (SUISA) are your responsibility." 
+
+msgid  "not used"
+msgstr "DO NOT REMOVE"
+
+
+---------Station Log Page---
+msgid  "Status"
+msgstr "Status"
+
+msgid  "Response"
+msgstr "Response"
+
+msgid  "Date"
+msgstr "Date/time"
+
+msgid  "Status"
+msgstr "Status"
+
+msgid  "Description"
+msgstr "Description"
+
+msgid  "This page allows internal users to list all customers and access a specific customer Voiphpone environments. <br> Once a customer is selected from the table then you will be operating in the same view as the customer."
+msgstr "This internal Swisscom page lists all VoIP phone and One Netbase customers. <br> After selecting a customer from the list, you can view their inventory and set configurations. This uses the same views as those for the authorised customer administrators."
+
+msgid  "only Wav file is allowed"
+msgstr "Upload interrupted as only WAV/MP3 formats are supported. <br> Please select a new, correct music file. "
+
+msgid  "Logged in as"
+msgstr "Logged in as"
+
+msgid "Key assignment"
+msgstr "Key assignment"
+
+msgid "File Conversion Failed"
+msgstr "File Conversion Failed"
+
+msgid  "T1140"
+msgstr "VoIP-Phone Business"
+
+msgid  "T1120"
+msgstr "VoIP-Phone Standard"
+
+msgid  "11xx"
+msgstr "VoIP-Phone Standard"
+
+msgid  "INDIVIDUAL"
+msgstr "zINDIVIDUAL"
+
+msgid "File not valid : Error , NO Response Received"
+msgstr "IFile not valid : Error , NO Response Received"
+
+msgid "Page in use by user : "
+msgstr "Page in use by user : "
+
+msgid "Informationen"
+msgstr "Information"
+
+msgid "corporatebusiness"
+msgstr "Corporate Business"
+
+msgid "Startseite Extranet Swisscom (Schweiz) AG - Grossunternehmen"
+msgstr "Home Extranet Swisscom (Switzerland) Ltd - Corporate Business"
+
+msgid "!!!!!!!!!!START OF RE2!!!!!!!!!!"
+msgstr "START OF RE2"
+
+msgid "View DN List"
+msgstr "View DN List"
+
+msgid "View Station List"
+msgstr "View Station List"
+
+msgid "Export Csv"
+msgstr "Export CSV"
+
+
+msgid "No Dns available in DB"
+msgstr "There are 0 DN records in the DB"
+
+msgid "Function"
+msgstr "Function"
+
+msgid "phone_type"
+msgstr "Phone Type"
+
+msgid "Before Date"
+msgstr "Before Date"
+
+msgid "After Date"
+msgstr "After Date"
+
+msgid "Advanced Filter"
+msgstr "Advanced Filter"
+
+msgid "User Logged In"
+msgstr "User Logged In"
+
+msgid "Scenario"
+msgstr "Szenario"
+
+msgid "STATION STATISTICS"
+msgstr "STATION STATISTICS"
+
+msgid "GROUP STATISTICS"
+msgstr "GROUP STATISTICS"
+
+msgid "USAGE STATISTICS"
+msgstr "USAGE STATISTICS"
+
+msgid "CUSTOMER STATISTICS"
+msgstr "CUSTOMER STATISTICS"
+
+msgid "FIXED REPORTS"
+msgstr "FIXED REPORTS"
+
+msgid "Reports"
+msgstr "Reports"
+
+msgid "Reports_blurb"
+msgstr "This page allows internal users to list all customers and access a specific customer Voiphpone environments. <br> Once a customer is selected from the table then you will be operating in the same view as the customer."
+
+msgid "DN_blurb"
+msgstr "This page allows internal users to list all numbers associated with a customer."
+
+msgid "S.No."
+msgstr "S.No."
+
+msgid "Statistic"
+msgstr "Statistic"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "FAILURE"
+msgstr "FAILURE"
+
+msgid "FAILURE"
+msgstr "FAILURE"
+
+msgid "Warning"
+msgstr "Warning"
+
+msgid "There were problems with the last performed activation script. Please retry the last operation and if unsuccessful contact the support organization."
+msgstr "There were problems with the last performed activation script. Please retry the last operation and if unsuccessful contact the support organization."
+
+msgid "Last Modified"
+msgstr "Last Modified"
+
+msgid "CICM"
+msgstr "zCICM"
+
+msgid "I"
+msgstr "Inactive"
+
+msgid "A"
+msgstr "Active"
+
+msgid "Used"
+msgstr "zUsed"
+
+msgid "INPROGRESS"
+msgstr "zINPROGRESS"

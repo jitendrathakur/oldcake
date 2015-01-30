@@ -1,0 +1,223 @@
+/* Formular */
+
+fieldset {
+	border: 0px;
+}
+
+
+.form-head {
+	float: left;   
+	width: 532px;
+	margin-left: 7px;
+	margin-right: 7px;
+	margin-bottom: 10px;	
+}
+
+.form-head p {
+	float: left;
+	display: block;
+	padding: 0px 0px 0px 0px;
+	margin-right: 10px;
+}
+
+.form-head select {
+	float: left;
+	display: block;
+	border: 1px solid #cccccc; 	
+	padding: 0px 0px 0px 0px;
+	width: 150px;
+	margin-top: 6px;
+}
+
+.form-body {
+	clear: left;
+	float: left;
+	width: 532px;
+	margin-left: 7px;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+.form-body .form-title.first {
+	margin-top: 0px;
+}
+
+.form-body .checkbox {
+	border: 0px;
+	width: 25px;
+	float: left;
+	margin-top: 2px;
+}
+
+
+.form-body .form-middle {
+	width: 90px;
+	margin-right: 2px;
+}
+
+.form-body legend {
+	margin: 0px 0px 0px 0px;
+	padding: 8px 5px 10px 5px;
+}
+
+.form-body label, .form-body .label {
+	float: left;
+	width: 92px;
+	text-align: left;
+	margin: 0px;
+	padding-right: 5px;
+	padding-left: 0px;
+}
+
+.form-body input {
+	width: 130px;
+	float: left;
+	padding: 2px;
+	margin: 0px 2px 5px 0px;	
+	border: 1px solid #cccccc;
+}
+
+.form-body .top {
+	margin-top: 14px;
+}
+
+.form-body select {
+	float: left;	
+	border: 1px solid #cccccc; 
+	padding: 2px;
+	margin: 0px;	
+	width: 126px;
+	margin-bottom: 5px;
+}
+
+.form-body .button {
+	margin: 0px 2px 0px 15px;
+}
+
+.form-body .button-hover {
+	margin: 0px 2px 0px 15px;
+}
+
+.form-body br {
+	clear: left; 
+}
+
+.form-body h3 {
+	color: #001155;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.form-body .form-x-short {
+	margin-left: 5px;
+	width: 35px;
+}
+
+.form-body h4 {
+	clear: both;
+	margin-bottom: 10px;
+}
+
+
+ 
+.form-body .form-short {
+ 	width: 29px;
+ 	margin-right: 5px;
+}
+
+.form-title {
+	clear: both;
+	width: 100%;
+	float: left; 
+	padding: 0px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #555555; 
+}
+
+.form-title h4 {
+	float: left; 
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+.form-title span {
+	float: right;
+}
+
+.form-footer {  
+	clear: both; 
+	width: 532px;
+	margin-left: 7px;
+	margin-right: 7px;
+	margin-bottom: 10px;
+}
+
+.form-footer input {
+	margin-right: 5px;
+}
+
+.form-box .form-left {
+	float: left;
+	width: 266px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.form-box .form-right {
+	float: left;
+	width: 266px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.form-body .form-radio {
+	float: left;
+	width: 20px;
+	margin-top: 4px;
+	margin-right: 2px;
+	border: 0px;
+
+}
+
+.form-body .radio {
+	float: left;
+	height: 22px;
+	margin-bottom: 2px;
+}
+
+.form-body .radio label {
+	float: left;
+	width: auto;
+	padding-top: 2px;
+	margin-right: 5px;
+}
+
+.form-body .radio-vertical {
+	float: left;
+	margin-bottom: 2px;
+}
+
+.form-body .radio-vertical label {
+	float: left;
+	width: auto;
+	padding-top: 2px;
+	margin-right: 20px;
+}
+
+.form-box {
+	clear: both;
+	margin-bottom: 10px;
+
+}
+
+.form-body .headline-search-input {
+	margin-top: 14px;
+}
+
+.form-body .datum {
+	width: 115px;
+}
+
+

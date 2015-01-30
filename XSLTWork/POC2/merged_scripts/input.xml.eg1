@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Configuration>
+    <Station custCTI="1" id="997772402" port="CICM 00 0 00 18">       
+        <feature id="01@997772402-DN_INDIVIDUAL" key="01">
+            <label/>
+            <primary_value>997772402</primary_value>
+            <short_name>DN_INDIVIDUAL</short_name>
+            <stationkey_id>01@997772402</stationkey_id>
+        </feature>
+        <feature id="02@997772402-DN_MADN" key="02">
+            <label/>
+            <primary_value>997772412</primary_value>
+            <short_name>DN_MADN</short_name>
+            <stationkey_id>02@997772402</stationkey_id>
+        </feature>
+        <feature id="03@997772402-DN_MADN_PILOT" key="03">
+            <label/>
+            <primary_value>test DN_MADN_PILOT</primary_value>
+            <short_name>DN_MADN_PILOT</short_name>
+            <stationkey_id>03@997772402</stationkey_id>
+        </feature>
+        <feature id="02@997772402-LANG" key="02">
+            <label/>
+            <primary_value>de</primary_value>
+            <short_name>LANG</short_name>
+            <stationkey_id>02@997772402</stationkey_id>
+        </feature>
+        <feature id="02@997772402-BARRINGSET" key="02">
+            <label/>
+            <primary_value>de BARRINGSET</primary_value>
+            <short_name>BARRINGSET</short_name>
+            <stationkey_id>02@997772402</stationkey_id>
+        </feature>
+        <feature id="99@997772402-DN_INDIVIDUAL" key="99" status="99">
+            <label/>
+            <primary_value>997778010</primary_value>
+            <short_name>DN_INDIVIDUAL</short_name>
+            <stationkey_id>99@997772402</stationkey_id>
+        </feature>
+    </Station>
+</Configuration>

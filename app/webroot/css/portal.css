@@ -1,0 +1,451 @@
+
+
+#content .block-linklist-eservices-left {
+	float: left;
+	display: block;
+	width: 248px;
+}
+
+#content .block-linklist-eservices-right {
+	float: left;
+	width: 248px;
+	margin-left: 7px;
+}
+
+#content .block-linklist-eservices-left ul , #content .block-linklist-eservices-right ul {
+	margin-top: 0px;
+}
+
+#content .block-linklist-eservices-left li, #content .block-linklist-eservices-right li {
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	color: #001155;
+	
+}
+
+#content .block-linklist-eservices-left li li, #content .block-linklist-eservices-right li li  {	
+	margin-left: 10px;
+	margin-bottom: 0px;
+	font-weight: normal;
+}
+
+#content .block-linklist-eservices-left li li li, #content .block-linklist-eservices-right li li li  {
+	margin-left: 7px;
+}
+
+/* wegen ie6 */
+#content .block-linklist-eservices-left li,  #content .block-linklist-eservices-right li {
+	border: 1px solid #ffffff;
+}
+
+#content .block-linklist-eservices-left a {
+	display: block;
+	background-image: url("../images/assets/arrow-blue.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left: 8px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+	color: #555555;
+	
+}
+
+#content .block-linklist-eservices-right a {
+	display: block;
+	background-image: url("../images/assets/arrow-blue.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left: 8px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+	color: #555555;
+}
+
+#content .block-linklist-eservices-right a:hover, #content .block-linklist-eservices-left a:hover {
+	color: #11AAFF;
+}
+
+#content .form-produkteberatung ul li a {
+	padding-right: 9px;
+	color: #555555;
+	background: url("../images/assets/arrow-blue.gif")  no-repeat right;
+}
+
+#content .form-produkteberatung ul li a:hover {
+	color: #11AAFF;
+	text-decoration: none;
+}
+
+
+[disabled] { 
+	color:#ccc;
+    background-color:#eee;
+}
+
+#lani-ip-address-change input, #lani-ip-address-change label {
+	width: 120px;
+}
+
+
+.voipone {
+	float: left;
+	width: 170px;
+}
+
+.voiptwo {
+	float: left;
+	width: 60px;
+	margin-left: 8px;
+	margin-right: 2px;
+}
+
+.voipthree {
+	float: left;
+	width: 60px;
+	margin-left: 8px;
+	margin-right: 2px;
+}
+
+#content .voipminorchanges input {
+	width: 105px;
+	margin-right: 0px;
+}
+
+
+.form-title {
+	margin-top: 20px;
+	clear: left;
+}
+
+.form-box label {
+	width: 92px;
+}
+
+.form-box .radio label {
+	width: auto;
+	margin-right: 5px;
+}
+
+.device-description {
+	float: left;
+	margin-left: 10px;
+}
+
+.form-body .radio-vertical {
+	float: left;
+	margin-bottom: 2px;
+}
+
+.form-body .radio-vertical label {
+	float: left;
+	width: auto;
+	padding-top: 2px;
+	margin-right: 20px;
+}
+
+.news-selected {
+	color: #001155;
+}
+
+.ankerlink {
+	float: right;
+}
+
+
+#related-content .doku {
+	width: 175px;
+	padding: 0px;
+	border: 0px;
+	border-spacing: 0px;
+}
+
+#related-content .doku-left {
+	float: left;
+	width: 23px;
+	padding: 0px;
+	border: 0px;
+	vertical-align: top;
+	margin: 0px;
+}
+
+#related-content .doku-left img {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	
+}
+
+#related-content .doku-middle {
+	float: left;
+	width: 112px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+#related-content .doku-right {
+	float: left;
+	width: 40px;
+	text-align: right;
+	vertical-align: top;	
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+
+#content .eservice-info h2 {
+	color: #001155;
+}
+
+#content .eservice-info h3 {
+	color: #001155;
+	font-size: 12px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+
+.form-body .form-title.first {
+	margin-top: 0px;
+}
+
+#content fieldset h3 {
+	color: #001155;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+#content fieldset .form-x-short {
+	margin-left: 5px;
+	width: 35px;
+}
+
+#content .eservice-info ul {
+	list-style-type: disc;
+	padding-left: 20px;
+}
+
+
+.form-body .checkbox {
+	border: 0px;
+	width: 25px;
+	float: left;
+	margin-top: 2px;
+}
+
+
+.form-body input {
+	width: 130px;
+	margin-right: 2px;
+}
+
+.form-body .form-short {
+	width: 34px;
+	
+}
+
+.form-body .form-middle {
+	width: 85px;
+	margin-right: 2px;
+}
+
+.form-body .form-long {
+	width: 250px;
+}
+
+
+.light-blue {
+	color: #11AAFF;
+}
+
+
+#content .left {
+	height: 275px;
+	background: url(../images/assets/hub-right-275.gif) right bottom no-repeat;
+}
+
+#content .right {
+	height: 275px;
+	background: url(../images/assets/hub-left-275.gif) left bottom no-repeat;
+}
+
+
+/* Zeile eservices */
+
+
+#content .eservice-row {
+	float: left;
+	display: block;
+	width: 548px;	
+	background: url(../images/assets/bg-eservice.gif) top no-repeat;
+}
+
+
+#content .eservice-row-one {
+	float: left;
+	display: block;
+	width: 548px;
+	background: url(../images/assets/bg-eservice-one.gif) top no-repeat;	
+}
+
+
+
+#content .eservice-row-top-left {
+	display: inline;
+	float: left;
+	width: 260px;
+	margin-bottom: 10px;
+	margin-left: 7px;
+	padding-right: 7px;
+	padding-bottom: 0px;
+}
+
+#content .eservice-row-top-right {
+	display: inline;
+	float: left;
+	width: 253px;
+	margin-bottom: 10px;
+	margin-right: 7px;
+	padding-left: 14px;
+	padding-bottom: 0px;
+}
+
+#content .eservice-row-bottom {
+	clear: left;
+}
+
+#content .eservice-row-bottom-left {
+	display: inline;
+	float: left;
+	width: 253px;
+	margin-bottom: 0px;
+	margin-left: 7px;
+	margin-right: 5px;
+	padding-right: 7px;
+	padding-bottom: 0px;
+	border-bottom: 1px solid #bbbbbb;	
+}
+
+#content .eservice-row-bottom-right {
+	display: inline;
+	float: left;
+	width: 253px;
+	margin-bottom: 0px;
+	margin-left: 7px;
+	margin-right: 7px;
+	padding-left: 7px;
+	padding-bottom: 0px;
+	border-bottom: 1px solid #bbbbbb;	
+}
+
+
+#content .eservice-row-bottom-border {
+	float: left;
+	width: 255px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-bottom: 1px solid #bbbbbb;	
+	padding-right: 5px;	
+}
+
+
+#content .block-linklist a:hover {
+	color: #11AAFF
+} 
+
+.table-strong-authentification {
+	width: 536px;
+}
+
+.table-strong-authentification td {
+	vertical-align: top;
+}
+
+.table-strong-authentification td input.form-short {
+	margin-top: 4px;
+}
+
+
+
+.form-body .button {
+	margin: 0px 2px 0px 15px;
+}
+
+.form-body .button-hover {
+	margin: 0px 2px 0px 15px;
+}
+
+
+.block-eservices {
+	width: 552px;
+	float: left;
+	display: block;
+}
+
+
+#content .news ol {
+	margin-left: 22px;
+}
+
+.topspace {
+	display: block;
+	width: 100%;
+	height: 27px;
+}
+
+.notification .error .message p {
+	color: #ff0000;
+}
+
+
+.voip-gate-change-table .voip-gate-change-row-first td {
+	vertical-align: top;
+}
+
+.voip-gate-change-table .voip-gate-change-row-second td {
+	vertical-align: top;
+}
+
+
+#myeservicescontent ul li {
+	float: left;
+	width: 50%;
+}
+
+#voip-phone-order {
+	margin-bottom: 10px;
+}
+
+
+#voip-phone-order .first {
+	padding: 0px 10px 0px 10px;
+}
+
+
+.flyout {
+	background-image: url('bg-fly-top-large.gif')
+}
+
+
+
+
+
+
+
+
+
+

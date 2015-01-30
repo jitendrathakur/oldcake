@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Configuration>
+  <Station id="997779999" status="1">
+    <feature id="01@997779999-DN_INDIVIDUAL" key="01">
+      <primary_value>
+        997779999
+      </primary_value>
+      <label/>
+    </feature>
+    <feature id="01@997779999-MADN" key="01" status="99">
+      <primary_value>
+        0909090909
+      </primary_value>
+      <label/>
+    </feature>
+    <feature id="01@997779999-CFUStatus" key="01">
+      <primary_value>
+        1
+      </primary_value>
+      <label/>
+    </feature>
+    <feature id="02@997779999-SCS" key="02">
+      <primary_value>
+        Craig
+      </primary_value>
+      <label/>
+    </feature>
+    <feature id="01@997779999-NCOS" key="01">
+      <primary_value>
+        64
+      </primary_value>
+      <label/>
+    </feature>
+    <feature id="01@997779999-DN" key="01">
+      <primary_value>
+        997779999
+      </primary_value>
+      <label>
+        997779999&lt;br&gt;
+      </label>
+    </feature>
+    <feature id="01@997779999-BARRINGSET" key="01">
+      <primary_value>
+        3
+      </primary_value>
+      <label/>
+    </feature>
+    <feature id="01@997779999-DISPLAYNAME" key="01">
+      <primary_value>
+        TESTDISP
+      </primary_value>
+      <label/>
+    </feature>
+    <feature id="01@997779999-LEADINGZERO" key="01">
+      <primary_value>
+        1
+      </primary_value>
+      <label/>
+    </feature>
+    <feature id="01@997779999-CFU" key="01">
+      <primary_value>
+        123
+      </primary_value>
+      <label/>
+    </feature>
+    <feature id="01@997779999-CFDVT" key="01">
+      <primary_value>
+        12
+      </primary_value>
+      <label/>
+    </feature>
+  </Station>
+</Configuration>

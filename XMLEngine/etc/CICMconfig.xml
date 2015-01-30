@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <station test="testValx">
+
+    <!-- Station Features -->
+    
+        <feature name="M522" short_name="M522" type="station" mandatory="n" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="0"/>
+           		<addCommand name="add-M522" var-extensions="element:primary_value" required="y" priority="94" linkto="M522"/>
+                <updateCommand name="update-M522" var-extensions="element:primary_value" required="y" linkto="M522"/>
+                <deleteCommand name="delete-M522" required="y" priority="5" linkto="M522"/>
+		<feature name="MOH" short_name="MOH" type="station" mandatory="y" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="0"/>
+				<addCommand name="add-MOH" required="y" linkto="MOH"/>
+				<deleteCommand name="delete-MOH" required="y" linkto="MOH"/>
+		<feature name="COM" short_name="COM" type="station" mandatory="y" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="0"/>
+		<feature name="CTI" short_name="CTI" type="station" mandatory="xpath:Configuration/Station/@custCTI" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="xpath:Configuration/Station/@custCTI"/>
+				<addCommand name="add-CTI" required="y" linkto="CTI"/>
+				<deleteCommand name="delete-CTI" required="y" linkto="CTI"/>
+		<feature name="SCS" short_name="SCS" type="station" mandatory="y" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="1"/>
+				<addCommand name="add-SCS"  priority="90" required="y" linkto="SCS"/>
+		<feature name="UCD" short_name="UCD" type="station" mandatory="n" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="1"/>
+				<addCommand name="add-UCD"  priority="90" required="y" linkto="UCD"/>
+				<deleteCommand name="delete-UCD" priority="80" required="y" linkto="UCD"/>
+						
+    	<feature name="SIMRING" short_name="SIMRING" type="station" mandatory="n" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue=""/>
+                <addCommand name="add-SIMRING" var-featKey="default:1" required="y" linkto="SIMRING"/>
+                <addCommand name="update-SIMRING" var-featKey="default:1" required="y" linkto="SIMRING"/>
+                <deleteCommand name="delete-SIMRING" var-featKey="default:1" required="y" linkto="SIMRING"/>
+
+                <cfeature name="SIMRINGMEMBER1" short_name="SIMRINGMEMBER1" defaultValue="" mandatory="xpath:Configuration/Station/feature[short_name='SIMRING']/primary_value" occur="9" parent="SIMRING"/>
+                        <updateCommand name="add-SIMRINGMEMBER" var-featKey="default:1" var-memberdn="element:primary_value" required="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-SIMRINGMEMBER1']/primary_value!=''" linkto="SIMRINGMEMBER1"/>
+                        <updateCommand name="delete-SIMRINGMEMBER" var-featKey="default:1" var-memberdn="xpath:Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-SIMRINGMEMBER1']/primary_value" required="xpath:Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-SIMRINGMEMBER1']/primary_value" linkto="SIMRINGMEMBER1"/>
+                		<updateCommand name="update-SIMRING" var-featKey="default:1" required="y" linkto="SIMRINGMEMBER1"/>
+                <cfeature name="SIMRINGMEMBER2" short_name="SIMRINGMEMBER2" defaultValue="" mandatory="xpath:Configuration/Station/feature[short_name='SIMRING']/primary_value" occur="9" parent="SIMRING"/>
+                        <updateCommand name="add-SIMRINGMEMBER" var-featKey="default:1" var-memberdn="element:primary_value" required="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-SIMRINGMEMBER2']/primary_value!=''" linkto="SIMRINGMEMBER2"/>
+                        <updateCommand name="delete-SIMRINGMEMBER" var-featKey="default:1" var-memberdn="xpath:Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-SIMRINGMEMBER2']/primary_value" required="xpath:Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-SIMRINGMEMBER2']/primary_value" linkto="SIMRINGMEMBER2"/>
+                		<updateCommand name="update-SIMRING" var-featKey="default:1" required="y" linkto="SIMRINGMEMBER2"/>
+                <cfeature name="SIMRINGMEMBER3" short_name="SIMRINGMEMBER3" defaultValue="" mandatory="xpath:Configuration/Station/feature[short_name='SIMRING']/primary_value" occur="9" parent="SIMRING"/>
+                        <updateCommand name="add-SIMRINGMEMBER" var-featKey="default:1" var-memberdn="element:primary_value" required="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-SIMRINGMEMBER3']/primary_value!=''" linkto="SIMRINGMEMBER3"/>
+                        <updateCommand name="delete-SIMRINGMEMBER" var-featKey="default:1" var-memberdn="xpath:Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-SIMRINGMEMBER3']/primary_value" required="xpath:Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-SIMRINGMEMBER3']/primary_value" linkto="SIMRINGMEMBER3"/>
+                		<updateCommand name="update-SIMRING" var-featKey="default:1" required="y" linkto="SIMRINGMEMBER3"/>
+                <cfeature name="SIMRINGMEMBER4" short_name="SIMRINGMEMBER4" defaultValue="" mandatory="xpath:Configuration/Station/feature[short_name='SIMRING']/primary_value" occur="9" parent="SIMRING"/>
+                        <updateCommand name="add-SIMRINGMEMBER" var-featKey="default:1" var-memberdn="element:primary_value" required="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-SIMRINGMEMBER4']/primary_value!=''" linkto="SIMRINGMEMBER4"/>
+                        <updateCommand name="delete-SIMRINGMEMBER" var-featKey="default:1" var-memberdn="xpath:Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-SIMRINGMEMBER4']/primary_value" required="xpath:Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-SIMRINGMEMBER4']/primary_value" linkto="SIMRINGMEMBER4"/>
+						<updateCommand name="update-SIMRING" var-featKey="default:1" required="y" linkto="SIMRINGMEMBER4"/>
+    	
+    	<!-- Key features -->
+    	
+    	<feature name="PRK" short_name="PRK" type="key" mandatory="n" defaultKey="1" priority="60" shiftable="y" coloc="n" defaultValue="1"/>
+    				<addCommand name="add-PRK" required="y" priority="90" linkto="PRK"/>
+					<deleteCommand name="delete-PRK" required="y" linkto="PRK"/>
+		<feature name="RAG" short_name="RAG" type="key" mandatory="n" defaultKey="1" priority="65" shiftable="y" coloc="n" defaultValue="1"/>
+					<addCommand name="add-RAG" required="y" priority="90" linkto="RAG"/>
+					<deleteCommand name="delete-RAG" required="y" linkto="RAG"/>
+		<feature name="CWT" short_name="CWT" type="key" mandatory="n" defaultKey="2" priority="90" shiftable="y" coloc="n" defaultValue="1"/>
+					<addCommand name="add-CWT" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='DN_INDIVIDUAL' or short_name='DN_MADN_PILOT']/@zkey" required="y" priority="90" linkto="CWT"/>
+					<deleteCommand name="delete-CWT" required="y" linkto="CWT"/>
+		<feature name="UCDLG" short_name="UCDLG" type="key" mandatory="n" defaultKey="2" priority="89" shiftable="y" coloc="n" defaultValue="1"/>
+					<addCommand name="add-UCDLG" var-ucdgrp="element:primary_value" priority="80" required="y" linkto="UCDLG"/>
+					<deleteCommand name="delete-UCDLG" priority="90" required="y" linkto="UCDLG"/>
+					
+		<feature name="CNF" short_name="CNF" type="key" mandatory="n" defaultKey="2" priority="50" shiftable="y" coloc="n" defaultValue="1"/>
+					<addCommand name="add-CNF" required="y" priority="90" linkto="CNF"/>
+					<deleteCommand name="delete-CNF" required="y" linkto="CNF"/>
+		<feature name="BLF" short_name="BLF" type="key" mandatory="n" defaultKey="2" priority="40" shiftable="y" coloc="n" defaultValue="1"/>
+					<deleteCommand name="delete-BLF" priority="40" required="y" linkto="BLF"/>
+					<deleteCommand name="update-LABEL" var-attribute1="" var-station_id="xpath:Activations/TOBEConfiguration/Station/@id" priority="40" required="y" linkto="BLF"/>
+    				<addCommand name="add-BLF" var-attribute1="element:primary_value"  required="y" linkto="BLF"/>
+    				<addCommand name="update-LABEL" var-attribute1="element:label" var-station_id="xpath:Activations/TOBEConfiguration/Station/@id" required="y" linkto="BLF"/>
+		    		<updateCommand name="update-BLF" var-attribute1="element:primary_value" required="xpath:Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-BLF']/primary_value != Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-BLF']/primary_value" linkto="BLF"/>
+		    		<updateCommand name="update-LABEL" var-attribute1="element:label" var-station_id="xpath:Activations/TOBEConfiguration/Station/@id" required="y" linkto="BLF"/>
+		<feature name="AUD" short_name="AUD" type="key" mandatory="n" defaultKey="2" priority="40" shiftable="y" coloc="n" defaultValue="1"/>
+					<deleteCommand name="delete-AUD_FEATURE" priority="40" required="y" linkto="AUD"/>
+					<deleteCommand name="update-LABEL" var-attribute1="" var-station_id="xpath:Activations/TOBEConfiguration/Station/@id" priority="40" required="y" linkto="AUD"/>
+		    		<addCommand name="add-AUD_FEATURE" required="y" linkto="AUD"/>
+		    		<addCommand name="add-AUD_NUMBER" var-attribute1="element:primary_value" required="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-AUD']/primary_value!=''" linkto="AUD"/>
+		    		<addCommand name="update-LABEL" var-attribute1="element:label" var-station_id="xpath:Activations/TOBEConfiguration/Station/@id" required="xpath:Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-AUD']/label != Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-AUD']/label" linkto="AUD"/>
+		    		<updateCommand name="add-AUD_NUMBER" var-attribute1="element:primary_value" required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-AUD' and primary_value!=''])=0 and (Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-AUD']/primary_value != Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-AUD']/primary_value)" linkto="AUD"/>
+		    		<updateCommand name="update-AUD_NUMBER" var-attribute1="element:primary_value" required="xpath:count(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-AUD' and primary_value=''])=0 and count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-AUD' and primary_value=''])=0 and Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-AUD']/primary_value != Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-AUD']/primary_value" linkto="AUD"/>
+		    		<updateCommand name="delete-AUD_NUMBER" var-attribute1="element:primary_value" required="xpath:count(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-AUD' and primary_value=''])=1 and (Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-AUD']/primary_value != Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-AUD']/primary_value)" linkto="AUD"/>
+		    		<updateCommand name="update-LABEL" var-attribute1="element:label" var-station_id="xpath:Activations/TOBEConfiguration/Station/@id" required="xpath:Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-AUD']/label != Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-AUD']/label" linkto="AUD"/>
+    		
+    	<feature name="CPU" short_name="CPU" type="key" mandatory="n" defaultKey="2" priority="80" shiftable="y" coloc="n" defaultValue="1"/>
+					<addCommand name="add-CPU" var-cpuLen="element:cpuLen" var-keyList="default:_DOLLAR_" required="y" priority="90" linkto="CPU"/>
+					<updateCommand name="update-CPU" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/@zkey" var-cpuLen="element:cpuLen" var-keyList="default:_DOLLAR_" required="y" priority="90" linkto="CPU"/>
+					<deleteCommand name="delete-CPU" required="y" linkto="CPU"/>    			
+    	<feature name="CXR" short_name="CXR" type="key" mandatory="n" defaultKey="2" priority="88" shiftable="y" coloc="n" defaultValue="1"/>
+    				<addCommand name="add-CXR" var-method="default:RLS" var-rcltim="default:12" var-cxrrcl="default:Y" var-cxfertype="default:CTALL" required="y" priority="90" linkto="CXR"/>
+					<deleteCommand name="delete-CXR" required="y" linkto="CXR"/>
+		<feature name="FXR" short_name="FXR" type="key" mandatory="n" defaultKey="2" priority="88" shiftable="y" coloc="n" defaultValue="1"/>
+    				<addCommand name="add-FXR" var-rcltim="default:12" var-fxrrcl="default:Y" required="y" priority="90" linkto="FXR"/>
+					<deleteCommand name="delete-FXR" required="y" linkto="FXR"/>
+		<feature name="MWT" short_name="MWT" type="key" mandatory="n" defaultKey="1" priority="85" shiftable="y" coloc="n" defaultValue="1"/>
+					<addCommand name="add-MWT" var-car="default:N" var-crx="default:Y" required="y" linkto="MWT"/>
+					<deleteCommand name="delete-MWT" required="y" linkto="MWT"/>
+		<feature name="MSB" short_name="MSB" type="key" mandatory="n" defaultKey="2" priority="87" shiftable="y" coloc="n" defaultValue="1"/>
+		    		<addCommand name="add-MSB"  var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSBMEMBER' and primary_value=1]/@zkey" required="y" linkto="MSB"/>
+					<deleteCommand name="delete-MSB" required="y" linkto="MSB"/>
+		
+		<feature name="DN_INDIVIDUAL" short_name="DN" type="key" mandatory="n" defaultKey="1" priority="95" shiftable="y" coloc="n" defaultValue="123"/>
+    				<addCommand name="add-DN_INDIVIDUAL" var-dn="element:primary_value" var-lccAcc="default:m5216" var-custGrp="xpath:Activations/TOBEConfiguration/Station/@custGrp" var-custSubGrp="default:0" var-ringingCICM="default:Y" var-ncos="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-NCOS']/primary_value" required="y" priority="100" linkto="DN_INDIVIDUAL"/>
+					<zaddCommand name="update-CFU"  var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']/@zkey" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']" linkto="DN_INDIVIDUAL"/>
+					<addCommand name="update-CFK" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFKFEATURE']/@zkey" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFKFEATURE']" linkto="DN_INDIVIDUAL"/>
+					<addCommand name="update-CWT" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CWT']/@zkey" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='DN_INDIVIDUAL' or short_name='DN_MADN_PILOT']/@zkey" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CWT']" linkto="DN_INDIVIDUAL"/>
+					<addCommand name="update-CFB" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFBFEATURE']/@zkey" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFBFEATURE']" linkto="DN_INDIVIDUAL"/>
+					<addCommand name="update-CFNA" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFNAFEATURE']/@zkey" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFNAFEATURE']" linkto="DN_INDIVIDUAL"/>
+					<addCommand name="update-CPU" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/@zkey" var-cpuLen="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/cpuLen"  required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']" linkto="DN_INDIVIDUAL"/>
+					<addCommand name="update-CGPNSCRNLOC" var-dn="element:primary_value" var-emer="xpath:Activations/TOBEConfiguration/Station/@emer"  required="y" linkto="DN_INDIVIDUAL"/>
+					<addCommand name="update-AUTODISP" var-featKey="default:1" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='AUTODISP']" linkto="DN_INDIVIDUAL"/>
+					<deleteCommand name="delete-DN_INDIVIDUAL" var-dn="element:primary_value" required="y" linkto="DN_INDIVIDUAL"/> 
+					<deleteCommand name="update-CWT" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CWT']/@zkey" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='DN_INDIVIDUAL' or short_name='DN_MADN_PILOT']/@zkey" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CWT']" linkto="DN_INDIVIDUAL"/>
+					   			
+    		<cfeature name="INITIAL_PWD" short_name="INITIAL_PWD" defaultValue="unused" mandatory="n" occur="1" parent="DN_INDIVIDUAL"/>  			
+    				<addCommand name="add-PASSWORD" var-attribute1="xpath:Activations/TOBEConfiguration/Station/@password" required="y" linkto="DN_INDIVIDUAL:INITIAL_PWD"/>
+    		<cfeature name="USER_ID" short_name="USER_ID" defaultValue="parent:primary_value" mandatory="n" occur="1" parent="DN_INDIVIDUAL"/>  			
+    				<addCommand name="add-USERID" var-attribute1="element:primary_value" required="y" priority="90" linkto="DN_INDIVIDUAL:USER_ID"/>
+    		<cfeature name="DISPLAYNAME" short_name="DISPLAYNAME" defaultValue="DNIND" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+    				<addCommand name="add-DISPLAYNAME" var-attribute1="element:primary_value" var-cust_presgrp="xpath:Activations/TOBEConfiguration/Station/@custPresGrp" required="y" linkto="DN_INDIVIDUAL:DISPLAYNAME"/>
+					<updateCommand name="update-DISPLAYNAME" var-attribute1="element:primary_value" var-cust_presgrp="xpath:Activations/TOBEConfiguration/Station/@custPresGrp" required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DISPLAYNAME'])=1" linkto="DN_INDIVIDUAL:DISPLAYNAME"/>
+					<updateCommand name="add-DISPLAYNAME" var-attribute1="element:primary_value" var-cust_presgrp="xpath:Activations/TOBEConfiguration/Station/@custPresGrp" required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DISPLAYNAME'])=0" linkto="DN_INDIVIDUAL:DISPLAYNAME"/>
+    		<cfeature name="BARRINGSET" short_name="BARRINGSET" defaultValue="xpath:Configuration/Station/feature[short_name='BARRINGSET' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+    		<cfeature name="NCOS" short_name="NCOS" defaultValue="xpath:Configuration/Station/feature[short_name='NCOS' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+					<updateCommand name="update-NCOS" var-attribute1="element:primary_value" required="y" linkto="DN_INDIVIDUAL:NCOS"/>
+			<cfeature name="CFUNUMBER" short_name="CFUNUMBER" defaultValue="" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+    				<updateCommand name="update-CFX" var-cftype="default:CFU" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="element:primary_value" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']" linkto="DN_INDIVIDUAL:CFUNUMBER"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFK" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="element:primary_value" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFKFEATURE']" linkto="DN_INDIVIDUAL:CFUNUMBER"/>
+			<cfeature name="CFUSTATUS" short_name="CFUSTATUS" defaultValue="I" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/> 
+    				<updateCommand name="update-CFX" var-cftype="default:CFU" var-status="element:primary_value" var-number="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUNUMBER']/primary_value" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']" linkto="DN_INDIVIDUAL:CFUSTATUS"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFK" var-status="element:primary_value" var-number="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUNUMBER']/primary_value" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFKFEATURE']" linkto="DN_INDIVIDUAL:CFUSTATUS"/>
+			<cfeature name="CFBNUMBER" short_name="CFBNUMBER" defaultValue="" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+    				<updateCommand name="update-CFX" var-cftype="default:CFB" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFBSTATUS']/primary_value" var-number="element:primary_value" required="y" linkto="DN_INDIVIDUAL:CFBNUMBER"/>
+			<cfeature name="CFDVT" short_name="CFDVT" defaultValue="16" mandatory="xpath:Configuration/Station/feature[short_name='CFUFEATURE' or short_name='CFKFEATURE']" occur="9" parent="DN_INDIVIDUAL"/>
+
+					<addCommand name="add-CFDVT" var-attribute1="element:primary_value" required="y" priority="89" linkto="DN_INDIVIDUAL:CFDVT"/>
+					<updateCommand name="update-CFDVT" var-attribute1="element:primary_value" required="y" linkto="DN_INDIVIDUAL:CFDVT"/>
+					<updateCommand name="add-CFDVT" var-attribute1="element:primary_value" required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-CFDVT'])=0" linkto="DN_INDIVIDUAL:CFDVT"/>
+					
+			<cfeature name="CFBSTATUS" short_name="CFBSTATUS" defaultValue="I" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/> 
+    				<updateCommand name="update-CFX" var-cftype="default:CFB" var-status="element:primary_value" var-number="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFBNUMBER']/primary_value" required="y" linkto="DN_INDIVIDUAL:CFBSTATUS"/>
+			<cfeature name="CFNANUMBER" short_name="CFNANUMBER" defaultValue="" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+    				<updateCommand name="update-CFX" var-cftype="default:CFD" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFNASTATUS']/primary_value" var-number="element:primary_value" required="y" linkto="DN_INDIVIDUAL:CFNANUMBER"/>
+			<cfeature name="CFNASTATUS" short_name="CFNASTATUS" defaultValue="I" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFD" var-status="element:primary_value" var-number="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFNANUMBER']/primary_value" required="y" linkto="DN_INDIVIDUAL:CFNASTATUS"/>
+			<cfeature name="CFUMEMBER" short_name="CFUMEMBER" defaultValue="1" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFU" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUNUMBER']/primary_value" required="xpath:(Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE'] and (Activations/ASISConfiguration/Station/feature[short_name='CFUFEATURE']/@id != Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']/@id))" linkto="DN_INDIVIDUAL:CFUMEMBER"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFK" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUNUMBER']/primary_value" required="xpath:(Activations/TOBEConfiguration/Station/feature[short_name='CFKFEATURE'] and (Activations/ASISConfiguration/Station/feature[short_name='CFKFEATURE']/@id != Activations/TOBEConfiguration/Station/feature[short_name='CFKFEATURE']/@id))" linkto="DN_INDIVIDUAL:CFUMEMBER"/>
+		
+			<cfeature name="CFBMEMBER" short_name="CFBMEMBER" defaultValue="1" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFB" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="element:primary_value" required="xpath:(Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE'] and (Activations/ASISConfiguration/Station/feature[short_name='CFUFEATURE']/@id != Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']/@id))" linkto="DN_INDIVIDUAL:CFBMEMBER"/>
+					
+			<cfeature name="CFNAMEMBER" short_name="CFNAMEMBER" defaultValue="1" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFD" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="element:primary_value" required="xpath:(Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE'] and (Activations/ASISConfiguration/Station/feature[short_name='CFUFEATURE']/@id != Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']/@id))" linkto="DN_INDIVIDUAL:CFNAMEMBER"/>
+					
+			<cfeature name="LNR" short_name="LNR" defaultValue="1" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+    				<addCommand name="add-LNR" required="y" linkto="LNR"/>
+    		<cfeature name="DCPU" short_name="DCPU" defaultValue="1" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+    				<addCommand name="add-DCPU" required="y" linkto="DCPU"/>
+			<cfeature name="LANG" short_name="LANG" defaultValue="xpath:Configuration/Station/feature[short_name='LANG' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="LEADINGZERO" short_name="LEADINGZERO" defaultValue="xpath:Configuration/Station/feature[short_name='LEADINGZERO' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="SDNA" short_name="SDNA" defaultValue="0" mandatory="n" occur="9" parent="DN_INDIVIDUAL"/>
+					<addCommand name="add-SDNA" var-areacode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_INDIVIDUAL']/primary_value,1,2))" var-ofcode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_INDIVIDUAL']/primary_value,3,3))" var-digits="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_INDIVIDUAL']/primary_value,6,4))" var-pn="element:primary_value" required="y" linkto="DN_INDIVIDUAL:SDNA"/>
+					<updateCommand name="add-SDNA" var-areacode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_INDIVIDUAL']/primary_value,1,2))" var-ofcode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_INDIVIDUAL']/primary_value,3,3))" var-digits="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_INDIVIDUAL']/primary_value,6,4))" var-pn="element:primary_value" required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-SDNA'])=0" linkto="DN_INDIVIDUAL:SDNA"/>
+					<updateCommand name="update-SDNA" var-areacode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_INDIVIDUAL']/primary_value,1,2))" var-ofcode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_INDIVIDUAL']/primary_value,3,3))" var-digits="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_INDIVIDUAL']/primary_value,6,4))" var-pn="element:primary_value" required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-SDNA'])=1" linkto="DN_INDIVIDUAL:SDNA"/>
+					<deleteCommand name="delete-SDNA" var-areacode="xpath:find-value(substring(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DN_INDIVIDUAL']/primary_value,1,2))" var-ofcode="xpath:find-value(substring(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DN_INDIVIDUAL']/primary_value,3,3))" var-digits="xpath:find-value(substring(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DN_INDIVIDUAL']/primary_value,6,4))" var-pn="element:primary_value" required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-SDNA'])=1" linkto="DN_INDIVIDUAL:SDNA"/>
+					
+            <cfeature name="DRING" short_name="DRING" defaultValue="1" mandatory="n" occur="9" parent="DN_INDIVIDUAL"/>
+					<addCommand name="add-DRING" var-custCTI="xpath:Configuration/Station/@custCTI" var-other="xpath:Configuration/Station/@id" required="y" linkto="DN_INDIVIDUAL:DRING"/>
+    				<deleteCommand name="delete-DRING" required="y" linkto="DN_INDIVIDUAL:DRING"/>
+    		<cfeature name="SUPPRESS" short_name="SUPPRESS" defaultValue="1" mandatory="n" occur="9" parent="DN_INDIVIDUAL"/>
+					<addCommand name="add-SUPPRESS" var-PresGrpExt="xpath:Activations/TOBEConfiguration/Station/@custPresGrp" required="y" linkto="DN_INDIVIDUAL:SUPPRESS"/>
+					<updateCommand name="add-SUPPRESS" var-PresGrpExt="xpath:Activations/TOBEConfiguration/Station/@custPresGrp" required="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-SUPPRESS']/primary_value=1" linkto="DN_INDIVIDUAL:SUPPRESS"/>
+					<updateCommand name="delete-SUPPRESS" required="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-SUPPRESS']/primary_value=0" linkto="DN_INDIVIDUAL:SUPPRESS"/>
+			<cfeature name="MSBMEMBER" short_name="MSBMEMBER" defaultValue="0" mandatory="xpath:Configuration/Station/feature[short_name='MSB']/primary_value" occur="9" parent="DN_INDIVIDUAL"/>
+				<updateCommand name="update-MSB" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSB']/@zkey" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSBMEMBER' and primary_value=1]/@zkey" required="y" linkto="DN_INDIVIDUAL:MSBMEMBER"/>
+				<cfeature name="CPUMEMBER" short_name="CPUMEMBER" defaultValue="1" mandatory="xpath:Configuration/Station/feature[short_name='CPU']/primary_value" occur="9" parent="DN_INDIVIDUAL"/>
+					<updateCommand name="update-CPU" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/@zkey" var-cpuLen="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/cpuLen" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPUMEMBER' and primary_value=1]/@zkey" required="y" linkto="DN_INDIVIDUAL:CPUMEMBER"/>
+    		<!--  <gggdfegggaggture name="CFBFEATURE" short_name="CFBFEATURE" type="key" mandatory="y" defaultKey="1" priority="99" shiftable="y" coloc="y" defaultValue="1" occur="1" parent="DN_INDIVIDUAL"/> TEMPORARY ADD AS A C FEATURE-->
+			
+			<!--  CFX KEY FEATURES -->
+			
+			<dfeature name="CFUFEATURE" short_name="CFUFEATURE" type="key" mandatory="xpath:count(Configuration/Station/feature[short_name='DN_INDIVIDUAL' or short_name='DN_MADN_PILOT' or short_name='DN_XLH_PILOT'])=1" defaultKey="2" priority="80" shiftable="y" coloc="n" defaultValue="1" occur="1" parent="DN_INDIVIDUAL"/>
+						<addCommand name="add-CFU" var-keyList="default:_DOLLAR_" required="y" priority="95" linkto="CFUFEATURE"/>
+    			    	<updateCommand name="update-CFU" required="y" linkto="CFUFEATURE"/>
+						<deleteCommand name="delete-CFU" required="y" priority="94" linkto="CFUFEATURE"/>	
+					<cfeature name="CFRA" short_name="CFRA" defaultValue="77777" mandatory="n" occur="1" parent="CFUFEATURE"/>
+						<addCommand name="add-CFRA" var-cfrapw="xpath:Activations/TOBEConfiguration/Station/@cfra_pin" required="y" priority="94" linkto="CFUFEATURE:CFRA"/>
+						<updateCommand name="update-CFRA" var-cfrapw="xpath:Activations/TOBEConfiguration/Station/@cfra_pin" required="y" linkto="CFUFEATURE:CFRA"/>
+						<deleteCommand name="delete-CFRA" required="y" priority="95" linkto="CFRA"/>		
+			<dfeature name="CFKFEATURE" short_name="CFKFEATURE" type="key" mandatory="xpath:count(Configuration/Station/feature[short_name='DN_INDIVIDUAL' or short_name='DN_MADN_PILOT' or short_name='DN_XLH_PILOT'])>1" defaultKey="2" priority="80" shiftable="y" coloc="n" defaultValue="1" occur="1" parent="DN_INDIVIDUAL"/>
+					<addCommand name="add-CFK" required="y" linkto="CFKFEATURE" priority="90"/>
+					<deleteCommand name="delete-CFK" required="y" linkto="CFKFEATURE"/>
+			<cfeature name="CFBFEATURE" short_name="CFBFEATURE" defaultValue="parent:primary_value" mandatory="y" occur="1" parent="DN_INDIVIDUAL"/>	
+					<addCommand name="add-CFB" var-control="default:K" var-keyList="default:1" var-keyListEnd="default:_DOLLAR_" required="y" priority="95" linkto="DN_INDIVIDUAL:CFBFEATURE"/>		
+			<cfeature name="CFNAFEATURE" short_name="CFNAFEATURE" defaultValue="parent:primary_value" mandatory="y" occur="1" parent="DN_INDIVIDUAL"/>			
+					<addCommand name="add-CFNA" var-control="default:K" var-keyList="default:1" var-keyListEnd="default:_DOLLAR_" required="y" priority="95" linkto="DN_INDIVIDUAL:CFNAFEATURE"/>
+			 <dfeature name="AUTODISP" short_name="AUTODISP" type="station" mandatory="xpath:count(Configuration/Station/feature[contains(short_name,'DN_')])>1" defaultKey="1" priority="80" shiftable="n" coloc="y" defaultValue="1" occur="1" parent="DN_INDIVIDUAL"/>
+                                        <addCommand name="add-AUTODISP" required="y" linkto="AUTODISP" priority="90"/>
+                                        <deleteCommand name="delete-AUTODISP" required="y" linkto="AUTODISP"/>
+
+			
+			<!-- DN MADN PILOT -->
+					
+		<feature name="DN_MADN_PILOT" short_name="DN" type="key" mandatory="n" defaultKey="2" priority="95" shiftable="y" coloc="n" defaultValue="123"/>
+					<addCommand name="add-DN_MADN_PILOT" var-dn="element:primary_value" var-lccAcc="default:m5216" var-custGrp="xpath:Activations/TOBEConfiguration/Station/@custGrp" var-custSubGrp="default:0" var-ringingCICM="default:Y" var-ncos="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-NCOS']/primary_value" required="y" priority="100" linkto="DN_MADN_PILOT"/>
+					<addCommand name="update-CFU"  var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFUEATURE']/@zkey" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']" linkto="DN_MADN_PILOT"/>
+					<addCommand name="update-CFK" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFKFEATURE']/@zkey" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFKFEATURE']" linkto="DN_MADN_PILOT"/>
+					<addCommand name="update-CWT" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CWT']/@zkey" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='DN_INDIVIDUAL' or short_name='DN_MADN_PILOT']/@zkey" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CWT']" linkto="DN_MADN_PILOT"/>
+					<addCommand name="update-CFB" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFBFEATURE']/@zkey" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFBFEATURE']" linkto="DN_MADN_PILOT"/>
+					<addCommand name="update-CFNA" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFNAFEATURE']/@zkey" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFNAFEATURE']" linkto="DN_MADN_PILOT"/>
+					<addCommand name="update-CPU" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/@zkey" var-cpuLen="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/cpuLen" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']" linkto="DN_MADN_PILOT"/>
+					 <addCommand name="update-AUTODISP" var-featKey="default:1" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='AUTODISP']" linkto="DN_MADN_PILOT"/>
+					<addCommand name="update-MSB" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSB']/@zkey" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSBMEMBER' and primary_value=1]/@zkey" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSB']" linkto="DN_MADN_PILOT"/>
+					<addCommand name="update-CGPNSCRNLOC" var-dn="element:primary_value" var-emer="xpath:Activations/TOBEConfiguration/Station/@emer"  required="y" linkto="DN_MADN_PILOT"/>
+					<deleteCommand name="delete-DN_MADN_PILOT" var-dn="element:primary_value" required="y" linkto="DN_MADN_PILOT"/>
+					<deleteCommand name="update-CWT" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CWT']/@zkey" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='DN_INDIVIDUAL' or short_name='DN_MADN_PILOT']/@zkey" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CWT']" linkto="DN_MADN_PILOT"/>
+					
+			<cfeature name="MADN" short_name="MADN" defaultValue="parent:primary_value" mandatory="y" occur="9" parent="DN_MADN_PILOT"/>
+			<cfeature name="DISPLAYNAME" short_name="DISPLAYNAME" defaultValue="parent:primary_value" mandatory="y" occur="9" parent="DN_MADN_PILOT"/>
+    				<addCommand name="add-DISPLAYNAME" var-attribute1="element:primary_value" var-cust_presgrp="xpath:Activations/TOBEConfiguration/Station/@custPresGrp" required="y" linkto="DN_MADN_PILOT:DISPLAYNAME"/>
+					<updateCommand name="update-DISPLAYNAME" var-attribute1="element:primary_value" var-cust_presgrp="xpath:Activations/TOBEConfiguration/Station/@custPresGrp"  required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DISPLAYNAME'])=1" linkto="DN_MADN_PILOT:DISPLAYNAME"/>
+					<updateCommand name="add-DISPLAYNAME" var-attribute1="element:primary_value" var-cust_presgrp="xpath:Activations/TOBEConfiguration/Station/@custPresGrp"  required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DISPLAYNAME'])=0" linkto="DN_MADN_PILOT:DISPLAYNAME"/>
+					<cfeature name="BARRINGSET" short_name="BARRINGSET" defaultValue="xpath:Configuration/Station/feature[short_name='BARRINGSET' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_MADN_PILOT"/>
+			<cfeature name="NCOS" short_name="NCOS" defaultValue="xpath:Configuration/Station/feature[short_name='NCOS' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_MADN_PILOT"/>
+					<updateCommand name="update-NCOS" var-attribute1="element:primary_value" required="y" linkto="DN_MADN_PILOT:NCOS"/>
+			<cfeature name="CFUNUMBER" short_name="CFUNUMBER"  defaultValue="" mandatory="y" occur="9" parent="DN_MADN_PILOT"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFU" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="element:primary_value" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']" linkto="DN_MADN_PILOT:CFUNUMBER"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFK" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="element:primary_value" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFKFEATURE']" linkto="DN_MADN_PILOT:CFUNUMBER"/>
+			<cfeature name="CFUSTATUS" short_name="CFUSTATUS" defaultValue="I" mandatory="y" occur="9" parent="DN_MADN_PILOT"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFU" var-status="element:primary_value" var-number="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUNUMBER']/primary_value" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']" linkto="DN_MADN_PILOT:CFUSTATUS"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFK" var-status="element:primary_value" var-number="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUNUMBER']/primary_value" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFKFEATURE']" linkto="DN_MADN_PILOT:CFUSTATUS"/>
+			<cfeature name="CFDVT" short_name="CFDVT" defaultValue="16" mandatory="xpath:Configuration/Station/feature[short_name='CFUFEATURE' or short_name='CFKFEATURE']" occur="9" parent="DN_MADN_PILOT"/>
+					<updateCommand name="update-CFDVT" var-attribute1="element:primary_value" required="y" linkto="DN_MADN_PILOT:CFDVT"/>
+					<addCommand name="add-CFDVT" var-attribute1="element:primary_value" required="y" priority="89" linkto="DN_MADN_PILOT:CFDVT"/>
+    				<updateCommand name="add-CFDVT" var-attribute1="element:primary_value" required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-CFDVT'])=0" linkto="DN_MADN_PILOT:CFDVT"/>
+    		<cfeature name="CFNANUMBER" short_name="CFNANUMBER" defaultValue="" mandatory="y" occur="9" parent="DN_MADN_PILOT"/>
+    				<updateCommand name="update-CFX" var-cftype="default:CFD" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFNASTATUS']/primary_value" var-number="element:primary_value" required="y" linkto="DN_MADN_PILOT:CFNANUMBER"/>
+			<cfeature name="CFNASTATUS" short_name="CFNASTATUS" defaultValue="I" mandatory="y" occur="9" parent="DN_MADN_PILOT"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFD" var-status="element:primary_value" var-number="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFNANUMBER']/primary_value" required="y" linkto="DN_MADN_PILOT:CFNASTATUS"/>
+			<cfeature name="CFBNUMBER" short_name="CFBNUMBER" defaultValue="" mandatory="y" occur="9" parent="DN_MADN_PILOT"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFB" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFBSTATUS']/primary_value" var-number="element:primary_value" required="y" linkto="DN_MADN_PILOT:CFBNUMBER"/>
+			<cfeature name="CFBSTATUS" short_name="CFBSTATUS" defaultValue="I" mandatory="y" occur="9" parent="DN_MADN_PILOT"/> 
+    				<updateCommand name="update-CFX" var-cftype="default:CFB" var-status="element:primary_value" var-number="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFBNUMBER']/primary_value" required="y" linkto="DN_MADN_PILOT:CFBSTATUS"/>
+			<cfeature name="MSBMEMBER" short_name="MSBMEMBER" defaultValue="1" mandatory="xpath:Configuration/Station/feature[short_name='MSB']/primary_value" occur="9" parent="DN_MADN_PILOT"/>
+				<updateCommand name="update-MSB" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSB']/@zkey" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSBMEMBER' and primary_value=1]/@zkey" required="y" linkto="DN_MADN_PILOT:MSBMEMBER"/>
+				<cfeature name="CPUMEMBER" short_name="CPUMEMBER" defaultValue="1" mandatory="xpath:Configuration/Station/feature[short_name='CPU']/primary_value" occur="9" parent="DN_MADN_PILOT"/>
+					<updateCommand name="update-CPU" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/@zkey" var-cpuLen="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/cpuLen" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPUMEMBER' and primary_value=1]/@zkey" required="y" linkto="DN_MADN_PILOT:CPUMEMBER"/>
+			<cfeature name="CFUMEMBER" short_name="CFUMEMBER" defaultValue="1" mandatory="y" occur="9" parent="DN_MADN_PILOT"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFU" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUNUMBER']/primary_value" required="xpath:(Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE'] and (Activations/ASISConfiguration/Station/feature[short_name='CFUFEATURE']/@id != Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']/@id))" linkto="DN_MADN_PILOT:CFUMEMBER"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFK" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUNUMBER']/primary_value" required="xpath:(Activations/TOBEConfiguration/Station/feature[short_name='CFKFEATURE'] and (Activations/ASISConfiguration/Station/feature[short_name='CFKFEATURE']/@id != Activations/TOBEConfiguration/Station/feature[short_name='CFKFEATURE']/@id))" linkto="DN_MADN_PILOT:CFUMEMBER"/>
+			<cfeature name="CFBMEMBER" short_name="CFBMEMBER" defaultValue="1" mandatory="y" occur="9" parent="DN_MADN_PILOT"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFB" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="element:primary_value" required="xpath:(Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE'] and (Activations/ASISConfiguration/Station/feature[short_name='CFUFEATURE']/@id != Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']/@id))" linkto="DN_MADN_PILOT:CFBMEMBER"/>
+					
+			<cfeature name="CFNAMEMBER" short_name="CFNAMEMBER" defaultValue="1" mandatory="y" occur="9" parent="DN_MADN_PILOT"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFD" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="element:primary_value" required="xpath:(Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE'] and (Activations/ASISConfiguration/Station/feature[short_name='CFUFEATURE']/@id != Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']/@id))" linkto="DN_MADN_PILOT:CFNAMEMBER"/>
+					
+			<cfeature name="PILOT" short_name="PILOT" defaultValue="1" mandatory="y" occur="9" parent="DN_MADN_PILOT"/>
+			<cfeature name="LNR" short_name="LNR" defaultValue="1" mandatory="y" occur="9" parent="DN_MADN_PILOT"/>
+    				<addCommand name="add-LNR" required="y" linkto="LNR"/>
+    		<cfeature name="DCPU" short_name="DCPU" defaultValue="1" mandatory="y" occur="9" parent="DN_MADN_PILOT"/>
+    				<addCommand name="add-DCPU" required="y" linkto="DCPU"/>
+    		<cfeature name="LANG" short_name="LANG" defaultValue="xpath:Configuration/Station/feature[short_name='LANG' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_MADN_PILOT"/>
+			<cfeature name="LEADINGZERO" short_name="LEADINGZERO" defaultValue="xpath:Configuration/Station/feature[short_name='LEADINGZERO' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_MADN_PILOT"/>
+    			<cfeature name="SUPPRESS" short_name="SUPPRESS" defaultValue="1" mandatory="n" occur="9" parent="DN_MADN_PILOT"/>
+					<addCommand name="add-SUPPRESS" var-PresGrpExt="xpath:Activations/TOBEConfiguration/Station/@custPresGrp" required="y" linkto="DN_MADN_PILOT:SUPPRESS"/>
+					<updateCommand name="add-SUPPRESS" var-PresGrpExt="xpath:Activations/TOBEConfiguration/Station/@custPresGrp" required="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-SUPPRESS']/primary_value=1" linkto="DN_MADN_PILOT:SUPPRESS"/>
+					<updateCommand name="delete-SUPPRESS" required="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-SUPPRESS']/primary_value=0" linkto="DN_MADN_PILOT:SUPPRESS"/>
+			<cfeature name="SDNA" short_name="SDNA" defaultValue="0" mandatory="n" occur="9" parent="DN_MADN_PILOT"/>
+					<addCommand name="add-SDNA" var-areacode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_MADN_PILOT']/primary_value,1,2))" var-ofcode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_MADN_PILOT']/primary_value,3,3))" var-digits="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_MADN_PILOT']/primary_value,6,4))" var-pn="element:primary_value" required="y" linkto="DN_MADN_PILOT:SDNA"/>
+					<updateCommand name="add-SDNA" var-areacode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_MADN_PILOT']/primary_value,1,2))" var-ofcode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_MADN_PILOT']/primary_value,3,3))" var-digits="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_MADN_PILOT']/primary_value,6,4))" var-pn="element:primary_value" required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-SDNA'])=0" linkto="DN_MADN_PILOT:SDNA"/>
+					<updateCommand name="update-SDNA" var-areacode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_MADN_PILOT']/primary_value,1,2))" var-ofcode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_MADN_PILOT']/primary_value,3,3))" var-digits="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_MADN_PILOT']/primary_value,6,4))" var-pn="element:primary_value" required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-SDNA'])=1" linkto="DN_MADN_PILOT:SDNA"/>
+					 <deleteCommand name="delete-SDNA" var-areacode="xpath:find-value(substring(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DN_MADN_PILOT']/primary_value,1,2))" var-ofcode="xpath:find-value(substring(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DN_MADN_PILOT']/primary_value,3,3))" var-digits="xpath:find-value(substring(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DN_MADN_PILOT']/primary_value,6,4))" var-pn="element:primary_value" required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-SDNA'])=1" linkto="DN_MADN_PILOT:SDNA"/>
+			<cfeature name="DRING" short_name="DRING" defaultValue="1" mandatory="n" occur="9" parent="DN_MADN_PILOT"/>
+					<addCommand name="add-DRING" var-custCTI="xpath:Configuration/Station/@custCTI" var-other="xpath:Configuration/Station/@id" required="y" linkto="DN_MADN_PILOT:DRING"/>
+    				<deleteCommand name="delete-DRING" required="y" linkto="DN_MADN_PILOT:DRING"/>
+    		
+
+			<cfeature name="CFBFEATURE" short_name="CFBFEATURE" defaultValue="parent:primary_value" mandatory="y" occur="1" parent="DN_MADN_PILOT"/>			
+			<cfeature name="CFNAFEATURE" short_name="CFNAFEATURE" defaultValue="parent:primary_value" mandatory="y" occur="1" parent="DN_MADN_PILOT"/>			
+					
+				<!-- DN MADN -->
+				
+		<feature name="DN_MADN" short_name="DN" type="key" mandatory="n" defaultKey="2" priority="95" shiftable="y" coloc="n" defaultValue="123"/>
+					<addCommand name="add-DN_MADN" var-dn="element:primary_value" var-lccAcc="default:m5216" var-custGrp="xpath:Activations/TOBEConfiguration/Station/@custGrp" var-custSubGrp="default:0" var-ringingCICM="default:Y" var-ncos="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-NCOS']/primary_value" required="y" priority="100" linkto="DN_MADN"/>
+					<addCommand name="update-CPU" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/@zkey" var-cpuLen="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/cpuLen" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']" linkto="DN_MADN"/>
+					<addCommand name="update-MSB" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSB']/@zkey" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSBMEMBER' and primary_value=1]/@zkey" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSB']" linkto="DN_MADN"/>
+					<addCommand name="update-AUTODISP" var-featKey="default:1" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='AUTODISP']" linkto="DN_MADN"/>
+					<deleteCommand name="delete-DN_MADN" var-dn="element:primary_value" required="y" linkto="DN_MADN"/>
+			<cfeature name="MADN" short_name="MADN" defaultValue="parent:primary_value" mandatory="y" occur="9" parent="DN_MADN"/>
+			<cfeature name="DISPLAYNAME" short_name="DISPLAYNAME" defaultValue="parent:primary_value" mandatory="y" occur="9" parent="DN_MADN"/>
+					<updateCommand name="update-DISPLAYNAME" var-attribute1="element:primary_value" var-cust_presgrp="xpath:Activations/TOBEConfiguration/Station/@custPresGrp"  required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DISPLAYNAME'])=1" linkto="DN_MADN:DISPLAYNAME"/>
+					<updateCommand name="add-DISPLAYNAME" var-attribute1="element:primary_value" var-cust_presgrp="xpath:Activations/TOBEConfiguration/Station/@custPresGrp"  required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DISPLAYNAME'])=0" linkto="DN_MADN:DISPLAYNAME"/>
+			<cfeature name="BARRINGSET" short_name="BARRINGSET" defaultValue="xpath:Configuration/Station/feature[short_name='BARRINGSET' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_MADN"/>
+			<cfeature name="NCOS" short_name="NCOS" defaultValue="xpath:Configuration/Station/feature[short_name='NCOS' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_MADN"/>
+					<updateCommand name="update-NCOS" var-attribute1="element:primary_value" required="y" linkto="DN_MADN:NCOS"/>
+			<cfeature name="MSBMEMBER" short_name="MSBMEMBER" defaultValue="1" mandatory="xpath:Configuration/Station/feature[short_name='MSB']/primary_value" occur="9" parent="DN_MADN"/>
+				<updateCommand name="update-MSB" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSB']/@zkey" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSBMEMBER' and primary_value=1]/@zkey" required="y" linkto="DN_MADN:MSBMEMBER"/>
+			<cfeature name="CPUMEMBER" short_name="CPUMEMBER" defaultValue="1" mandatory="xpath:Configuration/Station/feature[short_name='CPU']/primary_value" occur="9" parent="DN_MADN"/>
+				<updateCommand name="update-CPU" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/@zkey" var-cpuLen="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/cpuLen" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPUMEMBER' and primary_value=1]/@zkey" required="y" linkto="DN_MADN:CPUMEMBER"/>
+
+			<cfeature name="LANG" short_name="LANG" defaultValue="xpath:Configuration/Station/feature[short_name='LANG' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_MADN"/>
+			<cfeature name="LEADINGZERO" short_name="LEADINGZERO" defaultValue="xpath:Configuration/Station/feature[short_name='LEADINGZERO' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_MADN"/>
+			<cfeature name="LNR" short_name="LNR" defaultValue="1" mandatory="y" occur="9" parent="DN_MADN"/>
+    				<addCommand name="add-LNR" required="y" linkto="LNR"/>
+    		<cfeature name="DCPU" short_name="DCPU" defaultValue="1" mandatory="y" occur="9" parent="DN_MADN"/>
+    				<addCommand name="add-DCPU" required="y" linkto="DCPU"/>
+    		<cfeature name="DRING" short_name="DRING" defaultValue="1" mandatory="n" occur="9" parent="DN_MADN"/>
+					<addCommand name="add-DRING" var-custCTI="xpath:Configuration/Station/@custCTI" var-other="xpath:Configuration/Station/@id" required="y" linkto="DN_MADN:DRING"/>
+    				<deleteCommand name="delete-DRING" required="y" linkto="DN_MADN:DRING"/>
+    		<!--  CFX KEY FEATURES -->
+			
+			<cfeature name="CFBFEATURE" short_name="CFBFEATURE" defaultValue="parent:primary_value" mandatory="y" occur="1" parent="DN_MADN"/>			
+			<cfeature name="CFNAFEATURE" short_name="CFNAFEATURE" defaultValue="parent:primary_value" mandatory="y" occur="1" parent="DN_MADN"/>			
+					
+					
+		
+		
+		<!--  DN_XLH-->
+		
+		<feature name="DN_XLH" short_name="DN" type="key" mandatory="n" defaultKey="2" priority="95" shiftable="y" coloc="n" defaultValue="123"/>
+					<addCommand name="add-DN_XLH" var-GRPTYPE="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-GRPTYPE']/primary_value" var-dn="element:primary_value" var-group_premember="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-GROUP_PREMEMBER']/primary_value"  var-group_premember_key="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-GROUP_PREMEMBER_KEY']/primary_value" var-lccAcc="default:m5216" required="y" priority="100" linkto="DN_XLH"/>
+					<addCommand name="update-MSB" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSB']/@zkey" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSBMEMBER' and primary_value=1]/@zkey" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSB']" linkto="DN_XLH"/>
+					<addCommand name="update-CPU" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/@zkey" var-cpuLen="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/cpuLen" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']" linkto="DN_XLH"/>
+					<addCommand name="update-AUTODISP" var-featKey="default:1" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='AUTODISP']" linkto="DN_XLH"/>
+					
+					<deleteCommand name="delete-DN_XLH" var-GRPTYPE="xpath:Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-GRPTYPE']/primary_value" required="y" linkto="DN_XLH"/>
+			
+			<cfeature name="HNTID" short_name="HNTID" defaultValue="parent:primary_value" mandatory="y" occur="9" parent="DN_XLH"/>
+			<cfeature name="GROUP_PREMEMBER" short_name="GROUP_PREMEMBER" defaultValue="xpath:Configuration/Station/feature[short_name='TMPGROUP_PREMEMBER' and @key='99']/primary_value" mandatory="y" occur="9" parent="DN_XLH"/>
+			<cfeature name="GRPTYPE" short_name="GRPTYPE" defaultValue="xpath:Configuration/Station/feature[short_name='TMPGRPTYPE' and @key='99']/primary_value" mandatory="y" occur="9" parent="DN_XLH"/>
+			<cfeature name="GROUP_PREMEMBER_KEY" short_name="GROUP_PREMEMBER_KEY" defaultValue="xpath:Configuration/Station/feature[short_name='TMPGROUP_PREMEMBER_KEY' and @key='99']/primary_value" mandatory="y" occur="9" parent="DN_XLH"/>
+			<cfeature name="DISPLAYNAME" short_name="DISPLAYNAME" defaultValue="parent:primary_value" mandatory="y" occur="9" parent="DN_XLH"/>
+					<updateCommand name="update-DISPLAYNAME" var-attribute1="element:primary_value" var-cust_presgrp="xpath:Activations/TOBEConfiguration/Station/@custPresGrp"  required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DISPLAYNAME'])=1" linkto="DN_XLH:DISPLAYNAME"/>
+					<updateCommand name="add-DISPLAYNAME" var-attribute1="element:primary_value" var-cust_presgrp="xpath:Activations/TOBEConfiguration/Station/@custPresGrp"  required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DISPLAYNAME'])=0" linkto="DN_XLH:DISPLAYNAME"/>
+			<cfeature name="BARRINGSET" short_name="BARRINGSET" defaultValue="xpath:Configuration/Station/feature[short_name='BARRINGSET' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_XLH"/>
+			<cfeature name="NCOS" short_name="NCOS" defaultValue="xpath:Configuration/Station/feature[short_name='NCOS' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_XLH"/>
+					<updateCommand name="update-NCOS" var-attribute1="element:primary_value" required="y" linkto="DN_XLH:NCOS"/>
+			<cfeature name="MSBMEMBER" short_name="MSBMEMBER" defaultValue="1" mandatory="xpath:Configuration/Station/feature[short_name='MSB']/primary_value" occur="9" parent="DN_XLH"/>
+				<updateCommand name="update-MSB" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSB']/@zkey" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSBMEMBER' and primary_value=1]/@zkey" required="y" linkto="DN_XLH:MSBMEMBER"/>
+			<cfeature name="CPUMEMBER" short_name="CPUMEMBER" defaultValue="1" mandatory="xpath:Configuration/Station/feature[short_name='CPU']/primary_value" occur="9" parent="DN_XLH"/>
+				<updateCommand name="update-CPU" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/@zkey" var-cpuLen="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/cpuLen" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPUMEMBER' and primary_value=1]/@zkey" required="y" linkto="DN_XLH:CPUMEMBER"/>
+
+			<cfeature name="LANG" short_name="LANG" defaultValue="xpath:Configuration/Station/feature[short_name='LANG' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_XLH"/>
+			<cfeature name="LEADINGZERO" short_name="LEADINGZERO" defaultValue="xpath:Configuration/Station/feature[short_name='LEADINGZERO' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_XLH"/>
+			<cfeature name="LNR" short_name="LNR" defaultValue="1" mandatory="y" occur="9" parent="DN_XLH"/>
+    				<addCommand name="add-LNR" required="y" linkto="LNR"/>
+    		<cfeature name="DCPU" short_name="DCPU" defaultValue="1" mandatory="y" occur="9" parent="DN_XLH"/>
+    				<addCommand name="add-DCPU" required="y" linkto="DCPU"/>
+    		<cfeature name="DRING" short_name="DRING" defaultValue="1" mandatory="n" occur="9" parent="DN_XLH"/>
+					<addCommand name="add-DRING" var-custCTI="xpath:Configuration/Station/@custCTI" var-other="xpath:Configuration/Station/@id" required="y" linkto="DN_XLH:DRING"/>
+    				<deleteCommand name="delete-DRING" required="y" linkto="DN_XLH:DRING"/>
+    		
+    	<!--  DN_XLH_PILOT IS NOT WELL DEFINED FOR ACTIVATION -->	
+    				
+    	<feature name="DN_XLH_PILOT" short_name="DN" type="key" mandatory="n" defaultKey="2" priority="95" shiftable="y" coloc="n" defaultValue="123"/>
+					<addCommand name="add-DN_XLH_PILOT" var-GRPTYPE="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-GRPTYPE']/primary_value" var-dn="element:primary_value" var-lccAcc="default:m5216" var-custGrp="xpath:Activations/TOBEConfiguration/Station/@custGrp" var-custSubGrp="default:0" var-ringingCICM="default:Y" var-ncos="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-NCOS']/primary_value" required="y" priority="100" linkto="DN_XLH_PILOT"/>
+					<addCommand name="update-MSB" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSB']/@zkey" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSBMEMBER' and primary_value=1]/@zkey" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSB']" linkto="DN_XLH_PILOT"/>
+					<addCommand name="update-CPU" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/@zkey" var-cpuLen="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/cpuLen" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']" linkto="DN_XLH_PILOT"/>
+					<addCommand name="update-AUTODISP" var-featKey="default:1" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='AUTODISP']" linkto="DN_XLH_PILOT"/>
+					<addCommand name="update-CGPNSCRNLOC" var-dn="element:primary_value" var-emer="xpath:Activations/TOBEConfiguration/Station/@emer"  required="y" linkto="DN_XLH_PILOT"/>
+					<deleteCommand name="delete-DN_XLH_PILOT" var-GRPTYPE="xpath:Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-GRPTYPE']/primary_value" var-dn="element:primary_value" required="y" linkto="DN_XLH_PILOT"/>
+			
+			<cfeature name="HNTID" short_name="HNTID" defaultValue="parent:primary_value" mandatory="y" occur="9" parent="DN_XLH_PILOT"/>
+			<cfeature name="PILOT" short_name="PILOT" defaultValue="1" mandatory="y" occur="9" parent="DN_XLH_PILOT"/>
+			<cfeature name="GROUP_PREMEMBER" short_name="GROUP_PREMEMBER" defaultValue="xpath:Configuration/Station/feature[short_name='TMPGROUP_PREMEMBER' and @key='99']/primary_value" mandatory="y" occur="9" parent="DN_XLH_PILOT"/>
+			<cfeature name="GRPTYPE" short_name="GRPTYPE" defaultValue="xpath:Configuration/Station/feature[short_name='TMPGRPTYPE' and @key='99']/primary_value" mandatory="y" occur="9" parent="DN_XLH_PILOT"/>
+			<cfeature name="GROUP_PREMEMBER_KEY" short_name="GROUP_PREMEMBER_KEY" defaultValue="xpath:Configuration/Station/feature[short_name='TMPGROUP_PREMEMBER_KEY' and @key='99']/primary_value" mandatory="y" occur="9" parent="DN_XLH_PILOT"/>
+			<cfeature name="DISPLAYNAME" short_name="DISPLAYNAME" defaultValue="parent:primary_value" mandatory="y" occur="9" parent="DN_XLH_PILOT"/>
+					<addCommand name="add-DISPLAYNAME" var-attribute1="element:primary_value" var-cust_presgrp="xpath:Activations/TOBEConfiguration/Station/@custPresGrp" required="y" linkto="DN_XLH_PILOT:DISPLAYNAME"/>
+					<updateCommand name="update-DISPLAYNAME" var-attribute1="element:primary_value" var-cust_presgrp="xpath:Activations/TOBEConfiguration/Station/@custPresGrp"  required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DISPLAYNAME'])=1" linkto="DN_XLH_PILOT:DISPLAYNAME"/>
+					<updateCommand name="add-DISPLAYNAME" var-attribute1="element:primary_value" var-cust_presgrp="xpath:Activations/TOBEConfiguration/Station/@custPresGrp"  required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DISPLAYNAME'])=0" linkto="DN_XLH_PILOT:DISPLAYNAME"/>
+			<cfeature name="BARRINGSET" short_name="BARRINGSET" defaultValue="xpath:Configuration/Station/feature[short_name='BARRINGSET' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_XLH_PILOT"/>
+			<cfeature name="NCOS" short_name="NCOS" defaultValue="xpath:Configuration/Station/feature[short_name='NCOS' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_XLH_PILOT"/>
+					<updateCommand name="update-NCOS" var-attribute1="element:primary_value" required="y" linkto="DN_XLH_PILOT:NCOS"/>
+			<cfeature name="MSBMEMBER" short_name="MSBMEMBER" defaultValue="1" mandatory="xpath:Configuration/Station/feature[short_name='MSB']/primary_value" occur="9" parent="DN_XLH_PILOT"/>
+				<updateCommand name="update-MSB" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSB']/@zkey" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='MSBMEMBER' and primary_value=1]/@zkey" required="y" linkto="DN_XLH_PILOT:MSBMEMBER"/>
+			<cfeature name="CPUMEMBER" short_name="CPUMEMBER" defaultValue="1" mandatory="xpath:Configuration/Station/feature[short_name='CPU']/primary_value" occur="9" parent="DN_XLH_PILOT"/>
+					<updateCommand name="update-CPU" var-featKey="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/@zkey" var-cpuLen="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPU']/cpuLen" var-keyList="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CPUMEMBER' and primary_value=1]/@zkey" required="y" linkto="DN_XLH_PILOT:CPUMEMBER"/>
+
+			<cfeature name="LANG" short_name="LANG" defaultValue="xpath:Configuration/Station/feature[short_name='LANG' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_XLH_PILOT"/>
+			<cfeature name="LEADINGZERO" short_name="LEADINGZERO" defaultValue="xpath:Configuration/Station/feature[short_name='LEADINGZERO' and @key='01']/primary_value" mandatory="y" occur="9" parent="DN_XLH_PILOT"/>
+			<cfeature name="LNR" short_name="LNR" defaultValue="1" mandatory="y" occur="9" parent="DN_XLH_PILOT"/>
+    				<addCommand name="add-LNR" required="y" linkto="LNR"/>
+    		<cfeature name="DCPU" short_name="DCPU" defaultValue="1" mandatory="y" occur="9" parent="DN_XLH_PILOT"/>
+    				<addCommand name="add-DCPU" required="y" linkto="DCPU"/>
+    		<cfeature name="DRING" short_name="DRING" defaultValue="1" mandatory="n" occur="9" parent="DN_XLH_PILOT"/>
+					<addCommand name="add-DRING" var-custCTI="xpath:Configuration/Station/@custCTI" var-other="xpath:Configuration/Station/@id" required="y" linkto="DN_XLH_PILOT:DRING"/>
+    				<deleteCommand name="delete-DRING" required="y" linkto="DN_XLH_PILOT:DRING"/>
+    		<cfeature name="CFUNUMBER" short_name="CFUNUMBER" defaultValue="" mandatory="y" occur="9" parent="DN_XLH_PILOT"/>
+    				<updateCommand name="update-CFX" var-cftype="default:CFU" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="element:primary_value" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']" linkto="DN_XLH_PILOT:CFUNUMBER"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFK" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="element:primary_value" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFKFEATURE']" linkto="DN_XLH_PILOT:CFUNUMBER"/>
+			<cfeature name="CFUSTATUS" short_name="CFUSTATUS" defaultValue="I" mandatory="y" occur="9" parent="DN_XLH_PILOT"/> 
+    				<updateCommand name="update-CFX" var-cftype="default:CFU" var-status="element:primary_value" var-number="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUNUMBER']/primary_value" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']" linkto="DN_XLH_PILOT:CFUSTATUS"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFK" var-status="element:primary_value" var-number="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUNUMBER']/primary_value" required="xpath:Activations/TOBEConfiguration/Station/feature[short_name='CFKFEATURE']" linkto="DN_XLH_PILOT:CFUSTATUS"/>
+			<cfeature name="CFBNUMBER" short_name="CFBNUMBER" defaultValue="" mandatory="n" occur="9" parent="DN_XLH_PILOT"/>
+    		<cfeature name="CFBSTATUS" short_name="CFBSTATUS" defaultValue="I" mandatory="n" occur="9" parent="DN_XLH_PILOT"/> 
+    		<cfeature name="CFDVT" short_name="CFDVT" defaultValue="16" mandatory="n" occur="9" parent="DN_XLH_PILOT"/>
+			<cfeature name="CFNANUMBER" short_name="CFNANUMBER" defaultValue="" mandatory="n" occur="9" parent="DN_XLH_PILOT"/>
+    		<cfeature name="CFNASTATUS" short_name="CFNASTATUS" defaultValue="I" mandatory="n" occur="9" parent="DN_XLH_PILOT"/>
+			<cfeature name="CFUMEMBER" short_name="CFUMEMBER" defaultValue="1" mandatory="y" occur="9" parent="DN_XLH_PILOT"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFU" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUNUMBER']/primary_value" required="xpath:(Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE'] and (Activations/ASISConfiguration/Station/feature[short_name='CFUFEATURE']/@id != Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']/@id))" linkto="DN_XLH_PILOT:CFUMEMBER"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFK" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUNUMBER']/primary_value" required="xpath:(Activations/TOBEConfiguration/Station/feature[short_name='CFKFEATURE'] and (Activations/ASISConfiguration/Station/feature[short_name='CFKFEATURE']/@id != Activations/TOBEConfiguration/Station/feature[short_name='CFKFEATURE']/@id))" linkto="DN_XLH_PILOT:CFUMEMBER"/>
+			<cfeature name="CFBMEMBER" short_name="CFBMEMBER" defaultValue="1" mandatory="y" occur="9" parent="DN_XLH_PILOT"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFB" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="element:primary_value" required="xpath:(Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE'] and (Activations/ASISConfiguration/Station/feature[short_name='CFUFEATURE']/@id != Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']/@id))" linkto="DN_XLH_PILOT:CFBMEMBER"/>
+					
+			<cfeature name="CFNAMEMBER" short_name="CFNAMEMBER" defaultValue="1" mandatory="y" occur="9" parent="DN_XLH_PILOT"/>
+					<updateCommand name="update-CFX" var-cftype="default:CFD" var-status="xpath:Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-CFUSTATUS']/primary_value" var-number="element:primary_value" required="xpath:(Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE'] and (Activations/ASISConfiguration/Station/feature[short_name='CFUFEATURE']/@id != Activations/TOBEConfiguration/Station/feature[short_name='CFUFEATURE']/@id))" linkto="DN_XLH_PILOT:CFNAMEMBER"/>
+			<cfeature name="SDNA" short_name="SDNA" defaultValue="0" mandatory="n" occur="9" parent="DN_XLH_PILOT"/>
+					<addCommand name="add-SDNA" var-areacode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_XLH_PILOT']/primary_value,1,2))" var-ofcode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_XLH_PILOT']/primary_value,3,3))" var-digits="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_XLH_PILOT']/primary_value,6,4))" var-pn="element:primary_value" required="y" linkto="DN_XLH_PILOT:SDNA"/>
+					<updateCommand name="add-SDNA" var-areacode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_XLH_PILOT']/primary_value,1,2))" var-ofcode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_XLH_PILOT']/primary_value,3,3))" var-digits="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_XLH_PILOT']/primary_value,6,4))" var-pn="element:primary_value" required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-SDNA'])=0" linkto="DN_XLH_PILOT:SDNA"/>
+					<updateCommand name="update-SDNA" var-areacode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_XLH_PILOT']/primary_value,1,2))" var-ofcode="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_XLH_PILOT']/primary_value,3,3))" var-digits="xpath:find-value(substring(Activations/TOBEConfiguration/Station/feature[@id='element:stationkey_id-DN_XLH_PILOT']/primary_value,6,4))" var-pn="element:primary_value" required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-SDNA'])=1" linkto="DN_XLH_PILOT:SDNA"/>
+					 <deleteCommand name="delete-SDNA" var-areacode="xpath:find-value(substring(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DN_XLH_PILOT']/primary_value,1,2))" var-ofcode="xpath:find-value(substring(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DN_XLH_PILOT']/primary_value,3,3))" var-digits="xpath:find-value(substring(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-DN_XLH_PILOT']/primary_value,6,4))" var-pn="element:primary_value" required="xpath:count(Activations/ASISConfiguration/Station/feature[@id='element:stationkey_id-SDNA'])=1" linkto="DN_XLH_PILOT:SDNA"/>
+			
+    				
+    				
+		</station>
+</config>

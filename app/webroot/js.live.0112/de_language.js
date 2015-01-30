@@ -1,0 +1,11 @@
+var msg_lang    =   new Array();
+msg_lang['Please input a value for the'] 		=  "Bitte geben sie einen Wert ein für: ";
+msg_lang['in key'] 					= "Auf der Taste ";
+msg_lang['Please select a value for input text value'] 	= "Bitte slektieren Sie einen Wert: ";
+msg_lang['BLF Supports 9 digits (0-9) only for'] 	= "Für BLF sind nur 9-stellige Nummern aus Ihrem Nummernbereich gültig ";
+msg_lang['maximum 10 digits for label'] 		= "Für die Tastenbeschriftung sind nicht mehr als 10 Zeichen erlaubt ";
+msg_lang['digits only (0-9) between 2 and 15 digits for']= "Die Nummer muss zwischen  2 und 15 Zeichen sein ";
+msg_lang['maximum 10 digits for Display'] 		= "Der Anzeigenahmen darf nicht länger sein als 10 Zeichen ";
+msg_lang['Special charcters not allowed  for Display'] 	= "Der Anzeigenahme erlaubt keine Sonderzeichen ";
+msg_lang['uploading file'] 				= "Datei wird hochgeladen ";
+msg_lang['Password must have greater than 3 digits and less than 12 digits']     =   "für das Psswort sind 3 - 12 Nummern erlaubt ";

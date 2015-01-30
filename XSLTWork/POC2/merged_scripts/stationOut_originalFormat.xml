@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Configuration>
+  <Station test="testValx">
+    <feature id="01@319170338-CFRA" key="01">
+      <label/>
+      <primary_value>
+        CFRA from ASIS
+      </primary_value>
+      <short_name>
+        CFRA
+      </short_name>
+      <stationkey_id>
+        01@319170338
+      </stationkey_id>
+    </feature>
+    <feature id="01@-MOH" key="01">
+      <primary_value>
+        0
+      </primary_value>
+    </feature>
+    <feature id="01@-COMBOX" key="01">
+      <primary_value>
+        0
+      </primary_value>
+    </feature>
+    <feature id="01@-CTI" key="01">
+      <primary_value/>
+    </feature>
+    <feature id="01@-SCS" key="01">
+      <primary_value>
+        1
+      </primary_value>
+    </feature>
+    <feature id="01@-DCPU" key="01">
+      <primary_value>
+        1
+      </primary_value>
+    </feature>
+    <feature id="01@-DRING" key="01">
+      <primary_value>
+        1
+      </primary_value>
+    </feature>
+    <feature id="01@-LNR" key="01">
+      <primary_value>
+        1
+      </primary_value>
+    </feature>
+    <feature id="01@-AUTODISP" key="01">
+      <primary_value>
+        1
+      </primary_value>
+    </feature>
+  </Station>
+</Configuration>

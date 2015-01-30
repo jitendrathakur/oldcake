@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <station test="testValx">
+		<feature name="CWT" short_name="CWT" mandatory="y" defaultKey="8" priority="1" shiftable="n" coloc="y" defaultValue="1"/>
+		<feature name="SIMRING" short_name="SIMRING" mandatory="y" defaultKey="8" priority="1" shiftable="n" coloc="y" defaultValue="0"/>
+    		<cfeature name="SIMRINGMEMBER1" short_name="SIMRINGMEMBER1" defaultValue="1" mandatory="y" parent="SIMRING"/>
+    		<cfeature name="SIMRINGMEMBER2" short_name="SIMRINGMEMBER2" defaultValue="2" mandatory="y" parent="SIMRING"/>
+    		<cfeature name="SIMRINGMEMBER3" short_name="SIMRINGMEMBER3" defaultValue="3" mandatory="y" parent="SIMRING"/>
+    		<cfeature name="SIMRINGMEMBER4" short_name="SIMRINGMEMBER4" defaultValue="4" mandatory="y" parent="SIMRING"/>
+    	<feature name="MASTER_DN" short_name="DN" mandatory="n" defaultKey="1" priority="15" shiftable="n" coloc="y" defaultValue="123"/>
+			<cfeature name="DISPLAYNAME" short_name="DISPLAYNAME" defaultValue="Craig" mandatory="y" parent="MASTER_DN"/>
+			<cfeature name="BARRINGSET" short_name="BARRINGSET" defaultValue="Craig" mandatory="y" parent="MASTER_DN"/>
+			<cfeature name="LEADINGZERO" short_name="LEADINGZERO" defaultValue="Craig" mandatory="y" parent="MASTER_DN"/>
+			<cfeature name="NCOS" short_name="NCOS" defaultValue="Craig" mandatory="y" parent="MASTER_DN"/>
+			<cfeature name="CFU" short_name="CFU"  defaultValue="Craig" mandatory="y" parent="MASTER_DN"/>
+			<cfeature name="CFUStatus" short_name="CFUStatus" defaultValue="Craig" mandatory="y" parent="MASTER_DN"/>
+			<cfeature name="CFDVT" short_name="CFDVT" defaultValue="Craig" mandatory="y" parent="MASTER_DN"/>
+		<feature name="DN_INDIVIDUAL" short_name="DN" mandatory="n" defaultKey="2" priority="15" shiftable="y" coloc="n" defaultValue="123"/>
+			<cfeature name="DISPLAYNAME" short_name="DISPLAYNAME" defaultValue="Craig" mandatory="y" parent="DN_INDIVIDUAL"/>
+			<cfeature name="BARRINGSET" short_name="BARRINGSET" defaultValue="Craig" mandatory="y" parent="DN_INDIVIDUAL"/>
+			<cfeature name="LEADINGZERO" short_name="LEADINGZERO" defaultValue="Craig" mandatory="y" parent="DN_INDIVIDUAL"/>
+			<cfeature name="NCOS" short_name="NCOS" defaultValue="Craig" mandatory="y" parent="DN_INDIVIDUAL"/>
+			<cfeature name="CFU" short_name="CFU"  defaultValue="Craig" mandatory="y" parent="DN_INDIVIDUAL"/>
+			<cfeature name="CFUStatus" short_name="CFUStatus" defaultValue="Craig" mandatory="y" parent="DN_INDIVIDUAL"/>
+			<cfeature name="CFDVT" short_name="CFDVT" defaultValue="Craig" mandatory="y" parent="DN_INDIVIDUAL"/>
+		<feature name="DN_MADN" short_name="DN" mandatory="n" defaultKey="2" priority="15" shiftable="y" coloc="n" defaultValue="123"/>
+			<cfeature name="MADN" short_name="madn" defaultValue="Craig" mandatory="y" parent="DN_MADN"/>
+			<cfeature name="DISPLAYNAME" short_name="DISPLAYNAME" defaultValue="XPATH://station/@id" mandatory="y" parent="DN_MADN"/>
+			<cfeature name="BARRINGSET" short_name="BARRINGSET" defaultValue="Craig" mandatory="y" parent="DN_MADN"/>
+			<cfeature name="LEADINGZERO" short_name="LEADINGZERO" defaultValue="Craig" mandatory="y" parent="DN_MADN"/>
+			<cfeature name="NCOS" short_name="NCOS" defaultValue="Craig" mandatory="y" parent="DN_MADN"/>
+			<cfeature name="CFU" short_name="CFU"  defaultValue="Craig" mandatory="y" parent="DN_MADN"/>
+			<cfeature name="CFUStatus" short_name="CFUStatus" defaultValue="Craig" mandatory="y" parent="DN_MADN"/>
+			<cfeature name="CFDVT" short_name="CFDVT" defaultValue="Craig" mandatory="y" parent="DN_MADN"/>
+			<cfeature name="MSB_MEMBER" short_name="MSB_MEMBER" defaultValue="1" mandatory="y" parent="DN_MADN"/>
+					<feature name="MSB" short_name="MSB" defaultKey="2" priority="15" shiftable="y" coloc="n" defaultValue="" mandatory="y" occur="1" parent="MSB_MEMBER"/>
+		<feature name="SCS" short_name="SCS" mandatory="n" defaultKey="1" priority="5" shiftable="y" coloc="y" defaultValue="123"/>
+	</station>
+</config>

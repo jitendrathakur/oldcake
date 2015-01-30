@@ -1,0 +1,541 @@
+<Activations transaction-id="1393862405">
+    <actions>
+        <key id="01" featureId="01@997772401-DISPLAYNAME">UPDATE</key>
+        <key id="02" featureId="02@997772401-DISPLAYNAME">UPDATE</key>
+        <key id="01" featureId="01@997772401-AUTODISP">REPLACE</key>
+        <key id="01" featureId="01@997772401-AUTODISP">DELETE</key>
+        <key id="01" featureId="01@997772401-AUTODISP">ADD</key>
+    </actions>
+
+    <ASISConfiguration>
+        <Station custCTI="1" id="997772402" port="CICM 00 0 00 09">
+            <feature id="01@997772401-AUTODISP" key="01">
+                <label> </label>
+                <primary_value>Testing 1234</primary_value>
+                <short_name>AUTODISP</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+        </Station>
+    </ASISConfiguration>
+
+    <TOBEConfiguration>
+        <Station custCTI="1" id="997772401" port="CICM 00 0 00 08">
+            <feature id="01@997772401-AUTODISP" key="01">
+                <label> </label>
+                <primary_value>Testing 1234</primary_value>
+                <short_name>AUTODISP</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-BARRINGSET" key="01">
+                <label> </label>
+                <primary_value>Set4</primary_value>
+                <short_name>BARRINGSET</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-CFK" key="01">
+                <label> </label>
+                <primary_value>079</primary_value>
+                <short_name>CFK</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-CFKStatus" key="01">
+                <label> </label>
+                <primary_value>1</primary_value>
+                <short_name>CFKStatus</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-CFRA" key="01">
+                <label> </label>
+                <primary_value>0</primary_value>
+                <short_name>CFRA</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-CNNID" key="01">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>CNNID</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-COM" key="01">
+                <label> </label>
+                <primary_value>1</primary_value>
+                <short_name>COM</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-CPUMember" key="01">
+                <label> </label>
+                <primary_value>1</primary_value>
+                <short_name>CPUMember</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-CTI" key="01">
+                <label> </label>
+                <primary_value>0</primary_value>
+                <short_name>CTI</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-CWT" key="01">
+                <label> </label>
+                <primary_value>0</primary_value>
+                <short_name>CWT</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-DCPU" key="01">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>DCPU</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-DISPEXT" key="01">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>DISPEXT</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-DISPLAYNAME" key="01">
+                <label>997772401</label>
+                <primary_value>TEST12345</primary_value>
+                <short_name>DISPLAYNAME</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-DN_INDIVIDUAL" key="01">
+                <label> </label>
+                <primary_value>997772401</primary_value>
+                <short_name>DN_INDIVIDUAL</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-DRING" key="01">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>DRING</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-LANG" key="01">
+                <label> </label>
+                <primary_value>de</primary_value>
+                <short_name>LANG</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-LEADINGZERO" key="01">
+                <label> </label>
+                <primary_value>1</primary_value>
+                <short_name>LEADINGZERO</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-LNR" key="01">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>LNR</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-MOH" key="01">
+                <label> </label>
+                <primary_value>0</primary_value>
+                <short_name>MOH</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-NCOS" key="01">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>NCOS</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-SCS" key="01">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>SCS</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-SIMRING" key="01">
+                <label> </label>
+                <primary_value>0</primary_value>
+                <short_name>SIMRING</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-SIMRINGMEMBER1" key="01">
+                <label> </label>
+                <primary_value>614049965</primary_value>
+                <short_name>SIMRINGMEMBER1</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-SIMRINGMEMBER2" key="01">
+                <label> </label>
+                <primary_value>614049795</primary_value>
+                <short_name>SIMRINGMEMBER2</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-SIMRINGMEMBER3" key="01">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>SIMRINGMEMBER3</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="01@997772401-SIMRINGMEMBER4" key="01">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>SIMRINGMEMBER4</short_name>
+                <stationkey_id>01@997772401</stationkey_id>
+            </feature>
+            <feature id="02@997772401-BARRINGSET" key="02">
+                <label> </label>
+                <primary_value>Set4</primary_value>
+                <short_name>BARRINGSET</short_name>
+                <stationkey_id>02@997772401</stationkey_id>
+            </feature>
+            <feature id="02@997772401-CFDVT" key="02">
+                <label> </label>
+                <primary_value>4</primary_value>
+                <short_name>CFDVT</short_name>
+                <stationkey_id>02@997772401</stationkey_id>
+            </feature>
+            <feature id="02@997772401-CFK" key="02">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>CFK</short_name>
+                <stationkey_id>02@997772401</stationkey_id>
+            </feature>
+            <feature id="02@997772401-CFKStatus" key="02">
+                <label> </label>
+                <primary_value>1</primary_value>
+                <short_name>CFKStatus</short_name>
+                <stationkey_id>02@997772401</stationkey_id>
+            </feature>
+            <feature id="02@997772401-CNNID" key="02">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>CNNID</short_name>
+                <stationkey_id>02@997772401</stationkey_id>
+            </feature>
+            <feature id="02@997772401-CPUMember" key="02">
+                <label> </label>
+                <primary_value>1</primary_value>
+                <short_name>CPUMember</short_name>
+                <stationkey_id>02@997772401</stationkey_id>
+            </feature>
+            <feature id="02@997772401-DISPEXT" key="02">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>DISPEXT</short_name>
+                <stationkey_id>02@997772401</stationkey_id>
+            </feature>
+            <feature id="02@997772401-DISPLAYNAME" key="02">
+                <label>997772412</label>
+                <primary_value>GRUPPE_M</primary_value>
+                <short_name>DISPLAYNAME</short_name>
+                <stationkey_id>02@997772401</stationkey_id>
+            </feature>
+            <feature id="02@997772401-DN_MADN_PILOT" key="02">
+                <label> </label>
+                <primary_value>997772412</primary_value>
+                <short_name>DN_MADN_PILOT</short_name>
+                <stationkey_id>02@997772401</stationkey_id>
+            </feature>
+            <feature id="02@997772401-LANG" key="02">
+                <label> </label>
+                <primary_value>de</primary_value>
+                <short_name>LANG</short_name>
+                <stationkey_id>02@997772401</stationkey_id>
+            </feature>
+            <feature id="02@997772401-LEADINGZERO" key="02">
+                <label> </label>
+                <primary_value>1</primary_value>
+                <short_name>LEADINGZERO</short_name>
+                <stationkey_id>02@997772401</stationkey_id>
+            </feature>
+            <feature id="02@997772401-MADN" key="02">
+                <label> </label>
+                <primary_value>997772412</primary_value>
+                <short_name>MADN</short_name>
+                <stationkey_id>02@997772401</stationkey_id>
+            </feature>
+            <feature id="02@997772401-NCOS" key="02">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>NCOS</short_name>
+                <stationkey_id>02@997772401</stationkey_id>
+            </feature>
+            <feature id="02@997772401-madnpilot" key="02">
+                <label> </label>
+                <primary_value>1</primary_value>
+                <short_name>PILOT</short_name>
+                <stationkey_id>02@997772401</stationkey_id>
+            </feature>
+            <feature id="03@997772401-MSB" key="03">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>MSB</short_name>
+                <stationkey_id>03@997772401</stationkey_id>
+            </feature>
+            <feature id="04@997772401-CFUIF" key="04">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>CFUIF</short_name>
+                <stationkey_id>04@997772401</stationkey_id>
+            </feature>
+            <feature id="05@997772401-CXR" key="05">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>CXR</short_name>
+                <stationkey_id>05@997772401</stationkey_id>
+            </feature>
+            <feature id="06@997772401-CPU" key="06">
+                <label> </label>
+                <primary_value>919865319</primary_value>
+                <short_name>CPU</short_name>
+                <stationkey_id>06@997772401</stationkey_id>
+            </feature>
+            <feature id="07@997772401-RAG" key="07">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>RAG</short_name>
+                <stationkey_id>07@997772401</stationkey_id>
+            </feature>
+            <feature id="08@997772401-PRK" key="08">
+                <label> </label>
+                <primary_value>1</primary_value>
+                <short_name>PRK</short_name>
+                <stationkey_id>08@997772401</stationkey_id>
+            </feature>
+            <feature id="09@997772401-MWT" key="09">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>MWT</short_name>
+                <stationkey_id>09@997772401</stationkey_id>
+            </feature>
+            <feature id="10@997772401-CNF" key="10">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>CNF</short_name>
+                <stationkey_id>10@997772401</stationkey_id>
+            </feature>
+            <feature id="11@997772401-AUD" key="11">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>11@997772401</stationkey_id>
+            </feature>
+            <feature id="12@997772401-AUD" key="12">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>12@997772401</stationkey_id>
+            </feature>
+            <feature id="15@997772401-AUD" key="15">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>15@997772401</stationkey_id>
+            </feature>
+            <feature id="16@997772401-AUD" key="16">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>16@997772401</stationkey_id>
+            </feature>
+            <feature id="17@997772401-AUD" key="17">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>17@997772401</stationkey_id>
+            </feature>
+            <feature id="18@997772401-AUD" key="18">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>18@997772401</stationkey_id>
+            </feature>
+            <feature id="19@997772401-AUD" key="19">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>19@997772401</stationkey_id>
+            </feature>
+            <feature id="20@997772401-AUD" key="20">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>20@997772401</stationkey_id>
+            </feature>
+            <feature id="21@997772401-AUD" key="21">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>21@997772401</stationkey_id>
+            </feature>
+            <feature id="22@997772401-AUD" key="22">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>22@997772401</stationkey_id>
+            </feature>
+            <feature id="23@997772401-AUD" key="23">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>23@997772401</stationkey_id>
+            </feature>
+            <feature id="24@997772401-AUD" key="24">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>24@997772401</stationkey_id>
+            </feature>
+            <feature id="25@997772401-AUD" key="25">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>25@997772401</stationkey_id>
+            </feature>
+            <feature id="26@997772401-AUD" key="26">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>26@997772401</stationkey_id>
+            </feature>
+            <feature id="27@997772401-AUD" key="27">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>27@997772401</stationkey_id>
+            </feature>
+            <feature id="28@997772401-AUD" key="28">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>28@997772401</stationkey_id>
+            </feature>
+            <feature id="29@997772401-AUD" key="29">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>29@997772401</stationkey_id>
+            </feature>
+            <feature id="30@997772401-AUD" key="30">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>30@997772401</stationkey_id>
+            </feature>
+            <feature id="31@997772401-AUD" key="31">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>31@997772401</stationkey_id>
+            </feature>
+            <feature id="32@997772401-AUD" key="32">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>32@997772401</stationkey_id>
+            </feature>
+            <feature id="37@997772401-AUD" key="37">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>37@997772401</stationkey_id>
+            </feature>
+            <feature id="38@997772401-AUD" key="38">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>38@997772401</stationkey_id>
+            </feature>
+            <feature id="39@997772401-AUD" key="39">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>39@997772401</stationkey_id>
+            </feature>
+            <feature id="40@997772401-AUD" key="40">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>40@997772401</stationkey_id>
+            </feature>
+            <feature id="41@997772401-AUD" key="41">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>41@997772401</stationkey_id>
+            </feature>
+            <feature id="42@997772401-AUD" key="42">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>42@997772401</stationkey_id>
+            </feature>
+            <feature id="43@997772401-AUD" key="43">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>43@997772401</stationkey_id>
+            </feature>
+            <feature id="44@997772401-AUD" key="44">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>44@997772401</stationkey_id>
+            </feature>
+            <feature id="45@997772401-AUD" key="45">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>45@997772401</stationkey_id>
+            </feature>
+            <feature id="46@997772401-AUD" key="46">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>46@997772401</stationkey_id>
+            </feature>
+            <feature id="47@997772401-AUD" key="47">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>47@997772401</stationkey_id>
+            </feature>
+            <feature id="48@997772401-AUD" key="48">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>48@997772401</stationkey_id>
+            </feature>
+            <feature id="49@997772401-AUD" key="49">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>49@997772401</stationkey_id>
+            </feature>
+            <feature id="50@997772401-AUD" key="50">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>50@997772401</stationkey_id>
+            </feature>
+            <feature id="51@997772401-AUD" key="51">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>51@997772401</stationkey_id>
+            </feature>
+            <feature id="52@997772401-AUD" key="52">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>52@997772401</stationkey_id>
+            </feature>
+            <feature id="53@997772401-AUD" key="53">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>53@997772401</stationkey_id>
+            </feature>
+            <feature id="54@997772401-AUD" key="54">
+                <label> </label>
+                <primary_value> </primary_value>
+                <short_name>AUD</short_name>
+                <stationkey_id>54@997772401</stationkey_id>
+            </feature>
+        </Station>
+    </TOBEConfiguration>
+</Activations>

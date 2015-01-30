@@ -1,0 +1,825 @@
+--- Customer List ---------
+
+msgid  "Customer List"
+msgstr " Elenco clienti"       
+
+msgid  "close_window"
+msgstr "Chiudi finestra"
+
+msgid  "where_pin"
+msgstr "Dovè il mio PIN"
+
+msgid  "navigation"
+msgstr "Menù di navigazione"
+
+msgid  "filter"
+msgstr "Cerca"
+
+msgid  "reset"
+msgstr "Reset"
+
+msgid  "Back"
+msgstr "Indietro"
+
+
+msgid  "Total Elements"
+msgstr "Totale elementi"
+
+msgid  "Total Elements <b> %count% </b> &nbsp; &nbsp; Records per page :"
+msgstr "La lista contiene in totale %count% elementi, elementi per pagina:  "
+
+msgid  "Name"
+msgstr "Nome cliente"
+
+msgid  "CNN"
+msgstr "CNN-ID "
+
+msgid  "BSK"
+msgstr "BSK-ID "
+
+
+---- Station List ----------
+
+msgid  "Station List"
+msgstr "Elenco stazioni"
+
+msgid  "upload MOH file"
+msgstr "Carica file musicale"
+
+msgid  "Number"
+msgstr "Numero"
+
+msgid  "Port"
+msgstr "Porta"
+
+msgid  "Type"
+msgstr "Tipo"
+
+msgid  "Location"
+msgstr "Telefoni per ogni sede"
+
+msgid  "Exp"
+msgstr "Aggiunta"
+
+msgid  "Music on Hold File"
+msgstr "Carica musica di attesa"
+
+msgid  "Station_Count" 
+msgstr "Station Count"
+
+msgid  "tester"
+msgstr "nonsense"
+
+msgid "FILE NOT FOUND"
+msgstr "File non trovaton"
+ 
+msgid "File not valid : illegalFormat"
+msgstr "Formato errato"
+ 
+msgid "Infected File"
+msgstr "File infetto da virus"
+
+msgid "File not valid : minLengthBoundaryViolation"
+msgstr "Durata del file audio troppo breve"
+
+msgid "File not valid : maxLengthBoundaryViolation"
+msgstr "Durata del file audio troppo lunga"
+
+msgid "GGGGG"
+msgstr "Nel file è stato trovato un virus"
+ 
+msgid "File Transferred Successfully"
+msgstr "File caricato con successo"
+
+msgid "NONSENSE"
+msgstr "NON RIMUOVERE"
+
+--- Station Edit ------------
+msgid  "Station Details"
+msgstr "Dettagli stazione"
+
+msgid  "Validate"
+msgstr "Verifica"
+
+msgid  "Back"
+msgstr "Indietro"
+
+msgid  "Phone"
+msgstr "Telefono"
+
+msgid  "Configuration Logs"
+msgstr "Protocollo modifiche"
+
+msgid  "Password"
+msgstr "Password"
+
+msgid  "Password_desc"
+msgstr "Password per il login del telefono. Sono consentite 4-6 cifre da 0 a 9."
+
+msgid  "Expansions"
+msgstr "Modulo tastiera supplementare"
+
+msgid  "Expansion_desc"
+msgstr "Per ogni modulo tastiera supplementare sono disponibili fino a 18 tasti aggiuntivi. A un telefono IP è possibile collegare fino a due moduli tastiera supplementari"
+
+msgid  "Basic/Detailed View"
+msgstr " Vista in dettaglio"
+
+msgid  "Key"
+msgstr "Tasto"
+
+msgid  "key"
+msgstr "Tasto "
+
+msgid  "Label"
+msgstr "Etichetta"
+
+msgid "feature values"
+msgstr "Valore funzione"
+
+msgid  "Feature"
+msgstr "Nome funzione"
+
+msgid  "tester"
+msgstr "nonsense"
+
+---- Station keys -----------
+
+msgid  "station_data"
+msgstr "Dati stazione"
+
+msgid  "AUD"
+msgstr "Tasto selezione rapida (AUD)"
+
+msgid  "AUD_BLF_desc"
+msgstr "In questo campo è possibile definire la proprietà tasto di selezione rapida o segnalazione di occupato <br><br> Tasto di selezione rapida: questa funzione permette di memorizzare un numero di telefono per ogni tasto di selezione rapida. Premendo il tasto di selezione rapida, viene selezionato direttamente il numero memorizzato. (AUD, Automatic Dial)<br><br> Segnalazione di occupato: questa funzione ha due funzionalità. Premendo il tasto è possibile chiamare un numero definito. Con la funzione BLF è possibile riconoscere dallo status della spia se il numero definito è occupato. (BLF, Busy Lamp Field)"
+
+msgid  "AUD_desc"
+msgstr "Mediante questa funzione è possibile salvare un numero di telefono per ogni tasto di selezione rapida. Premendo il tasto di selezione rapida viene selezionato il numero memorizzato. (AUD, Automatic Dial)
+
+msgid  "AUTODISP"
+msgstr "Visualizzazione numero e nome (Autodisp)"
+
+msgid  "AUTODISP_desc"
+msgstr "Con la funzione 'Visualizzazione automatica' è possibile visualizzare il nome del chiamante e il suo numero di telefono, quando la chiamata arriva su una linea diversa dal tasto 1. (AUTODISP, Automatic Display)"
+
+msgid  "BARRINGSET"
+msgstr "Set di blocco (NCOS)"
+
+msgid  "barringset"
+msgstr "Set di blocco"
+
+msgid  "BARRINGSET_desc"
+msgstr "Sono disponibili 5 set di blocco mediante i quali è possibile impedire le comunicazioni verso numeri di telefono definiti. Per una descrizione più dettagliata dei set di blocco consultare l'Info Box."
+
+msgid  "BARRINGSET_help"
+msgstr "Set1: bloccho di tutti i numeri pubblici<br>  Set2: blocco dei numeri internazionali e dei numeri di servizi a valore aggiunto<br> Set3: blocco dei numeri erotici<br> Set4:  Selezione Provider<br> Set5: blocco dei numeri di servizi a valore aggiunto "
+
+msgid  "BLF"
+msgstr "Segnalazione di occupato (BLF)"
+
+msgid  "blf"
+msgstr "Segnalazione di occupato (BLF)"
+
+
+msgid  "BLF_desc"
+msgstr "Questa funzione offre due funzionalità. Premendo il tasto è possibile chiamare direttamente un numero efinito. Con la funzione BLF invece è possibile vedere dalla spia se il numero definito risulta occupato. (BLF, Busy Lamp Field)"
+
+msgid  "BLF Observers"
+msgstr "Spia (BLF)"
+
+msgid  "BLF Observers_desc"
+msgstr "Se il numero è occupato, tale status viene segnalato."
+
+
+msgid  "CFB"
+msgstr "Deviazione di chiamata in caso di occupato (CFB)"
+
+msgid  "CFB_desc"
+msgstr "Con la 'Deviazione di chiamata in caso di occupato' le chiamate in arrivo durante una chiamata vengono deviate verso il numero interno personale,  o verso un numero di destinazione definito. (CFB, Call Forwarding Busy)"
+
+msgid  "CFBEnable"
+msgstr "Deviazione di chiamata in caso di occupato (CFB)"
+
+msgid  "CFBEnable_desc"
+msgstr " Con la 'Deviazione di chiamata in caso di occupato' le chiamate in arrivo durante una chiamata vengono deviate verso il numero interno personale, o verso un numero di destinazione definito. (CFB, Call Forwarding Busy)"
+
+msgid  "CFD"
+msgstr "Deviazione di chiamata se nessuna risposta (CFD)"
+
+msgid  "CFD_desc"
+msgstr "Con questa funzione tutte le chiamate in arrivo sul numero interno personale che non vengono prese entro un periodo di tempo predefinito vengono deviate automaticamente verso un numero definito. (CFD, Call Forwarding Do Not Answer)"
+
+msgid  "CFNA"
+msgstr " "
+
+msgid "CFNA_desc"
+msgstr ""
+
+msgid  "CFNAEnable"
+msgstr "Deviazione di chiamata se nessuna risposta (CFNA)"
+
+msgid  "CFNAEnable_desc"
+msgstr "Con questa funzione tutte le chiamate in arrivo sul numero interno personale che non vengono prese entro un periodo di tempo predefinito vengono deviate automaticamente verso un numero definito. (CFD, Call Forwarding Do Not Answer)"
+
+msgid "CFD"
+msgstr "Deviazione di chiamata se nessuna risposta dopo 14 secondi"
+
+msgid "CFD_desc"
+msgstr "Con questa funzione le chiamate in arrivo vengono deviate automaticamente dopo 14 secondi"
+
+msgid  "CFDVT"
+msgstr "Deviazione di chiamata se nessuna risposta, tempo variabile (CFDVT)"
+
+msgid  "CFDVT_desc"
+msgstr "Con questa funzione si può stabilire, per quanto tempo deve suonare il telefono prima che una chiamata venga deviata verso un altro numero definito. Sono consentiti valori compresi tra 12 e 60 secondi. (CFDVT)"
+
+msgid  "CFK"
+msgstr "Deviazione chiamata con un tasto (CFK)"
+
+msgid  "CFK_desc"
+msgstr "Con questa funzione la chiamata viene deviata in modo personalizzato. (CFK, Call Forward Key)"
+
+msgid  "CFRA"
+msgstr "Deviazione con accesso remoto (CFRA)"
+
+msgid  "CFRA_desc"
+msgstr "Con questa funzione le persone autorizzate possono attivare la deviazione di chiamata su un numero chiamando da un"altra utenza. (CFRA, Call Forward Remote Access)"
+
+msgid  "CFU"
+msgstr "Deviazione di chiamata diretta (CFU)"
+
+msgid  "CFU_desc"
+msgstr "Con questa funzione le chiamate in arrivo vengono deviate direttamente verso un altro numero. (CFU, Call Forwarding Unconditional)"
+
+msgid  "CFUEnable"
+msgstr "Deviazione di chiamata diretta (CFU)"
+
+msgid  "CFUEnable_desc"
+msgstr "Con questa funzione le chiamate in arrivo vengono deviate direttamente verso un altro numero. (CFU, Call Forwarding Unconditional)"
+
+msgid  "CHD"
+msgstr "Chiamata in attesa CHD)"
+
+msgid  "CHD_desc"
+msgstr "Con questa funzione una chiamata in corso viene messa in attesa. (CHD, Call Hold)"
+
+msgid  "CNAMD"
+msgstr "Identificazione del chiamante (CNAMD)"
+
+msgid  "CNAMD_desc"
+msgstr "Questa funzione visualizza il nome del chiamante oltre alla data e all ora della chiamata. (CNAMD, Calling Name Delivery)"
+
+msgid  "CNF"
+msgstr "Conferenza (CNF)"
+
+msgid  "CNF_desc"
+msgstr "Questa funzione consente di effettuare una conferenza telefonica con un massimo di 10 partecipanti. (CNF, Station Controlled Conference)"
+
+msgid "COMBOX"
+msgstr "VoIP COMBOX@ pro"
+
+msgid "COMBOX_desc"
+msgstr "Segreteria telefonica (Combox)"
+
+msgid  "CPU"
+msgstr "Rilevare la chiamata (CPU)"
+
+msgid  "CPU_desc"
+msgstr "Con questa funzione ciascun membro di un gruppo può prendere le chiamate in arrivo destinate a membri del proprio gruppo. (CPU, Call Pickup)"
+
+msgid  "CPUFeature"
+msgstr "Rilevare la chiamata (CPU)"
+
+msgid  "CPUFeature_desc"
+msgstr "Con questa funzione ciascun membro di un gruppo può prendere le chiamate in arrivo destinate a membri del proprio gruppo. (CPU, Call Pickup)"
+
+
+msgid  "CWI"
+msgstr "Call Waiting Intragroup (CWI)"
+
+msgid  "CWI_desc"
+msgstr "(CWI, Call Waiting Intragroup)"
+
+msgid  "CWT"
+msgstr "Intercalazione (CWT)"
+
+msgid  "CWT_desc"
+msgstr "Con questa funzione all"utente viene segnalata una chiamata in arrivo anche se la sua linea è già occupata da un"altra chiamata. (CWT, Call Waiting)"
+
+msgid  "CXR"
+msgstr "Inoltro chiamata (CXR)"
+
+msgid  "CXR_desc"
+msgstr "Una chiamata viene inoltrata a un altro utente. (CXR, Call Transfer)"
+
+msgid  "DCPK"	
+msgstr "Parcheggio chiamate inoltrate (DCPK)"
+
+msgid  "DCPK_desc"	
+msgstr "Con questa funzione il sistema può mettere in attesa o parcheggiare le chiamate a qualsiasi DN valido. Le chiamate possono poi essere riprese in qualsiasi momento da qualunque stazione. La stazione può parcheggiare fino a 100 chiamate contemporaneamente. (DCPK, Direct Call Park)"
+
+msgid  "DCPU"	
+msgstr "Rilevare le chiamate nel team (DCPU)"
+
+msgid  "DCPU_desc"	
+msgstr "Con questa funzione un utente, all"interno del proprio gruppo, può prendere/rispondere alle chiamate in arrivo dirette a un altro utente del gruppo. (DCPU, Directed Call Pickup)"
+
+msgid  "DDN"	
+msgstr "Numero utenza selezionabile (DDN)"
+
+msgid  "DDN_desc"	
+msgstr "Questa funzione supporta la visualizzazione di numero chiamante, data e ora di una chiamata, in modo tale che il chiamato possa richiamare. (DDN, Dialable Directory 
+Number)"
+
+msgid  "DISPExt"	
+msgstr "Nome visualizzato esterno"
+
+msgid  "DISPExt_desc"	
+msgstr "Nome visualizzato esterno"
+
+msgid  "DISPLAYNAME"
+msgstr "Nome visualizzato"
+
+msgid  "displayname"
+msgstr "Nome visualizzato"
+
+msgid  "DISPLAYNAME_desc"
+msgstr "Nome che viene visualizzato al chiamante (sono consentiti come massimo 12 caratteri del tipo a-z, A-Z, 1-9 e Underscore (_)"
+
+msgid  "DISPLAYNAME_help"
+msgstr "Selezionare nome che viene visualizzato al chiamante (sono consentiti come massimo 12 caratteri del tipo a-z, A-Z, 1-9 e Underscore (_)"
+
+msgid  "DN"
+msgstr "Numero utenza (DN)"
+
+msgid  "DN_desc"
+msgstr "Numero utenza (DN: Directory Number)"
+
+msgid  "DRING"
+msgstr "Suoneria differenziata (DRING)"
+
+msgid  "DRING_desc"
+msgstr "Le chiamate esterne e interne vengono segnalate con segnali acustici differenti. Sono disponibili fino a un massimo di 8 diverse configurazioni (DRING, Distinctive Ringing)"
+
+msgid  "group_member"
+msgstr "Utente all"interno del gruppo (membro del team)"
+
+msgid  "grptyp"
+msgstr "Tipo di gruppo"
+
+msgid  "hntid"
+msgstr "Utenza collettiva (xLH)"
+
+msgid  "hntid_desc"
+msgstr "Gruppo (DLH, MLH)"
+
+msgid  "Id"
+msgstr "Id"
+
+msgid  "KSH"
+msgstr "Key Short Hunt (KSH)"
+
+msgid  "KSH_desc"
+msgstr "Questa funzione consente di instradare le chiamate in arrivo direttamente verso un numero libero. Per ogni stazione è possibile stilare una lista personalizzata dei numeri verso i quali possono essere deviate le chiamate. (KSH, Key Short Hunt)"
+
+msgid  "KSMOH"
+msgstr "Musica di attesa (KSMOH)"
+
+msgid  "KSMOH_desc"
+msgstr "Quando una chiamata viene messa in attesa o deviata, il chiamante sente la musica di attesa. (KSMOH, Key Set Music On Hold)"
+
+msgid  "LANG"
+msgstr "Lingua"
+
+msgid  "lang"
+msgstr "Lingua"
+
+msgid  "LANG_desc"
+msgstr "Lingua display"		
+
+msgid  "LANGUAGE"
+msgstr "Lingua (NCOS)"
+
+msgid  "LANGUAGE_desc"
+msgstr "Lingua utilizzata per gli annunci di questa utenza"
+
+msgid  "LANG_help"
+msgstr "Selezionare la lingua per l'annuncio di questo numero di utenza"
+
+
+msgid  "LEADINGZERO"
+msgstr "Linea in uscita (prefisso 0)" 
+
+msgid  "LEADINGZERO_desc"
+msgstr "I numeri di telefono normali incl. i numeri pubblici brevi vengono instradati verso la rete pubblica solo se preceduti da uno 0 (leading 0)."
+
+msgid  "LNR"
+msgstr "Ripetizione del numero (LNR)"	
+
+msgid  "LNR_desc"
+msgstr "Premendo due volte il tasto # viene stabilita una comunicazione con l'ultimo numero di telefono selezionato. (LNR, Last Number Redial)"
+
+msgid  "LOD"
+msgstr "Line Overflow to Directory Number (LOD)"	
+
+msgid  "LOD_desc"
+msgstr "Con questa funzione, le chiamate in arrivo vengono deviate verso un altro numero se tutte le utenze sono occupate. (LOD, Line Overflow to Directory Number)"
+
+msgid  "M522"
+msgstr "Modulo tastiera supplementare  (M522)"
+
+msgid  "M522_desc"
+msgstr "Modulo tastiera supplementare  (M522, Key Expansion Module)"
+
+msgid  "madn"
+msgstr "Chiamata parallela gruppo (MADN)"
+
+msgid  "madn_desc"
+msgstr "In aggiunta al numero di telefono personale, è possibile impostare un ulteriore numero come numero di telefono di gruppo sotto un tasto speciale. (MADN, Multi-Appearance Gruppn Nummer)"
+
+msgid  "madnpilot"
+msgstr "Numero di telefono parallelo pilota"
+
+msgid  "madnpilot_desc"
+msgstr "Lutente pilota è autorizzato a deviare il numero di telefono del gruppo in modo mirato. (MADN: Multi Appearance Directory Number"
+
+msgid  "MBSCAMP"
+msgstr "Meridian Business Set Station Camp-On"
+	
+
+msgid  "MBSCAMP_desc"
+msgstr "Con questa funzione è possibile deviare una chiamata verso una stazione occupata. Se la stazione occupata non prende la chiamata entro un periodo di tempo definito, la chiamata ritorna alla stazione originaria. (MBSCAMP, Meridian Business 
+Set Station Camp-On)"
+
+msgid  "MSB"
+msgstr "Make Set Busy (MSB)"
+
+msgid  "MSB_desc"
+msgstr "Mediante questa funzione è possibile far sì che ogni stazione risulti occupata per la chiamate in arrivo. Se non viene definito un comportamento specifico, si sente il segnale di occupato. (MSB, Make Set Busy"
+
+msgid "MWT"
+msgstr "Segnalazione messaggi (MWT)"
+
+msgid "MWT_desc"
+msgstr "Segnalazione della presenza di nuovi messaggi sulla VoIP Combox@ pro (MWT, Message Waiting)"
+
+msgid  "NCOS"
+msgstr "Set di blocco NOCS/OCB"
+
+msgid  "NCOS_desc"
+msgstr "Sono disponibili 5 set di blocco mediante i quali è possibile impedire che vengano effettuate chiamate verso numeri di telefono definiti. (NCOS, Number Class Of Service / Network Class of Service)"
+
+msgid  "pilot"
+msgstr "Utente pilota del gruppo"
+
+msgid  "pilot_desc"
+msgstr "L"utente pilota è autorizzato a effettuare deviazioni di chiamata mirate del numero di telefono del gruppo."
+
+msgid  "PRK"
+msgstr "Parcheggio chiamata (PRK)"
+
+msgid  "PRK_desc"
+msgstr "Questa funzione consente di parcheggiare le chiamate a proprio piacere. (PRK, Call Park)"
+
+msgid  "RAG"
+msgstr "Richiamata automatica su occupato (RAG)"
+
+msgid  "RAG_desc"
+msgstr "Con questa funzione l"utente di una stazione riceve una notifica non appena la stazione che ha chiamato è nuovamente libera. (RAG, Ring Again)" 
+
+msgid  "ringorder"
+msgstr "Sequenza suoneria per gruppi"	
+
+msgid  "ringorder_desc"
+msgstr "		
+
+msgid  "SCS"
+msgstr "Selezione rapida personale (SCS)"
+
+msgid  "SCS_desc"
+msgstr "E" possibile memorizzare 10 posizioni in memoria su cui programmare numeri di telefono. (SCS, Speed Calling Short)"
+
+msgid  "SDNA"
+msgstr "Impostazione attributi DN (SDNA)"
+
+msgid  "SDNA_desc"
+msgstr "Mediante questa funzione è possibile aggiungere, modificare o cancellare attributi per un determinato gruppo di utenze  
+
+msgid  "SIMRING"
+msgstr "Suoneria contemporanea (SIMULTANANRUF)"
+
+msgid  "Simring_desc"
+msgstr "Con questa funzione, in caso di chiamata, suonano non solo il numero personale ma anche fino a un massimo di numeri di destinazione definiti."
+
+msgid  "SUPPRESS"
+msgstr "Soppressione dell"identificazione del chiamante (Suppress)"
+
+msgid  "SUPPRESS_desc"
+msgstr "Il chiamato non vede il numero di telefono e il nome del chiamante."
+
+msgid  "TFO"
+msgstr "Terminal Fault Option (TFO)"	
+
+msgid  "TFO_desc"
+msgstr "Con questa funzione, una chiamata in arrivo può essere instradata verso il primo membro di un'utenza collettiva che si libera, indipendentemente dal fatto che questo membro sia libero."
+
+msgid  "TIMER"
+msgstr "Tempo per CFD" 
+
+msgid  "TIMER_desc"
+msgstr "non in offerta"
+
+msgid  "UCD"
+msgstr "Distribuzione uniforme delle chiamate (UCD)"
+
+msgid  "UCD_desc"
+msgstr "Questa funzione permette di distribuire le chiamate in arrivo verso stazioni di destinazione precedentemente definite. (USD,Uniform Call Distribution)"
+
+msgid  "UCDLG"
+msgstr "Uniform Call Distribution Login (UCDLG)"	
+
+msgid  "UCDLG_desc"
+msgstr "Questa funzione permette di distribuire le chiamate in arrivo verso stazioni di destinazione precedentemente definite. (USDLG,Uniform Call Distribution Login)" 
+
+msgid  "set1"
+msgstr "Set 1"
+
+msgid  "set2"
+msgstr "Set 2"
+
+msgid  "set3"
+msgstr "Set 3"
+
+msgid  "set4"
+msgstr "Set 4"
+
+msgid "set5"
+msgstr "Set 5"
+
+msgid  "Set1"
+msgstr "Set 1"
+
+msgid  "Set2"
+msgstr "Set 2"
+
+msgid  "Set3"
+msgstr "Set 3"
+
+msgid  "Set4"
+msgstr "Set 4"
+
+msgid "Set5"
+msgstr "Set 5"
+
+msgid  "not used"
+msgstr "DO NOT REMOVE"
+
+
+---- log -----
+
+msgid  "Station Logs"
+msgstr "Protocollo modifiche del telefono"
+
+msgid  "config"
+msgstr "Configurazione"
+
+msgid  "config"
+msgstr "Configurazione"
+
+msgid  "possible modi"
+msgstr "Possibile selezione"
+
+
+msgid  "station_created"
+msgstr "Station Created"
+
+msgid  "last_modi"
+msgstr "Ultima modifica"
+
+
+msgid  "Log"
+msgstr "Log"
+
+msgid  "not used"
+msgstr "DO NOT REMOVE"
+
+----------New items 0510 --------
+
+msgid "tester"
+msgstr "something"
+
+
+msgid "Click one of the images below to view the key layout of the phone"
+msgstr "Per una panoramica delle funzioni assegnate ai tasti selezionare uno dei seguenti modelli di telefoni. I tasti del 2° livello risp. de 2° modulo tastiera supplementare sono indicati tra parentesi."
+
+msgid  "close_window"
+msgstr "Chiudi finestra"
+
+msgid  "(Configuration Logs)"
+msgstr "(Protocollo modifiche del telefono)"
+
+msgid "Connection timed out"
+msgstr "Ultima modifica"
+
+msgid "Customer view:"
+msgstr "Cliente:"
+
+msgid "Customer View:"
+msgstr "Cliente:"
+
+msgid "date"
+msgstr "Data"
+
+msgid "description"
+msgstr "Descrizione"
+
+msgid "Error in upload"
+msgstr "Errore durante il caricamento"
+
+msgid "File Upload"
+msgstr "Upload"
+
+msgid "Home Swisscom"
+msgstr "Swisscom Homepage"
+
+msgid "id"
+msgstr "ID"
+
+
+msgid  "Id"
+msgstr "ID"
+
+msgid "Internal User"
+msgstr "Collaboratore Swissom"
+
+msgid "It is possible to upload a custom music on hold file which will be made active immediately. To use this function click on the upload MoH button in the main section."
+msgstr "E" possibile attivare o modificare un file musicale che il chiamante ascolterà durante l'attesa. A tale scopo utilizzare il seguente tasto di upload"
+
+msgid "keyid"
+msgstr "Tasto"
+
+msgid "Log Details"
+msgstr "Protocollo modifiche"
+
+msgid "Modification Confirmation"
+msgstr "Conferma modifiche"
+
+msgid "No Location"
+msgstr "Tutte le sedi"
+
+msgid "No modifications in DB"
+msgstr "Nessun modifica nella banca dati"
+
+msgid  "Reset"
+msgstr "Reset"
+
+msgid "Select File"
+msgstr "Seleziona file"
+
+msgid  "station_created"
+msgstr "Data di creazione"
+
+msgid "status"
+msgstr "Status"
+
+msgid "There was a problem in applying the changes."
+msgstr "Durante la configurazione si sono verificati degli errori"
+
+msgid "Upload"
+msgstr "Upload"
+
+msgid  "upload MOH file"
+msgstr "Upload"
+
+msgid "Upload MOH File"
+msgstr "Upload"
+
+msgid "user"
+msgstr "Utente"
+
+msgid "EXPANSION MODULE KEY DATA"
+msgstr "Tasti dei moduli tastiera supplementari:"
+
+msgid "label"
+msgstr "Etichetta"
+
+msgid "update"
+msgstr "modificato"
+
+
+msgid "update to"
+msgstr "modificato in"
+
+msgid "delete"
+msgstr "cancella"
+
+msgid "add"
+msgstr "aggiungi"
+
+msgid  "aud_feature"
+msgstr "Tasto di selezione rapida (AUD)"
+
+msgid  "aud_number"
+msgstr "Numero tasto di selezione rapida (AUD)"
+
+msgid  "blf_feature"
+msgstr "Segnalazione di occupato (BLF)"
+
+msgid  "_errorValidate"
+msgstr "Errore durante la verifica"
+
+msgid  "Sorry you didnt made any change"
+msgstr "Non sono state effettuate modifiche"
+
+msgid  "Password"
+msgstr "Password"
+
+msgid  "value changed"
+msgstr "Modifica"
+
+
+msgid  "Saved Successfully"
+msgstr "Salvataggio eseguito correttamente"
+
+msgid  "Error from modification"
+msgstr "Errore durante l"attivazione delle modifiche"
+
+msgid  "Sorry this page in use by user"
+msgstr "Questa stazione è in uso da parte di: "
+
+msgid  "moh_limit"
+msgstr "I file musicali devono essere in formato .WAV/.MP3 e non possono avere dimensioni superiori a 10MB"
+
+msgid  "moh_license"
+msgstr "Desideriamo ricordarvi che siete voi responsabili del pagamento di eventuali diritti d"autore (SUISA)." 
+
+msgid  "not used"
+msgstr "DO NOT REMOVE"
+
+
+---------Station Log Page---
+msgid  "Status"
+msgstr "Status"
+
+msgid  "Response"
+msgstr "Risposta"
+
+msgid  "Date"
+msgstr "Data / Ora"
+
+
+msgid  "Status"
+msgstr "Status"
+
+msgid  "Description"
+msgstr "Descrizione"
+
+msgid  "This page allows internal users to list all customers and access a specific customer Voiphpone environments. <br> Once a customer is selected from the table then you will be operating in the same view as the customer."
+msgstr "In questa pagina Swisscom interna sono elencati tutti i clienti VoIP Phone e One Netbase. <br> Dopo aver elezionato un cliente dalla lista è possibile visualizzarne l'inventario ed eseguire configurazioni. A tale scopo si utilizzano le stesse schermate utilizzate dagli amministratori autorizzati del cliente."
+
+msgid  "only Wav file is allowed"
+msgstr "Upload interrotto perché vengono supportati solo formati .WAV/MP3 <br> Si prega di selezionare un nuovo file musicale con il formato corretto."
+
+msgid  "Logged in as"
+msgstr "Login effettuato come"
+
+msgid "Key assignment"
+msgstr "Assegnazione tasti"
+
+msgid "corporatebusiness"
+msgstr "Grandi Aziende "
+
+msgid "Swisscom Extranet Corporate Business - Voiphone Selfcare"
+msgstr "Swisscom Extranet Grandi Aziende - Voiphone Selfcare"
+
+msgid "Startseite Extranet Swisscom (Schweiz) AG - Grossunternehmen"
+msgstr "Home Extranet Swisscom (Schweiz) AG - Grandi Aziende"
+
+msgid "Logout"
+msgstr "Logout"
+
+msgid "User Management"
+msgstr "Amministratione utenti"
+
+msgid "Support / Contact"
+msgstr "Support / Contatto"
+
+msgid "only .wav and .mp3 files are allowed"
+msgstr "Upload interrotto perché vengono supportati solo formati .WAV. e .MP3 <br> Si prega di selezionare un nuovo file musicale con il formato corretto."
+
+msgid "File Conversion Failed"
+msgstr "File Conversion Failed"
+
+msgid  "T1140"
+msgstr "VoIP-Phone Business"
+
+msgid  "T1120"
+msgstr "VoIP-Phone Standard"
+
+msgid "File not valid : Error , NO Response Received"
+msgstr "IFile not valid : Error , NO Response Received"
+
+msgid "Page in use by user : "
+msgstr "GPage in use"
+

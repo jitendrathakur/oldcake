@@ -1,0 +1,54 @@
+<?php 
+
+#-----------------------------------------------------------------#
+# $Rev:: 26            $:  Revision of last commit                #
+#-----------------------------------------------------------------#
+
+	$type='test'; # Change to the current environment.
+	
+	
+	if($type=='local'){
+		$config['base_url']='http://192.168.0.170/selfcare/';
+		 $config['gate_url']='http://192.168.75.128/voipgate/';
+		$config['upload_url']='/var/www/html/selfcare/app/temp_files/';
+		$config['access_id']=99;
+		$config['host']='83.169.17.183';
+		$config['port']=12345;
+		$config['activate_mode']='STUB';
+	}
+	if($type=='test'){
+		$config['base_url']='http://192.168.75.130/voipphoneRE3/';
+		$config['gate_url']='http://192.168.75.130/voipgate/';
+		$config['upload_url']='/var/www/html/voipphoneRE3/app/temp_files/';
+		$config['access_id']=99;
+		$config['host']='83.169.17.183';
+		$config['port']=12345;
+		$config['activate_mode']='STUB';
+	}
+	if($type=='preprod'){
+		$config['base_url']='/voipphone/';
+		 $config['gate_url']='/voipgate/';
+		$config['upload_url']='/var/www/html/voipphone/app/temp_files/';
+		$config['access_id']=57397911;
+		$config['host']='172.22.26.4';
+		$config['port']=12345;
+		$config['activate_mode']='LIVE';
+	}
+	if($type=='prod'){
+		$config['base_url']='/voipphone/';
+		 $config['gate_url']='/voipgate/';
+		$config['upload_url']='/var/www/html/voipphone/app/temp_files/';
+		$config['access_id']=57397911;
+		$config['host']='172.23.26.4';
+		$config['port']=12345;
+		$config['activate_mode']='LIVE';
+	}
+	
+
+	$config['NCOS-BARRINGSET']	=	array('no Set'=>'5','Set1'=>'3','Set2'=>'2','Set3'=>'1','Set4'=>'0','Set5'=>'4','Set6'=>'6','Set7'=>'7','Set8'=>'8','Set9'=>'9','Set10'=>'10','Set11'=>'11','Set12'=>'12','Set13'=>'13','Set14'=>'14','Set15'=>'15');
+//	$config['NCOS-LANGUAGE']	=	array('en'=>'48','fr'=>'16','ge'=>'0','IT'=>'32');
+	$config['NCOS-LANGUAGE']	=	array('EN'=>'48','FR'=>'16','DE'=>'0','IT'=>'32');//must use caps alphabets for name eg:DE,FR
+	//$config['NCOS-LEADING']		=	array('LEADINGZERO'=>64,'no LEADINGZERO'=>0);
+	$config['NCOS-LEADING']		=	array('1'=>'64','0'=>'0');
+	 $config['status']              =       array(1,2,3);
+?>

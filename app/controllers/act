@@ -1,0 +1,210 @@
+		if($this->Session->read('SELECTED_CUSTOMER')!=Configure::read('access_id')){
+			$id=$this->Session->read('SELECTED_CUSTOMER');
+			$cnt	=	 count($this->_Filter);
+			//$this->_Filter[$cnt]	=	"Location.customer_id = $id";
+		$this->paginate['Paginate']	=	$this->AutoPaginate->setPaginate();
+		$this->set('title_header','Prototype');
+		$cnt	=	 count($this->_Filter);
+		$this->_Filter[$cnt] = "Station.customer_id = '$number'";
+		$sel_customer	=	$this->Session->read('sel_customer');
+			$this->Session->write('sel_customer',$number);
+				$this->Session->write('sel_location',$sel_location);
+				$this->Session->write('sel_location','');
+			}elseif ($this->Session->read('sel_location')){
+				$sel_location	=	$this->Session->read('sel_location');
+			$count_val	=	$this->Station->station_count($number,$sel_location);
+    		 $this->paginate = array('joins' => array(         
+			$cnt	=	 count($this->_Filter);
+				$this->_Filter[$cnt] = "Stationkey.location_id is NULL  group by Stationkey.station_id";
+				$this->_Filter[$cnt] = "Stationkey.location_id = '$sel_location'  group by Stationkey.station_id";
+			$station_details	 = 	$this->paginate('Station', $this->_Filter);
+			$this->params['paging']['Station']['count']	=	$count;
+			$station_details	 = 	$this->paginate('Station', $this->_Filter);
+		$station_list	=	$this->Station->find('all',array('conditions'=>array('Station.customer_id'=>$number)));
+		$station_list	=	$this->Station->find('all',array('conditions'=>array('Station.customer_id'=>$number)));
+			$location_details	=	$this->Stationkey->find('all',array('conditions'=>array('Stationkey.station_id'=>$details['Station']['id'])));
+		$this->set('location',$location);
+		$this->set('sel_location',$sel_location);
+		$this->set('stations', $station_details); 
+		//$this->set('stations', $this->paginate('Station', $station_details)); 
+		$this->set('cust_id',$number);
+		$location	=	$this->Station->find('all',array('conditions'=>array("Station.status"=>'1','Station.id'=>$station_id)));
+		if($this->Session->read('SELECTED_CUSTOMER')!=Configure::read('access_id')){
+			$id=$this->Session->read('SELECTED_CUSTOMER');
+				$this->layout='ajax';
+					$this->cakeError('accessDenied');
+		$this->set('title_header','Prototype');
+		$this->Stationkey->bindModel(array(
+		$stationinfo	=	$this->Stationkey->find('all',
+		//$location	=	$this->Station->find('all',array('conditions'=>array("Station.status"=>'1','Station.id'=>$station_id)));
+		$this->set('stationinfo',$stationinfo);
+		$this->set('location',$location[0]);
+			$this->set('success', $_SESSION['success']);
+			$this->set('error', $_SESSION['error']);
+		$this->station_id=$station_id;
+				$this->Stationkey->bindModel(array(
+		$stationinfo	=	$this->Stationkey->find('all',
+		 $this->dbsave	=	1;
+		 $this-> _changed_values();
+		$this->port  = $this->data['station_port'];
+		$this->port  = '88';
+		foreach($this->data as $i=>$val){
+				$this->short_name		=	$dat_sel[$i];
+				$this->short_name	='';
+			if(isset($this->data[$i]) || $this->short_name ){
+							                         'primary_value'   =>    $this->data[$i]
+					if(isset($this->short_name) && $update_short_name)	{		
+						$update['Feature']['short_name'] =	$this->short_name;		
+				 if($this->success==1){
+				 	if(isset($this->short_name) && $update_short_name)
+						 $this->Feature->save( $update, false, array('primary_value','short_name')); 
+						 $this->Feature->save( $update, false, array('primary_value'));
+				if($this->success==1){
+					$this->Feature->create();
+					//$this->Feature->save($insert);
+	 $this->redirect('/stations/edit/'.$station_id);
+		$this->layout='ajax';
+		$this->dbsave	=	0;
+		$this-> _changed_values();// for showing the changed values 
+		//echo $this->upadte_occur;die();
+		if($this->upadte_occur)
+			$this->set('display',$this->update);
+		$this->Stationkey->bindModel(array(
+		$stationinfo	=	$this->Stationkey->find('all',
+		//$this->Feature->find( 'all')
+		 foreach($this->data as $i=>$val){
+		 $this->upadte_occur=0;
+		 $this->update	=array();
+		 $this->success		=1;
+		 		$this->upadte_occur=1;
+		 		if($this->dbsave==1){
+							$this->station_id		=	$_POST['stationname'];
+							$this->key				=	$k;
+							$this->action			=	'add';
+							$this->short_name		=	$dat_val[$k][$j];
+							$this->newvalue			=	$dat_txt[$k][$j];
+							$this->_trace_changed_values ();
+								$this->newvalue			=	$dat_label[$k][$j];
+								$this->short_name		=	$this->short_name.'_LABEL';
+								$this->_trace_changed_values ();
+							$this->update[]		=' <span style="color:black;">INSERT into Key '.$k.'</span> <span style="color:red;">'.$dat_val[$k][$j].'</span> value  <span style="color:blue;">'.$dat_txt[$k][$j].'</span><br>';
+		 						$this->update[]		=' <span style="color:black;">INSERT into Key '.$k.'</span> <span style="color:red;">'.$dat_val[$k][$j].'_LABEL</span>  value  <span style="color:blue;">'.$dat_label[$k][$j].'</span><br>';
+		 		$this->upadte_occur=1;
+		 		if($this->dbsave==1){
+							$this->station_id		=	$_POST['stationname'];
+							$this->key				=	$k;
+							$this->action			=	'add';
+							$this->short_name		=	$dat_val[$k][$j];
+							$this->newvalue			=	$dat_txt[$k][$j];
+							$this->_trace_changed_values ();
+								$this->newvalue			=	$dat_label[$k][$j];
+								$this->short_name		=	$this->short_name.'_LABEL';
+								$this->_trace_changed_values ();
+							$this->update[]		=' <span style="color:black;">INSERT into Key '.$k.'</span> <span style="color:red;">'.$dat_val[$k][$j].'</span> value  <span style="color:blue;">empty</span><br>';
+		 						$this->update[]		=' <span style="color:black;">INSERT into Key '.$k.'</span> <span style="color:red;">'.$dat_val[$k][$j].'_LABEL</span>  value  <span style="color:blue;">empty</span><br>';
+		 $this->secondary	=	$_POST['dataLabel'];
+		 foreach($this->data as $i=>$val){
+			$this->msg_count=1;
+				if($this->data[$i]!=$fet[$i]['values'] || (isset($this->secondary[$i])) && $this->secondary[$i]!=$fet[$i]['secondary']){
+					$this->upadte_occur=1;
+								$this->short_name		=	$dat_sel[$i];
+								$this->short_name		=	$fet[$i]['short_name'];
+						if($this->dbsave==1){
+							$this->station_id		=	$_POST['stationname'];
+							$this->key				=	$fet[$i]['stationkey_id'];
+							if($this->key==1 && (!isset($this->key1)) && $this->short_name!='DISPLAYNAME'){
+								$this->key1	=	1;
+								$this->_ncoscalculation ();
+							if($this->key==2 && (!isset($this->key2))&& $this->short_name!='DISPLAYNAME'){
+								$this->key2	=	1;
+								$this->_ncoscalculation ();
+							if($this->key>2 || $this->short_name=='DISPLAYNAME'){
+								if($isem && empty($this->short_name)){
+									$this->action			=	'delete';
+									$this->short_name		=	$fet[$i]['short_name'];
+									$this->newvalue			=	'';
+								elseif($isem && $del && $this->short_name){
+									$this->action			=	'delete';
+									$this->short_name		=	$fet[$i]['short_name'];
+									$this->newvalue			=	'';
+									$this->msg_count=2;
+									$this->action1			=	'add';
+									$this->short_name1		=	$dat_sel[$i];
+									$this->newvalue1		=	$this->data[$i];
+								}elseif($isem && $this->short_name){
+									$this->action			=	'update';
+									$this->short_name		=	$this->short_name;
+									$this->newvalue			=	$this->data[$i];
+									$this->action			=	'update';
+									$this->short_name		=	$fet[$i]['short_name'];
+									$this->newvalue			=	$this->data[$i]; 
+								if($this->data[$i]!=$fet[$i]['values'])
+									$this->_trace_changed_values ();
+								if((isset($this->secondary[$i])) && $this->secondary[$i]!=$fet[$i]['secondary'] ){
+									$this->newvalue			=	$this->secondary[$i];
+									$this->short_name		=	$this->short_name.'_LABEL';
+									$this->_trace_changed_values ();
+								if($this->data[$i]!=$fet[$i]['values'])
+									$log_entry	.='key '.$fet[$i]['stationkey_id']." ".$log_shortname.":".(($fet[$i]['values'])?$fet[$i]['values']:'empy value')."->".(($this->data[$i])?$this->data[$i]:'empty value').',';
+								if((isset($this->secondary[$i])) && $this->secondary[$i]!=$fet[$i]['secondary'] ){
+									$log_entry	.='key '.$fet[$i]['stationkey_id']." ".$log_shortname."_LABEL:".(($fet[$i]['values'])?$fet[$i]['values']:'empy value')."->".(($this->secondary[$i])?$this->secondary[$i]:'empty value').',';
+							if($this->data[$i]!=$fet[$i]['values'])
+								$this->update[]		=' <span style="color:black;"> Key '.$fet[$i]['stationkey_id'].'</span> '. $short_name_sel.' value changed from <span style="color:blue;">'.(($fet[$i]['values'])?$fet[$i]['values']:'empty value').'</span> to <span style="color:orange;">'.(($this->data[$i])?$this->data[$i]:'empty value').'</span><br>';
+							if((isset($this->secondary[$i])) && $this->secondary[$i]!=$fet[$i]['secondary'] ){
+		 						$this->update[]		=' <span style="color:black;"> Key '.$fet[$i]['stationkey_id'].'</span> '. $short_name_sel.'<span style="color:red">_LABEL</span> value changed from <span style="color:blue;">'.(($fet[$i]['values'])?$fet[$i]['values']:'empty value').'</span> to <span style="color:orange;">'.(($this->secondary[$i])?$this->secondary[$i]:'empty value').'</span><br>';
+		if($this->dbsave==1){ 
+						                         'station_id'   =>    $this->station_id,
+						                         'customer_id'	=>	$this->Session->read('SELECTED_CUSTOMER'),
+						                         'user'	=>	$this->Session->read('ACCOUNTNAME'),
+			$this->Log->save($insert,false); 
+		$this->_message_resp_xml ();				
+		$response		= $this->_read('res');
+		$acknowledge	= $this->_read('ack');
+			if($this->msg_count==2)	{
+				$this->msg_count		=	1;
+				$this->action			=	$this->action1;
+				$this->short_name		=	$this->short_name1;
+				$this->newvalue			=	$this->newvalue1;
+				$this->_trace_changed_values();
+				$this->success=0;
+			$this->success=0;
+			 $this->redirect('/stations/edit/'.$this->station_id);
+			$feat	=	$this->Feature->find('all',array('conditions'=>array("Feature.stationkey_id"=>$this->key)));
+				if((isset($this->data[$id])) && $this->data[$id]){
+						$lang	=$lang_ncos[$this->data[$id]];
+					if((isset($this->data[$id])) && $this->data[$id]){
+						$barset	=$bar_ncos[$this->data[$id]];
+			$this->action			=	'update';
+			$this->short_name		=	'NCOS';
+			$this->newvalue			=	$lang+$barset+$lead;
+			$this->_trace_changed_values ();
+		$this->set('title_header','Prototype');
+			if($this->Session->read('SELECTED_CUSTOMER')!=Configure::read('access_id')){
+				$location	=	$this->Station->find('all',array('conditions'=>array("Station.status"=>'1','Station.id'=>$station_id)));
+				$id=$this->Session->read('SELECTED_CUSTOMER');
+					$this->layout='ajax';
+					$this->cakeError('accessDenied');
+				$loginfo	=	$this->Log->find('all',
+				$loginfo	=	$this->Log->find('all',
+			$station = $this->Station->findById($station_id);
+			$this->set('loginfo',$loginfo);
+			$this->set('station',$station['Station']['name']);
+			$this->redirect('/stations');
+		$log		=	$this->Log->findById($log_id);
+		$this->layout='ajax';
+				$this->update[$i]		=' <span style="color:black;">'.$change1[0].'</span>  value changed from <span style="color:blue;">'.$values[0].'</span> to <span style="color:orange;">'.$values[1].'</span><br>';
+				$this->update[$i]		=' <span style="color:black;">'.$change1[0].'</span>   <span style="color:blue;">'.$values[1].'</span><br>';
+		$this->set('display',$this->update);
+  /*      $tempStation_id = $this->station_id;
+          $tempStation = $this->station->find('all',array('conditions'=>array('Station.id'=>$tempStation_id)));
+          $this->port = '99';
+        $xml_string      =  '<object action="'.$this->action.'" name="'.strtolower($this->short_name).'">';       
+        $xml_string     .=  	'<message port="'.$this->port.'" station="'.$this->station_id.'" key="'.$this->key.'">';
+        $xml_string     .=        	    '<var station="'.$this->station_id.'" key="'.$this->keynumber.'" value="'.$this->newvalue .'" name="'.strtolower ($this->short_name).'"/>';      
+        $this->Authentication->socket();
+		    $res	=	$this->_xml2array($xml);
+      foreach($xml->children() as $name => $xmlchild) $t[$name]=$this->_xml2array($xmlchild);
+		$name			=	$this->data;
+		$this->layout	=	'ajax';
+		$blf_list		=	 $this->Blf->find ('all',array('conditions'=>array('Blf.observed'=>$name)));;
+		$this->set('blf_list',$blf_list);

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <station test="testValx">
+    <!-- CREATE STATION . ONLY USED IN FEATURE CALCULATION. ONLY HAS DN_INDIVIDUAL SUPPORT AT MOMENT	 -->
+    <!-- Station Features -->
+    
+               <feature name="M522" short_name="M522" type="station" mandatory="n" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="0"/>
+
+
+		<feature name="MOH" short_name="MOH" type="station" mandatory="y" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="1"/>
+		<feature name="COM" short_name="COM" type="station" mandatory="y" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="0"/>
+		<feature name="CTI" short_name="CTI" type="station" mandatory="xpath:Configuration/Station/@custCTI" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="xpath:Configuration/Station/@custCTI"/>
+		<feature name="SCS" short_name="SCS" type="station" mandatory="y" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="1"/>
+		<feature name="UCD" short_name="UCD" type="station" mandatory="n" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="1"/>
+
+		<feature name="DCPU" short_name="DCPU" type="station" mandatory="y" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="1"/>
+				
+    	<oldfeature name="LNR" short_name="LNR" type="station" mandatory="y" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue="1"/>
+	 <feature name="SIMRING" short_name="SIMRING" type="station" mandatory="n" defaultKey="1" priority="1" shiftable="n" coloc="y" defaultValue=""/>
+                
+
+               <cfeature name="SIMRINGMEMBER1" short_name="SIMRINGMEMBER1" defaultValue="" mandatory="xpath:Configuration/Station/feature[short_name='SIMRING']/primary_value" occur="9" parent="SIMRING"/>
+               <cfeature name="SIMRINGMEMBER2" short_name="SIMRINGMEMBER2" defaultValue="" mandatory="xpath:Configuration/Station/feature[short_name='SIMRING']/primary_value" occur="9" parent="SIMRING"/>
+               <cfeature name="SIMRINGMEMBER3" short_name="SIMRINGMEMBER3" defaultValue="" mandatory="xpath:Configuration/Station/feature[short_name='SIMRING']/primary_value" occur="9" parent="SIMRING"/>
+                <cfeature name="SIMRINGMEMBER4" short_name="SIMRINGMEMBER4" defaultValue="" mandatory="xpath:Configuration/Station/feature[short_name='SIMRING']/primary_value" occur="9" parent="SIMRING"/>
+   
+    	<!-- Key features -->
+    	
+    	<feature name="PRK" short_name="PRK" type="key" mandatory="y" defaultKey="6" priority="60" shiftable="y" coloc="n" defaultValue="1"/>
+    	
+		<feature name="RAG" short_name="RAG" type="key" mandatory="y" defaultKey="4" priority="65" shiftable="y" coloc="n" defaultValue="1"/>
+
+		<feature name="CWT" short_name="CWT" type="key" mandatory="n" defaultKey="2" priority="90" shiftable="y" coloc="n" defaultValue="1"/>
+
+		<feature name="UCDLG" short_name="UCDLG" type="key" mandatory="n" defaultKey="2" priority="89" shiftable="y" coloc="n" defaultValue="1"/>
+
+		<feature name="CNF" short_name="CNF" type="key" mandatory="y" defaultKey="5" priority="50" shiftable="y" coloc="n" defaultValue="1"/>
+
+		<feature name="CXR" short_name="CXR" type="key" mandatory="y" defaultKey="3" priority="88" shiftable="y" coloc="n" defaultValue="1"/>
+    	<feature name="MWT" short_name="MWT" type="key" mandatory="n" defaultKey="1" priority="85" shiftable="y" coloc="n" defaultValue="1"/>
+		<feature name="MSB" short_name="MSB" type="key" mandatory="n" defaultKey="2" priority="87" shiftable="y" coloc="n" defaultValue="1"/>
+
+		<!-- DN INDIVIDUAL -->
+		
+		<feature name="DN_INDIVIDUAL" short_name="DN" type="key" mandatory="n" defaultKey="1" priority="95" shiftable="y" coloc="n" defaultValue="123"/>
+    		<cfeature name="INITIAL_PWD" short_name="INITIAL_PWD" defaultValue="unused" mandatory="y" occur="1" parent="DN_INDIVIDUAL"/>  	
+    		<cfeature name="USER_ID" short_name="USER_ID" defaultValue="parent:primary_value" mandatory="y" occur="1" parent="DN_INDIVIDUAL"/>  			
+    	 				
+    		<cfeature name="DISPLAYNAME" short_name="DISPLAYNAME" defaultValue="DNIND" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+    		<cfeature name="BARRINGSET" short_name="BARRINGSET" defaultValue="Set4" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+    		<cfeature name="NCOS" short_name="NCOS" defaultValue="64" mandatory="xpath:Configuration/Station/@custLeadingZero" occur="9" parent="DN_INDIVIDUAL"/>
+    		<cfeature name="NCOS" short_name="NCOS" defaultValue="0" mandatory="xpath:Configuration/Station/@custLeadingZero=0" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="CFUNUMBER" short_name="CFUNUMBER" defaultValue="" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+    		<cfeature name="CFUSTATUS" short_name="CFUSTATUS" defaultValue="I" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/> 
+    		<cfeature name="CFBNUMBER" short_name="CFBNUMBER" defaultValue="" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+    		<cfeature name="CFDVT" short_name="CFDVT" defaultValue="16" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+
+			<cfeature name="CFBSTATUS" short_name="CFBSTATUS" defaultValue="I" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/> 
+    		<cfeature name="CFNANUMBER" short_name="CFNANUMBER" defaultValue="" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+    		<cfeature name="CFNASTATUS" short_name="CFNASTATUS" defaultValue="I" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="CFUMEMBER" short_name="CFUMEMBER" defaultValue="1" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="CFBMEMBER" short_name="CFBMEMBER" defaultValue="1" mandatory="n" occur="9" parent="DN_INDIVIDUAL"/>
+					
+			<cfeature name="CFNAMEMBER" short_name="CFNAMEMBER" defaultValue="1" mandatory="n" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="LNR" short_name="LNR" defaultValue="1" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+    		<cfeature name="LANG" short_name="LANG" defaultValue="de" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="LEADINGZERO" short_name="LEADINGZERO" defaultValue="xpath:Configuration/Station/@custLeadingZero" mandatory="y" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="SDNA" short_name="SDNA" defaultValue="0" mandatory="n" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="DRING" short_name="DRING" defaultValue="1" mandatory="n" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="SUPPRESS" short_name="SUPPRESS" defaultValue="1" mandatory="n" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="MSBMEMBER" short_name="MSBMEMBER" defaultValue="0" mandatory="xpath:Configuration/Station/feature[short_name='MSB']/primary_value" occur="9" parent="DN_INDIVIDUAL"/>
+			<cfeature name="CPUMEMBER" short_name="CPUMEMBER" defaultValue="1" mandatory="xpath:Configuration/Station/feature[short_name='CPU']/primary_value" occur="9" parent="DN_INDIVIDUAL"/>
+			
+			<!--  CFX KEY FEATURES -->
+			<dfeature name="CFUFEATURE" short_name="CFUFEATURE" type="key" mandatory="xpath:count(Configuration/Station/feature[short_name='DN_INDIVIDUAL' or short_name='DN_MADN_PILOT'])=1" defaultKey="2" priority="80" shiftable="y" coloc="n" defaultValue="1" occur="1" parent="DN_INDIVIDUAL"/>
+			<dfeature name="CFKFEATURE" short_name="CFKFEATURE" type="key" mandatory="xpath:count(Configuration/Station/feature[short_name='DN_INDIVIDUAL' or short_name='DN_MADN_PILOT'])>1" defaultKey="2" priority="80" shiftable="y" coloc="n" defaultValue="1" occur="1" parent="DN_INDIVIDUAL"/>
+			<cfeature name="CFBFEATURE" short_name="CFBFEATURE" defaultValue="1" mandatory="y" occur="1" parent="DN_INDIVIDUAL"/>			
+			<cfeature name="CFNAFEATURE" short_name="CFNAFEATURE" defaultValue="1" mandatory="y" occur="1" parent="DN_INDIVIDUAL"/>			
+
+			 <dfeature name="AUTODISP" short_name="AUTODISP" type="station" mandatory="xpath:count(Configuration/Station/feature[contains(short_name,'DN_')])>1" defaultKey="1" priority="80" shiftable="n" coloc="y" defaultValue="1" occur="1" parent="DN_INDIVIDUAL"/>
+                
+			
+		
+		
+		</station>
+</config>

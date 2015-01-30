@@ -1,0 +1,98 @@
+msgid  "close_window"
+msgstr "en_Close"
+
+msgid  "where_pin"
+msgstr "Where is my PIN?"
+
+msgid  "navigation"
+msgstr "Navigation English"
+
+msgid  "keyid"
+msgstr "KeyId "
+
+msgid  "config"
+msgstr "Current Configuration "
+
+msgid  "label"
+msgstr "Label"
+
+
+msgid  "possible modi"
+msgstr "Possible Modification"
+
+msgid  "feature values"
+msgstr "Feature Values"
+
+msgid  "station_data"
+msgstr "Station DATA"
+
+msgid  "CFB"
+msgstr "Call forward busy"
+
+msgid  "CFB_desc"
+msgstr "Called number busy"
+
+msgid  "CPU"
+msgstr "Call Pul"
+
+msgid  "CPU_desc"
+msgstr "Called number changef"
+
+msgid  "DN"
+msgstr "Dialled Number"
+
+msgid  "DN_desc"
+msgstr "Data used is"
+
+msgid  "CFU"
+msgstr "Call Forward Unconditional"
+
+msgid  "DISPLAYNAME"
+msgstr "Display name"
+
+msgid  "DRING"
+msgstr "Dynamic Ring"
+
+msgid  "LANG"
+msgstr "Language"
+
+
+msgid  "Id"
+msgstr "Id"
+
+msgid  "Name"
+msgstr "Name"
+
+msgid  "Station_Count"
+msgstr "Station Count"
+
+msgid  "Action"
+msgstr "Action"
+
+msgid  "not_flter"
+msgstr "NOT FILTERABLE"
+
+msgid  "filter"
+msgstr "Filter"
+
+msgid  "reset"
+msgstr "Reset"
+
+msgid  "station_created"
+msgstr "Station Created"
+
+msgid  "last_modi"
+msgstr "last modified"
+
+msgid  "Log"
+msgstr "Log"
+
+msgid  "extensions"
+msgstr "Extensions"
+
+msgid  "location"
+msgstr "Location"
+
+msgid  "number"
+msgstr "Number"
+

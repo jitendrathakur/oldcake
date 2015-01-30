@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <station test="testValx">
+		<feature name="DN" short_name="DN" mandatory="n" defaultKey="1" priority="15" shiftable="n" coloc="n" defaultValue="123"/>
+		<cfeature name="DISPLAYNAME" short_name="SISPLAYNAME" defaultValue="Craig" mandatory="y" parent="DN"/>
+		<cfeature name="BARRINGSET" short_name="BARRINGSET" defaultValue="Craig" mandatory="y" parent="DN"/>
+		<cfeature name="LEADINGZERO" short_name="LEADINGZERO" defaultValue="Craig" mandatory="y" parent="DN"/>
+		<cfeature name="NCOS" short_name="NCOS" defaultValue="Craig" mandatory="y" parent="DN"/>
+		<cfeature name="CFU" short_name="CFU"  defaultValue="Craig" mandatory="y" parent="DN"/>
+		<cfeature name="CFUStatus" short_name="CFUStatus" defaultValue="Craig" mandatory="y" parent="CFU"/>
+		<cfeature name="CFDVT" short_name="CFDVT" defaultValue="Craig" mandatory="y" parent="CFU"/>
+		<feature name="SCS" short_name="SCSA" mandatory="n" defaultKey="1" priority="5" shiftable="y" coloc="y" defaultValue="123"/>
+		<feature name="MADN" short_name="MADN" mandatory="y" defaultKey="9" priority="100" shiftable="n" coloc="n" defaultValue="123"/>
+		<dfeature name="testFeat" mandatory="n"/>
+		<feature name="testFeat" short_name="testFeat" mandatory="n" defaultKey="1" priority="100" shiftable="n" coloc="n" defaultValue="123"/>
+    	<cfeature name="something" short_name="something" defaultValue="Craig" mandatory="y" parent="testFeat"/>
+	</station>
+</config>

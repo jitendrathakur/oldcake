@@ -1,0 +1,299 @@
+
+
+<?php 
+
+//echo $javascript->link('/js/jquery-1.10.1.min');
+echo $javascript->link('/js/jquery.fancybox');
+?>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.fancybox').fancybox();
+	});
+</script>
+
+<!--  SCM additional style -->
+<link rel="stylesheet" type="text/css" href="https://extranet-acc.swisscom.ch/portal/css/portal.css" media="screen" />
+
+<link rel="stylesheet" href="//google-code-prettify.googlecode.com/svn/trunk/src/prettify.css" type="text/css"/>
+<script type="text/javascript" src="//google-code-prettify.googlecode.com/svn/trunk/src/prettify.js"></script>
+
+
+
+<script type="text/javascript"> 
+    $(document).ready(function() { //alert("ret");
+	        
+	
+	
+        $('#dragdroptbl').tableDnD({ 
+            onDragStart: function(table, row) { 
+                //$(table).parent().find('.result').text('');
+            }, 
+             onDrop: function(table, row) { //alert("ssd");
+                $('#AjaxResult').load(base_url+"groups/edit?"+$.tableDnD.serialize());
+               // prettyPrint();
+			  // var newPositionedAry = decodeURI($.tableDnD.serialize()); alert(newPositionedAry);
+				    var tblstr = decodeURI($.tableDnD.serialize());
+                    var tmparray = new Array();
+                    var x = 0;
+                    tmparray = tblstr.split("&dragdroptbl[]="); 
+                    while (x < tmparray.length) {
+                        if (tmparray[x] != "dragdroptbl[]=") { 
+						   pos=x+1; 
+						   pos = (pos.toString().length==1)? '0'+pos : pos;
+						   original_position = tmparray[x].replace("dragdroptbl[]=", ""); 
+						  //  alert(pos+"=="+original_position);
+						  // alert($('#'+original_position).find($("input[name^='featureNewPosition']")).attr('id'));
+						 //  alert($('#'+original_position).find($(".opencolorbox")).attr('href'));
+						 $('#'+original_position).find("td:nth-child(2) input[name^='featureNewPosition']").val(pos);
+						 // alert( $('#'+original_position).find("td:nth-child(2) input[name^='featureNewPosition']").val());
+                          // $(apriority).val(tmparray[x]);
+                        }
+                        x++;
+                    }
+					
+                
+			   
+            }
+        });
+		
+	});
+	function submitForm(){
+		$('.filtersForm').attr('action',base_url+'groups/group_change/');
+		$('.filtersForm').attr('method','POST');
+		$.ajax({
+				type: "POST",
+				async : false,
+				dataType: 'json',
+				url: $('.filtersForm').attr('action'),
+				data: $('.filtersForm').serialize(),
+				success: function(data){ 
+					// do nothing
+				}
+		});
+	}
+	function reloadme(){
+		location.reload();
+	}
+</script>
+
+
+<!--  -->
+
+
+
+<div class="block-eservices top">
+
+<h4><?php __("Options");?></h4>
+
+<div class="eservice-row">
+  <div class="eservice-row-top">
+    <div class="eservice-row-top-left">
+      <h3><a href="/voipphone" ><?php __("MOH");?><br>(<?php __("MOHDesc");?>)</a></h3>
+      <p>Some descriptive text to help the user understand the options for this specific option</p>
+    </div>
+    <div class="eservice-row-top-right">
+      <h3><a href="/portal/index/alleeservices/voip/voip-phone/form-voip-phone-add.htm" ><?php __("COMBOX");?><br>(<?php __("COMBOXDesc");?>)</a></h3>
+      <p>Some descriptive text to help the user understand the options for this specific option.</p>
+    </div>
+  </div>
+  <div class="eservice-row-bottom">
+    <div class="eservice-row-bottom-left">
+      <div class="button-right">
+        <a href="/voipphone"  onmouseover="hoverButtonRight(this)" onmouseout="outButtonRight(this)">Starten</a>
+      </div>
+      <div class="clear-both"></div>
+    </div>
+    <div class="eservice-row-bottom-right">
+      <div class="button-right">
+        <a href="/portal/index/alleeservices/voip/voip-phone/form-voip-phone-add.htm"  onmouseover="hoverButtonRight(this)" onmouseout="outButtonRight(this)">Starten</a>
+      </div>
+      <div class="clear-both"></div>
+    </div>
+  </div>
+</div><div class="eservice-row">
+  <div class="eservice-row-top">
+    <div class="eservice-row-top-left">
+      <h3><a href="/portal/index/alleeservices/voip/voip-phone/form-voip-phone-change.htm" ><?php __("Option");?><br>(<?php __("OptionDesc");?>)</a></h3>
+      <p>Some descriptive text to help the user understand the options for this specific option.</p>
+    </div>
+    <div class="eservice-row-top-right">
+      <h3><a href="/portal/index/alleeservices/voip/voip-phone/form-voip-phone-gruppe.htm" ><?php __("Option");?><br>(<?php __("OptionDesc");?>)</a></h3>
+      <p>Some descriptive text to help the user understand the options for this specific option.</p>
+    </div>
+  </div>
+  <div class="eservice-row-bottom">
+    <div class="eservice-row-bottom-left">
+      <div class="button-right">
+        <a href="/portal/index/alleeservices/voip/voip-phone/form-voip-phone-change.htm"  onmouseover="hoverButtonRight(this)" onmouseout="outButtonRight(this)">Starten</a>
+      </div>
+      <div class="clear-both"></div>
+    </div>
+    <div class="eservice-row-bottom-right">
+      <div class="button-right">
+        <a href="/portal/index/alleeservices/voip/voip-phone/form-voip-phone-gruppe.htm"  onmouseover="hoverButtonRight(this)" onmouseout="outButtonRight(this)">Starten</a>
+      </div>
+      <div class="clear-both"></div>
+    </div>
+  </div>
+</div>
+
+<h4><?php __("Recent Activity");?></h4>
+
+		<table class="table-content phonekey">
+		
+		
+	    	
+			<thead>
+						<tr class="table-top">
+							<th class="table-column table-left-ohne" style="width:20px;">&nbsp;</th>
+
+							
+							<th class="table-column <?php if(in_array('sort:affected_obj',$filter_sort) && in_array('direction:asc',$filter_sort)) echo  'sortlink_asc';elseif((in_array('sort:affected_obj',$filter_sort) && in_array('direction:desc',$filter_sort))) echo 'sortlink_desc';else echo 'sortlink';?> "style="width:60px;text-align: left;"><?php echo $paginator->sort(__("Scenario",true), 'affected_obj', $filter_options);?></th>
+
+							<th class="table-column <?php if(in_array('sort:affected_obj',$filter_sort) && in_array('direction:asc',$filter_sort)) echo  'sortlink_asc';elseif((in_array('sort:affected_obj',$filter_sort) && in_array('direction:desc',$filter_sort))) echo 'sortlink_desc';else echo 'sortlink';?> "style="width:60px;text-align: left;"><?php echo $paginator->sort(__("Station",true), 'affected_obj', $filter_options);?></th>
+	
+
+							<th class="table-column <?php if(in_array('sort:created',$filter_sort) && in_array('direction:asc',$filter_sort)) echo  'sortlink_asc';elseif((in_array('sort:created',$filter_sort) && in_array('direction:desc',$filter_sort))) echo 'sortlink_desc';else echo 'sortlink';?> "style="width:70px;text-align: left;"><?php echo $paginator->sort(__("Created",true), 'created', $filter_options);?></th>
+							<th class="table-column <?php if(in_array('sort:user',$filter_sort) && in_array('direction:asc',$filter_sort)) echo  'sortlink_asc';elseif((in_array('sort:user',$filter_sort) && in_array('direction:desc',$filter_sort))) echo 'sortlink_desc';else echo 'sortlink';?> "style="width:60px;text-align: left;"><?php echo $paginator->sort(__("User",true), 'user', $filter_options);?></th>
+							<th class="table-column <?php if(in_array('sort:log_entry',$filter_sort) && in_array('direction:asc',$filter_sort)) echo  'sortlink_asc';elseif((in_array('sort:log_entry',$filter_sort) && in_array('direction:desc',$filter_sort))) echo 'sortlink_desc';else echo 'sortlink';?> "style="width:180px;text-align: left;"><?php echo $paginator->sort(__("Description",true), 'log_entry', $filter_options);?></th>
+							<th class="table-column <?php if(in_array('sort:status',$filter_sort) && in_array('direction:asc',$filter_sort)) echo  'sortlink_asc';elseif((in_array('sort:status',$filter_sort) && in_array('direction:desc',$filter_sort))) echo 'sortlink_desc';else echo 'sortlink';?> "style="width:40px;text-align: left;"><?php echo $paginator->sort(__("Status",true), 'status', $filter_options);?></th>
+							
+						</tr>
+						
+			</thead>
+	        <tbody>
+	        	<?php
+
+	
+				// loop through and display format
+				foreach($loginfo as $log):
+
+				
+				?>
+	            	<tr onmouseover="hoverRow(this,true);" onmouseout="hoverRow(this,false);">
+	             	<td> <?php echo $html->link($log['Log']['customer_id'], '',array('onclick'=>'javascript:return logview(\''.$log['Log']['id'].'\');')) ?></td>
+	            	<td> <?php echo $html->link($log['Log']['affected_obj'], '',array('onclick'=>'javascript:return logview(\''.$log['Log']['id'].'\');')) ?></td>
+	                <td style="width:70px;">
+	                <?php 
+	                $formatted_date = date('d.m.Y H:i:s',strtotime($log['Log']['created']));
+	                preg_match("/^(.*) (.*)/", $formatted_date, $matches);
+					if ($matches[0]) 
+					{
+	               	 	#$datetime2line = $matches[1] . '<br>' . $matches[2];
+	               	 	echo $html->link($matches[1], '',array('onclick'=>'javascript:return logview(\''.$log['Log']['id'].'\');')) ;
+	               	 	echo $html->link($matches[2], '',array('onclick'=>'javascript:return logview(\''.$log['Log']['id'].'\');')) ;
+					}else{
+	                	echo $html->link($log['Log']['created'], '',array('onclick'=>'javascript:return logview(\''.$log['Log']['id'].'\');')) ;
+	                }
+	                ?>
+	               </td>
+	                <td style="width:50px;">
+	                <?php echo $html->link($log['Log']['user'], '',array('onclick'=>'javascript:return logview(\''.$log['Log']['id'].'\');')) ?>
+	           		</td>
+	                 <td><a style="cursor:pointer;" href="javascript:void(null);" onclick="javascript:return logview('<?php echo $log['Log']['id']?>');"><?php echo $log['Log']['log_entry'] ?></a></td>
+	                 <td><?php echo $html->link(($log['Log']['modification_status'])?'Success':'Failed', '',array('onclick'=>'javascript:return logview(\''.$log['Log']['id'].'\');')) ?></td>
+	          		 
+	           </tr>
+	         	<?php 
+				endforeach;
+				?>
+	        </tbody>
+			</table>
+
+</div>
+
+
+
+
+
+
+
+		
+		</div>
+
+
+		<div id="related-content">
+			<div class="box start link">
+				<a href="http://www.swisscom.ch/grossunternehmen" target="_blank">Home Swisscom</a>
+			</div>
+			<div class="box call-to-action">
+	<h3><?php __("notifications");?></h3>
+	<p><?php __("You have no urgent notifications");?>.</p>
+	<div class="button-right-grey">
+			<a href="/portal/index/produkteberatung.htm?thema=2&produkt=15" onmouseover="hoverButtonRightGrey(this)" onmouseout="outButtonRightGrey(this)">Weiter</a>
+	</div>
+</div>
+<div class="box">
+	<h3><?php __("miniStatistic");?></h3>
+	<p><?php __("Totals");?></p>
+	<p><table class="doku">
+<tr>
+	
+	<td class="doku-middle">
+		<a href="Inbetriebnahme_IP-Phone.pdf" target="_blank"><?php __("stations");?></a>
+	</td>
+	<td class="doku-right">
+		<a href="Inbetriebnahme_IP-Phone.pdf" target="_blank">17232</a>
+	</td>
+	<td class="doku-middle">
+		<a href="Inbetriebnahme_IP-Phone.pdf" target="_blank"><?php __("Used DNS");?></a>
+	</td>
+	<td class="doku-right">
+		<a href="Inbetriebnahme_IP-Phone.pdf" target="_blank">999</a>
+	</td>
+	<td class="doku-middle">
+		<a href="Inbetriebnahme_IP-Phone.pdf" target="_blank"><?php __("Free DNS");?></a>
+	</td>
+	<td class="doku-right">
+		<a href="Inbetriebnahme_IP-Phone.pdf" target="_blank">888</a>
+	</td>
+		<td class="doku-middle">
+		<a href="Inbetriebnahme_IP-Phone.pdf" target="_blank"><?php __("otherStat");?></a>
+	</td>
+	<td class="doku-right">
+		<a href="Inbetriebnahme_IP-Phone.pdf" target="_blank">676</a>
+	</td>
+		</td>
+		<td class="doku-middle">
+		<a href="Inbetriebnahme_IP-Phone.pdf" target="_blank"><?php __("otherStat");?></a>
+	</td>
+	<td class="doku-right">
+		<a href="Inbetriebnahme_IP-Phone.pdf" target="_blank">676</a>
+	</td>
+</tr>
+  
+
+</table></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+</div>
+
+</div>
+
+
+
+
+
+<!--  -->
+
+
+
+
+
+<script>
+<!--ight hand side  ends here-->
+function submi_formsss(form_id)
+{	
+	$('#'+form_id).submit();
+} 
+
+<!--right hand side  ends here-->
+</script>

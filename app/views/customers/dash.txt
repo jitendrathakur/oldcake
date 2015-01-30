@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+
+	
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+	
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+	<meta name="robots" content="index,follow"/>
+	<meta name="author" content="Swisscom (Schweiz) AG"/>
+	<meta name="revisit-after" content="7 days"/>
+	<meta name="title" content=""/>
+	<meta name="content-language" content="de"/>
+	<meta name="maint-start" content="Thu Jun 30 20:00:00 2011"/>
+	<meta name="maint-end" content="Fri Jul 01 23:59:00 2011"/>
+	
+	
+	
+	<title>Swisscom Extranet Grossunternehmen - VoIP-Phone</title>
+<meta name="eservice" content="VoIPPhone">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="http://de.swisscom.ch/favicon.ico"/>
+	
+		<link rel="stylesheet" type="text/css" href="/wd/v1_0/css/layout.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/wd/v1_0/css/formate.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/wd/v1_0/css/form.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/wd/v1_0/css/print.css" media="print" />	
+	<link rel="stylesheet" type="text/css" href="/wd/v1_0/css/swisscom.datepick.css" media="screen" />
+	
+	<link rel="stylesheet" type="text/css" href="./css/portal.css" media="screen" />
+	
+	<!--[if IE 6]>
+		<style type="text/css">@import url(/wd/v1_0/css/ie6.css);</style>
+		<style type="text/css">@import url(./css/ie6-portal.css);</style>
+	<![endif]-->
+	
+	<!--[if IE 7]>
+		<style type="text/css">@import url(/wd/v1_0/css/ie7.css);</style>
+		<style type="text/css">@import url(./css/ie7-portal.css);</style>
+	<![endif]-->	
+	
+	
+	<script src="/wd/v1_0/js/jquery.js" type="text/javascript"></script>
+	
+	<script src="./js/jquery.datepick.swisscom.js" type="text/javascript"></script>
+	<script src="./js/jquery.datepick-de.js" type="text/javascript"></script>
+	
+	<script src="/wd/v1_0/js/standard.js" type="text/javascript"></script>
+		
+	<script src="./js/portal.js" type="text/javascript"></script>
+	
+	<script src="/wd/v1_0/js/menu.js" type="text/javascript"></script>
+
+
+	<script type="text/javascript">
+		$( function() {
+			$('#chooseDate').datepick({ closeAtTop: false, nextText: '&gt;', prevText: '&lt;', changeMonth: false, changeYear: false, showStatus: true, showOn: 'button', showOn: 'both', buttonImageOnly: true, buttonImage: '048_calendar_06_cmyk.gif'});
+			$('#chooseDate').datepick($.datepick.regional['de']);
+		} );	
+		
+		jQuery(document).ready(function() {
+			
+			buildMenu('de','true','VoIPPhone');
+			
+			if( $('#navigation').css("display") != "none" &&  readCookie('navigation')  == "open"   ) {
+				toggleNavigation();
+			}
+			
+			if( $('#related-content').css("display") != "none"  &&  readCookie('relatedcontent')  == "open"   ) {
+				toggleRelatedContent();
+			}	
+								
+		});		
+	</script>			
+		
+</head>
+
+
+<body>
+
+<div id="page">
+
+	<div id="header">
+
+		<div id="logo">
+			<a href="/portal/index.htm" title="Startseite Extranet Swisscom (Schweiz) AG - Grossunternehmen  "><img src="/wd/v1_0/images/assets/logo.gif" alt="Swisscom Logo" title="Startseite Extranet Swisscom (Schweiz) AG - Grossunternehmen  " width="192" height="66" border="0" /></a>
+		</div>
+		
+		<div id="language">
+	<ul>
+		<li class="selected">DE</li>
+		<li class="seperator">|</li>
+		<li><a href="/portal/index/alleeservices/voip/voip-phone.htm?lang=2&" title="Fran&#231;aise"> FR </a></li>
+		<li class="seperator">|</li>
+		<li><a href="/portal/index/alleeservices/voip/voip-phone.htm?lang=3&" title="Italiano"> IT </a></li>
+		<li class="seperator">|</li>
+		<li><a href="/portal/index/alleeservices/voip/voip-phone.htm?lang=4&" title="English"> EN </a>	</li>			
+	</ul>
+</div>
+
+
+
+
+	
+	
+		
+
+		<div id="metanavigation">
+			<ul>
+				<li><a href="/portal/index/support.htm">Support / Kontakt</a></li>
+				<li><a href="/usermanagement/mgmt">Benutzerverwaltung</a></li>
+			</ul>
+		</div>
+	
+	
+		<div id="logininfo">
+			<p>   Angemeldet als Craig Martin, SCS-CBU-CS-SPM-SEO
+ | <a href="logout.htm" title="Abmelden">Abmelden</a></p>
+		</div>
+
+		<div id="title">
+			Extranet Grossunternehmen 
+			[TEST]
+				
+		</div>
+		
+	</div>
+
+	
+	
+	<div id="maintop">
+		<div id="maintopNavigationBgLeft" class="maintopNavigationBgLeft">
+			<div id="maintopNavigation">
+				<h2>
+					<a href="#" onclick="return toggleNavigation2();" id="maintopNavigationButton" class="maintopNavigationButton">
+					Navigation
+					</a>
+				</h2>
+			</div>
+		</div>
+
+		<div id="maintopContentBgLeft">
+			<div id="maintopContentBgRight">
+				<div id="maintopContent">
+					<h1>VoIP-Phone</h1>
+				</div>
+			</div>
+		</div>
+
+		<div id="maintopRelatedContentBgRight" class="maintopRelatedContentBgRight">
+			<div id="maintopRelatedContent">
+				<h2>
+					<a href="#" onclick="return toggleRelatedContent2();" id="maintopContentButton" class="maintopRelatedContentButton">
+						Informationen
+					</a>
+				</h2>
+			</div>
+		</div>
+	</div>
+	
+<div id="main" class="main">
+
+		<div id="navigation">
+		
+		 	<ul id="eServiceMenu">
+				
+				
+				
+							 
+			 </ul>
+
+		</div>
+
+		<div id="content">
+			<div class="block-eservices top">
+
+<div class="eservice-row">
+  <div class="eservice-row-top">
+    <div class="eservice-row-top-left">
+      <h3><a href="/voipphone" >Self Administration<br>(on time &#8211; kostenlos)</a></h3>
+      <p>In der &#220;bersicht sehen Sie pro Standort die zugeordneten Ger&#228;te. Sie k&#246;nnen folgende 
+Konfigurationen vornehmen: Benutzerpasswort, Sperrset-Einstellungen und den Namen in der Diplay-Anzeige 
+&#228;ndern, die Ger&#228;te-Sprache ausw&#228;hlen, Tastenbelegungen definieren 
+oder eine Wartemusik einspielen.</p>
+    </div>
+    <div class="eservice-row-top-right">
+      <h3><a href="/portal/index/alleeservices/voip/voip-phone/form-voip-phone-add.htm" >Neuer Anschluss<br>(Auftrag kostenpflichtig)</a></h3>
+      <p>Ben&#246;tigen Sie einen zus&#228;tzlichen Anschluss? Bitte beachten Sie die Bedingungen auf der Folgeseite. 
+M&#246;chten Sie mehr Anschl&#252;sse bestellen, bitten wir Sie sich direkt mit Ihrem Kundenbetreuer in Verbindung 
+zu setzen.</p>
+    </div>
+  </div>
+  <div class="eservice-row-bottom">
+    <div class="eservice-row-bottom-left">
+      <div class="button-right">
+        <a href="/voipphone"  onmouseover="hoverButtonRight(this)" onmouseout="outButtonRight(this)">Starten</a>
+      </div>
+      <div class="clear-both"></div>
+    </div>
+    <div class="eservice-row-bottom-right">
+      <div class="button-right">
+        <a href="/portal/index/alleeservices/voip/voip-phone/form-voip-phone-add.htm"  onmouseover="hoverButtonRight(this)" onmouseout="outButtonRight(this)">Starten</a>
+      </div>
+      <div class="clear-both"></div>
+    </div>
+  </div>
+</div><div class="eservice-row">
+  <div class="eservice-row-top">
+    <div class="eservice-row-top-left">
+      <h3><a href="/portal/index/alleeservices/voip/voip-phone/form-voip-phone-change.htm" >Anschluss &#228;ndern<br>(Auftrag kostenpflichtig)</a></h3>
+      <p>&#196;nderungsw&#252;nsche Ihrer VoIP-Anschl&#252;sse k&#246;nnen Sie einfach und bequem mit diesem Link absetzten.</p>
+    </div>
+    <div class="eservice-row-top-right">
+      <h3><a href="/portal/index/alleeservices/voip/voip-phone/form-voip-phone-gruppe.htm" >Gruppen<br>(Auftrag kostenpflichtig)</a></h3>
+      <p>&#196;nderungen von Gruppenschaltungen k&#246;nnen mit diesem Link in Auftrag gegeben werden.</p>
+    </div>
+  </div>
+  <div class="eservice-row-bottom">
+    <div class="eservice-row-bottom-left">
+      <div class="button-right">
+        <a href="/portal/index/alleeservices/voip/voip-phone/form-voip-phone-change.htm"  onmouseover="hoverButtonRight(this)" onmouseout="outButtonRight(this)">Starten</a>
+      </div>
+      <div class="clear-both"></div>
+    </div>
+    <div class="eservice-row-bottom-right">
+      <div class="button-right">
+        <a href="/portal/index/alleeservices/voip/voip-phone/form-voip-phone-gruppe.htm"  onmouseover="hoverButtonRight(this)" onmouseout="outButtonRight(this)">Starten</a>
+      </div>
+      <div class="clear-both"></div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+		
+		</div>
+
+
+		<div id="related-content">
+			<div class="box start link">
+				<a href="http://www.swisscom.ch/grossunternehmen" target="_blank">Home Swisscom</a>
+			</div>
+			<div class="box call-to-action">
+	<h3>Beratung / Offerte</h3>
+	<p>Lassen Sie sich von uns zu den Produkten und Services beraten oder bestellen Sie direkt eine Offerte 
+zu den gew&#252;nschten Leistungen.</p>
+	<div class="button-right-grey">
+			<a href="/portal/index/produkteberatung.htm?thema=2&produkt=15" onmouseover="hoverButtonRightGrey(this)" onmouseout="outButtonRightGrey(this)">Weiter</a>
+	</div>
+</div>
+<div class="box">
+	<h3>Dokumentationen</h3>
+	<p>VoIP-Phone 3.0</p>
+	<p><table class="doku">
+<tr>
+	<td class="doku-left">
+		<a href="Inbetriebnahme_IP-Phone.pdf" target="_blank"><img src="pdf-icon.gif" border="0"></a>	
+	</td>
+	
+	<td class="doku-middle">
+		<a href="Inbetriebnahme_IP-Phone.pdf" target="_blank">Inbetriebnahme IP-Phone Standard, Business</a>
+	</td>
+	
+	
+	<td class="doku-right">
+		<a href="Inbetriebnahme_IP-Phone.pdf" target="_blank">558 KB</a>
+	</td>
+</tr>
+  
+
+<tr>
+	<td class="doku-left">
+		<a href="Bedienung_IP-Phone_VoIP.pdf" target="_blank"><img src="pdf-icon.gif" border="0"></a>	
+	</td>
+	
+	<td class="doku-middle">
+		<a href="Bedienung_IP-Phone_VoIP.pdf" target="_blank">Kurzreferenz IP-Phone</a>
+	</td>
+	
+	
+	<td class="doku-right">
+		<a href="Bedienung_IP-Phone_VoIP.pdf" target="_blank">297 KB</a>
+	</td>
+</tr>
+  
+
+<tr>
+	<td class="doku-left">
+		<a href="Bedienung_VoIP_COMBOXpro.pdf" target="_blank"><img src="pdf-icon.gif" border="0"></a>	
+	</td>
+	
+	<td class="doku-middle">
+		<a href="Bedienung_VoIP_COMBOXpro.pdf" target="_blank">User Guide VoIP COMBOX&reg; pro</a>
+	</td>
+	
+	
+	<td class="doku-right">
+		<a href="Bedienung_VoIP_COMBOXpro.pdf" target="_blank">592 KB</a>
+	</td>
+</tr>
+  
+
+<tr>
+	<td class="doku-left">
+		<a href="Anleitung_SelfCare_VoIP_Phone.pdf" target="_blank"><img src="pdf-icon.gif" border="0"></a>	
+	</td>
+	
+	<td class="doku-middle">
+		<a href="Anleitung_SelfCare_VoIP_Phone.pdf" target="_blank">Anleitung Self Administration</a>
+	</td>
+	
+	
+	<td class="doku-right">
+		<a href="Anleitung_SelfCare_VoIP_Phone.pdf" target="_blank">416 KB</a>
+	</td>
+</tr>
+  
+</table></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+</div>
+
+
+
+
+		</div>
+
+	</div>
+
+	<div id="mainfooter" class="mainfooter"></div>
+
+	<div id="footer">
+		<p>&#169; Copyright Swisscom (Schweiz) AG - Grossunternehmen 2009 | All Rights Reserved</p>
+		<ul>
+			<li><a href="javascript:void(0)" onclick="openPopUpPDF('http://www.swisscom.ch/solutions/Resources/Dokumente/legal/0500-legal-extranet-de.pdf')">Online Teilnahmebedingungen</a></li>
+		</ul>
+	</div>
+
+	
+		
+	
+
+
+
+<!---->
+<!---->
+<!---->
+<!---->
+
+</div>
+
+
+
+
+</body>
+
+</html>

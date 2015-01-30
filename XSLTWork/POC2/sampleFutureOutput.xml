@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<Configuration>
+  <Station id="997772413" status="1">
+    <feature id="01@997772413-DN" key="01">
+      <primary_value>
+        997772413
+      </primary_value>
+      <label>
+        997772413&lt;br&gt;
+      </label>
+      <child id="01@997772413-DISPLAYNAME" key="01">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="01@997772413-BARRINGSET" key="01">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="01@997772413-LEADINGZERO" key="01">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="01@997772413-NCOS" key="01">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="01@997772413-CFU" key="01">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="01@997772413-CFUStatus" key="01">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="01@997772413-CFBStatus" key="01">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="01@997772413-CFKStatus" key="01">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="01@997772413-CFNA" key="01">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="01@997772413-CFNAStatus" key="01">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="01@997772413-CFDVT" key="01">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="01@997772413-DRING" key="01">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="01@997772413-CTI" key="01">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="01@997772413-CNNID" key="01">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="01@997772413-SCS" key="01">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="01@997772413-DISPExt" key="01">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+    </feature>
+    <feature id="02@997772413-DN" key="02">
+      <primary_value>
+        99999999
+      </primary_value>
+      <label/>
+      <child id="02@997772413-DISPLAYNAME" key="02">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="02@997772413-BARRINGSET" key="02">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="02@997772413-LEADINGZERO" key="02">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="02@997772413-NCOS" key="02">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="02@997772413-CFU" key="02">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="02@997772413-CFUStatus" key="02">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="02@997772413-CFBStatus" key="02">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="02@997772413-CFKStatus" key="02">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="02@997772413-CFNA" key="02">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="02@997772413-CFNAStatus" key="02">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="02@997772413-CFDVT" key="02">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="02@997772413-DRING" key="02">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="02@997772413-CTI" key="02">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="02@997772413-CNNID" key="02">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="02@997772413-SCS" key="02">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+      <child id="02@997772413-DISPExt" key="02">
+        <primary_value>
+          Craig
+        </primary_value>
+      </child>
+    </feature>
+	<feature name="DN" feature_name="DN" mandatory="n" defaultKey="1" priority="100" shiftable="n" coloc="n" defaultValue="123"/>
+    		<cfeature name="DISPLAYNAME" feature_name="DISPLAYNAME" defaultValue="Craig" mandatory="y" parent="DN" />
+    		<cfeature name="BARRINGSET" feature_name="BARRINGSET" defaultValue="Craig" mandatory="y" parent="DN" />
+    		<cfeature name="LEADINGZERO" feature_name="LEADINGZERO" defaultValue="Craig" mandatory="y" parent="DN" />
+    		<cfeature name="NCOS" feature_name="NCOS" defaultValue="Craig" mandatory="y" parent="DN" />
+    		<cfeature name="CFU" feature_name="CFU"  defaultValue="Craig" mandatory="y" parent="DN" />
+    			<cfeature name="CFUStatus" feature_name="CFUStatus" defaultValue="Craig" mandatory="y" parent="CFU" />
+    			<cfeature name="CFDVT" feature_name="CFDVT" defaultValue="Craig" mandatory="y" parent="CFU" />
+    	<feature name="SCS" feature_name="SCS" mandatory="n" defaultKey="2" priority="15" shiftable="n" coloc="n" defaultValue="123" />
+		<feature name="MADN" feature_name="MADN" defaultKey="2" priority="100" shiftable="n" coloc="n" defaultValue="123"/>
+			<dfeature name="testFeat" mandatory="n" />
+		<feature name="testFeat" feature_name="testFeat" mandatory="n" defaultKey="1" priority="100" shiftable="n" coloc="n" defaultValue="123"/>
+    		<cfeature name="something" feature_name="something" defaultValue="Craig" mandatory="y" parent="testFeat" />	
+  </Station>
+</Configuration>
